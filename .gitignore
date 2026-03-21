@@ -40,3 +40,4 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .*
+!.dockerignore

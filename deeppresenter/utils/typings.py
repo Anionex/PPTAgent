@@ -22,10 +22,11 @@ from deeppresenter.utils.log import debug, warning
 class MCPServer(BaseModel):
     """MCP server config model, matches each entry in mcp.json"""
 
-    name: str | None = None
-    description: str | None = None
+    name: str
+    description: str
     command: str
     args: list[str]
+    network: bool = False
     env: dict[str, str] = Field(default_factory=dict)
     url: str | None = None
     header: dict[str, str] | None = None

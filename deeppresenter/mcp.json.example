@@ -51,7 +51,8 @@
         "args": [
             "$PACKAGE_DIR/tools/research.py",
             "$WORKSPACE"
-        ]
+        ],
+        "network": true
     },
     {
         "name": "search",
@@ -63,7 +64,8 @@
         ],
         "env": {
             "TAVILY_API_KEY": "your_tavily_api_key_here"
-        }
+        },
+        "network": true
     },
     {
         "name": "sandbox",

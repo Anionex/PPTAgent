@@ -145,7 +145,7 @@ docker pull forceless/deeppresenter-sandbox:0.1.0
 docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
 
 # or build from dockerfile
-docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile deeppresenter/docker
+docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
 ```
 
 Start the app:
@@ -164,7 +164,7 @@ docker pull forceless/deeppresenter-sandbox:0.1.0
 docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
 
 # Or build from source
-docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile deeppresenter/docker
+docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
 
 # Start the host service
 docker compose up -d deeppresenter-host

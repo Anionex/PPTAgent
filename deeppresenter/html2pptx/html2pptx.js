@@ -29,7 +29,6 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const os = require('node:os');
 const path = require('path');
-const sharp = require('sharp');
 
 // Conversion constants
 const PT_PER_PX = 0.75;  // Points per pixel

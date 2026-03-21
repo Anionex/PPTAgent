@@ -53,7 +53,7 @@ def _build_inference_command() -> list[str]:
             "-hf",
             LOCAL_MODEL,
             "-c",
-            "72000",
+            "100000",
             "--log-disable",
             "--reasoning-budget",
             "0",

@@ -10,6 +10,10 @@ import deeppresenter.utils.webview as webview
 
 from .common import console, run_streaming_command
 
+SANDBOX_IMAGE = "deeppresenter-sandbox:0.1.0"
+SANDBOX_IMAGE_SOURCE = "forceless/deeppresenter-sandbox:0.1.0"
+SANDBOX_IMAGE_MIRROR = "docker.1ms.run/forceless/deeppresenter-sandbox:0.1.0"
+
 
 def ensure_supported_platform() -> None:
     """Exit early on unsupported platforms."""
@@ -236,24 +240,44 @@ def check_docker_image():
 
     try:
         result = subprocess.run(
-            ["docker", "images", "-q", "deeppresenter-sandbox:0.1.0"],
+            ["docker", "images", "-q", SANDBOX_IMAGE],
             capture_output=True,
             text=True,
         )
 
         if result.returncode == 0 and result.stdout.strip():
-            console.print(
-                "[green]✓[/green] Docker image deeppresenter-sandbox:0.1.0 found"
-            )
+            console.print(f"[green]✓[/green] Docker image {SANDBOX_IMAGE} found")
             return True
 
-        console.print(
-            "[yellow]Docker image not found. Please build it locally from source.[/yellow]"
+        source_image = (
+            SANDBOX_IMAGE_MIRROR
+            if Confirm.ask("Use mirror source for sandbox image?", default=True)
+            else SANDBOX_IMAGE_SOURCE
         )
-        console.print(
-            "[yellow]Build command:[/yellow] docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile deeppresenter/docker"
+
+        console.print(f"[cyan]Pulling Docker image from {source_image}...[/cyan]")
+        if not run_streaming_command(
+            ["docker", "pull", source_image],
+            success_message=f"[green]✓[/green] Pulled Docker image {source_image}",
+            failure_message=f"[yellow]⚠[/yellow] Failed to pull Docker image {source_image}",
+        ):
+            console.print(
+                "[yellow]Docker image not found. Please build it locally from source.[/yellow]"
+            )
+            console.print(f"[yellow]Pull command:[/yellow] docker pull {source_image}")
+            console.print(
+                f"[yellow]Build command:[/yellow] docker build -t {SANDBOX_IMAGE} -f deeppresenter/docker/SandBox.Dockerfile ."
+            )
+            console.print(
+                f"[yellow]Tag command:[/yellow] docker tag {source_image} {SANDBOX_IMAGE}"
+            )
+            return False
+
+        return run_streaming_command(
+            ["docker", "tag", source_image, SANDBOX_IMAGE],
+            success_message=f"[green]✓[/green] Tagged Docker image as {SANDBOX_IMAGE}",
+            failure_message=f"[yellow]⚠[/yellow] Failed to tag Docker image as {SANDBOX_IMAGE}",
         )
-        return False
 
     except FileNotFoundError:
         console.print(

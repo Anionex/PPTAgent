@@ -2,7 +2,6 @@ import asyncio
 import json
 import random
 from itertools import cycle, product
-from math import ceil, gcd, lcm
 from pathlib import Path
 from typing import Any
 
@@ -20,7 +19,7 @@ from deeppresenter.utils.constants import (
     PIXEL_MULTIPLE,
     RETRY_TIMES,
 )
-from deeppresenter.utils.log import debug, info, logging_openai_exceptions
+from deeppresenter.utils.log import debug, logging_openai_exceptions
 
 
 def get_json_from_response(response: str) -> dict | list:

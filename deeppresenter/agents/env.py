@@ -33,7 +33,6 @@ from deeppresenter.utils.constants import (
 from deeppresenter.utils.log import (
     debug,
     error,
-    info,
     timer,
     warning,
 )
@@ -58,10 +57,13 @@ class AgentEnv:
             workspace = Path(workspace)
         self.workspace = workspace.absolute()
         self.cutoff_len = cutoff_len
+        self.mcp_configs = []
         with open(config.mcp_config_file, encoding="utf-8") as f:
-            raw_conf = json.load(f)
-            self.mcp_configs: list[MCPServer] = [MCPServer(**s) for s in raw_conf]
-
+            for s in json.load(f):
+                server = MCPServer(**s)
+                if server.network and config.offline_mode:
+                    continue
+                self.mcp_configs.append(server)
         # Pass workspace-specific variables to client to avoid global env pollution
         host_workspace_base = os.environ.get("DEEPPRESENTER_HOST_WORKSPACE_BASE", None)
         if host_workspace_base:

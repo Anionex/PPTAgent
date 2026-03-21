@@ -27,6 +27,12 @@ IMAGE_EXTENSIONS = [
 ]
 MINERU_API_URL = os.getenv("MINERU_API_URL", None)
 MINERU_API_KEY = os.getenv("MINERU_API_KEY", None)
+if os.getenv("OFFLINE_MODE", False):
+    if MINERU_API_KEY is not None:
+        warning(
+            "MINERU_API_KEY is ignored when OFFLINE_MODE is True, set `MINERU_API_URL` instead"
+        )
+        MINERU_API_KEY = None
 
 
 @mcp.tool()

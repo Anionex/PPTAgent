@@ -1,5 +1,3 @@
-# Partly copied from wonderwhy-er/DesktopCommanderMCP
-# ? global dependency
 FROM node:lts-bookworm-slim
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
@@ -49,13 +47,12 @@ RUN apt-get update && apt-get install -y --fix-missing --no-install-recommends \
         fonts-comic-neue \
         imagemagick
 
-RUN mkdir -p /usr/src/pptagent&& \
-    cd /usr/src/pptagent && \
-    git clone https://github.com/icip-cas/PPTAgent.git . && \
-    npm install --ignore-scripts && \
-    npx playwright install chromium
+WORKDIR /usr/src/pptagent
 
-# ? project dependency
+COPY . .
+
+RUN npm install --prefix deeppresenter/html2pptx --ignore-scripts && \
+    npm exec --prefix deeppresenter/html2pptx playwright install chromium
 
 WORKDIR /usr/src/app
 
@@ -88,9 +85,9 @@ RUN uv venv --python 3.13 $VIRTUAL_ENV && \
     uv pip install pip python-pptx matplotlib seaborn plotly numpy pandas opencv-python-headless pillow
 
 # Copying config and tailored server files
-COPY config.json /root/.claude-server-commander/config.json
-COPY server.ts src/server.ts
-COPY improved-process-tools.ts src/tools/improved-process-tools.ts
+COPY deeppresenter/docker/config.json /root/.claude-server-commander/config.json
+COPY deeppresenter/docker/server.ts src/server.ts
+COPY deeppresenter/docker/improved-process-tools.ts src/tools/improved-process-tools.ts
 
 # Configure matplotlib for CJK fonts
 RUN fc-cache -f && \

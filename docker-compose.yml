@@ -1,8 +1,8 @@
 services:
   deeppresenter-host:
     build:
-      context: ./deeppresenter/docker
-      dockerfile: Host.Dockerfile
+      context: .
+      dockerfile: deeppresenter/docker/Host.Dockerfile
       args:
         http_proxy: ${http_proxy:-}
         https_proxy: ${https_proxy:-}
