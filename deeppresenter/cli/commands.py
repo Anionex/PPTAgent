@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+import platform
 import shutil
 import signal
 import sys
@@ -130,7 +131,7 @@ def onboard():
                 result = setup_inference()
                 if result.status == "failed":
                     console.print(
-                        f"[bold red]✗[/bold red] Failed to start local model service. Please try running `llama-server -hf {LOCAL_MODEL} -c 100000 --log-disable --reasoning-budget 0` manually, or configure another API instead."
+                        f"[bold red]✗[/bold red] Failed to start local model service. Please try running `llama-server -hf {LOCAL_MODEL} -c 100000 --port 7811 --log-disable --reasoning-budget 0` manually, or configure another API instead."
                     )
                     if result.error:
                         console.print(f"[dim]{result.error}[/dim]")
@@ -460,7 +461,7 @@ def serve():
         )
         return
 
-    if not ensure_llamacpp():
+    if platform.system().lower() == "darwin" and not ensure_llamacpp():
         console.print(
             "[bold red]✗[/bold red] Failed to prepare local model runtime. Please try starting it manually with llama-server, or configure another API instead."
         )
@@ -470,7 +471,7 @@ def serve():
         pid = setup_inference()
     except Exception as e:
         console.print(
-            f"[bold red]✗[/bold red] Failed to start local model service. Please try running `llama-server -hf {LOCAL_MODEL} -c 100000 --log-disable --reasoning-budget 0` manually."
+            f"[bold red]✗[/bold red] Failed to start local model service. Please try running `llama-server -hf {LOCAL_MODEL} -c 100000 --port 7811 --log-disable --reasoning-budget 0` manually."
         )
         console.print(f"[dim]{e}[/dim]")
         sys.exit(1)

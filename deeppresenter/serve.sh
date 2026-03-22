@@ -5,7 +5,7 @@ if curl -I --connect-timeout 3 https://www.google.com &>/dev/null; then
     export SGLANG_USE_MODELSCOPE=0
     docker_image=lmsysorg/sglang:latest
 else
-    export SGLANG_USE_MODELSCOPE=1
+    export SGLANG_USE_MODELSCOPE=True
     docker_image=docker.1ms.run/lmsysorg/sglang:latest
 fi
 
@@ -28,6 +28,6 @@ docker run --gpus all \
     bash -lc "pip install -U transformers && python3 -m sglang.launch_server \
         --model-path Forceless/DeepPresenter-9B \
         --host 0.0.0.0 \
-        --port 8080 \
+        --port 7811 \
         --tp $tp \
         --disable-custom-all-reduce"

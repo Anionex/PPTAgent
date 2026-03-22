@@ -14,7 +14,7 @@ MCP_FILE = CONFIG_DIR / "mcp.json"
 CACHE_DIR = Path.home() / ".cache" / "deeppresenter"
 
 LOCAL_MODEL = "Forceless/DeepPresenter-9B-GGUF:q4_K_M"
-LOCAL_BASE_URL = "http://127.0.0.1:8080/v1"
+LOCAL_BASE_URL = "http://127.0.0.1:7811/v1"
 REQUIRED_LLM_KEYS = ["research_agent", "design_agent", "long_context_model"]
 
 

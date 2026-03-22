@@ -165,10 +165,28 @@ def check_poppler() -> bool:
 
 
 def check_playwright_browsers():
-    """Check if Playwright browsers are installed, install if not."""
+    """Ensure Playwright CLI and Chromium browser are installed."""
     console.print("\n[bold cyan]Checking Playwright browsers...[/bold cyan]")
 
     try:
+        if platform.system().lower() == "darwin" and shutil.which("npm") is None:
+            if not ensure_node():
+                console.print(
+                    "[bold red]✗[/bold red] Node.js is required but not available"
+                )
+                return False
+
+        if shutil.which("playwright") is None:
+            console.print(
+                "[yellow]⚠[/yellow] Playwright CLI not found, installing globally..."
+            )
+            if not run_streaming_command(
+                ["npm", "--verbose", "install", "-g", "playwright"],
+                success_message="[green]✓[/green] Playwright CLI installed",
+                failure_message="[yellow]⚠[/yellow] Failed to install Playwright CLI",
+            ):
+                return False
+
         return run_streaming_command(
             ["playwright", "install", "chromium"],
             success_message="[green]✓[/green] Playwright browsers installed",
@@ -251,7 +269,9 @@ def check_docker_image():
 
         source_image = (
             SANDBOX_IMAGE_MIRROR
-            if Confirm.ask("Use mirror source for sandbox image?", default=True)
+            if Confirm.ask(
+                "Use mirror source (docker.1ms.run) for sandbox image?", default=True
+            )
             else SANDBOX_IMAGE_SOURCE
         )
 
