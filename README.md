@@ -313,6 +313,13 @@ The service exposes the web UI on `http://localhost:7861`.
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/imHuZijian>
+            <img src=https://avatars.githubusercontent.com/u/97173940?v=4 width="80;"  alt=BrandonHu/>
+            <br />
+            <sub style="font-size:14px"><b>BrandonHu</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/kylooh>
             <img src=https://avatars.githubusercontent.com/u/26456650?v=4 width="80;"  alt=Eliot White/>
             <br />
@@ -326,6 +333,8 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>EvolvedGhost</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/ISCAS-zwl>
             <img src=https://avatars.githubusercontent.com/u/179820048?v=4 width="80;"  alt=ISCAS-zwl/>
@@ -333,8 +342,6 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>ISCAS-zwl</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/James4Ever0>
             <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=James Brown/>
@@ -363,6 +370,8 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Sense_wang</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/DeJeune>
             <img src=https://avatars.githubusercontent.com/u/67425183?v=4 width="80;"  alt=SuYao/>
@@ -370,13 +379,25 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>SuYao</b></sub>
         </a>
     </td>
-</tr>
-<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/JiwaniZakir>
+            <img src=https://avatars.githubusercontent.com/u/108548454?v=4 width="80;"  alt=Zakir Jiwani/>
+            <br />
+            <sub style="font-size:14px"><b>Zakir Jiwani</b></sub>
+        </a>
+    </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/Dormiveglia-elf>
             <img src=https://avatars.githubusercontent.com/u/81767213?v=4 width="80;"  alt=Zhenyu/>
             <br />
             <sub style="font-size:14px"><b>Zhenyu</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/lnennnn>
+            <img src=https://avatars.githubusercontent.com/u/124434018?v=4 width="80;"  alt=lnennnn/>
+            <br />
+            <sub style="font-size:14px"><b>lnennnn</b></sub>
         </a>
     </td>
 </tr>
