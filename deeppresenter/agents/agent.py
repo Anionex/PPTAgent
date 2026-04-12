@@ -141,8 +141,6 @@ class Agent:
             assert server in self.agent_env._server_tools, (
                 f"Server {server} is not available"
             )
-        for tool in toolset.include_tools + toolset.exclude_tools:
-            assert tool in self.agent_env._tools_dict, f"Tool {tool} is not available"
         self.tools = []
         for server in toolset.include_tool_servers:
             if server not in toolset.exclude_tool_servers:
