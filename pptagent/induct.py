@@ -114,9 +114,8 @@ class SlideInducter:
     ):
         """
         Async version: Cluster slides into different layouts.
+        When ViT model is unavailable, falls back to treating each slide as its own layout.
         """
-        embeddings = get_image_embedding(self.template_image_folder, *self.image_models)
-        assert len(embeddings) == len(self.prs)
         content_split = defaultdict(list)
         for slide_idx in content_slides_index:
             slide = self.prs.slides[slide_idx - 1]
@@ -124,14 +123,29 @@ class SlideInducter:
             layout_name = slide.slide_layout_name
             content_split[(layout_name, content_type)].append(slide_idx)
 
+        try:
+            embeddings = get_image_embedding(self.template_image_folder, *self.image_models)
+            assert len(embeddings) == len(self.prs)
+            use_vit = True
+        except Exception as e:
+            logger.warning("ViT model unavailable, falling back to one-slide-per-layout: %s", e)
+            use_vit = False
+
         async with asyncio.TaskGroup() as tg:
             for (layout_name, content_type), slides in content_split.items():
-                sub_embeddings = [
-                    embeddings[f"slide_{slide_idx:04d}.jpg"] for slide_idx in slides
-                ]
-                similarity = images_cosine_similarity(sub_embeddings)
-                for cluster in get_cluster(similarity):
-                    slide_indexs = [slides[i] for i in cluster]
+                if use_vit:
+                    sub_embeddings = [
+                        embeddings[f"slide_{slide_idx:04d}.jpg"] for slide_idx in slides
+                    ]
+                    similarity = images_cosine_similarity(sub_embeddings)
+                    clusters = [
+                        [slides[i] for i in cluster]
+                        for cluster in get_cluster(similarity)
+                    ]
+                else:
+                    clusters = [[s] for s in slides]
+
+                for slide_indexs in clusters:
                     template_id = max(
                         slide_indexs,
                         key=lambda x: len(self.prs.slides[x - 1].shapes),
