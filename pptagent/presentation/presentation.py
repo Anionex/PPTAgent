@@ -279,7 +279,20 @@ class Presentation:
 
     def __post_init__(self):
         self.prs = load_prs(self.source_file)
-        self.layout_mapping = {layout.name: layout for layout in self.prs.slide_layouts}
+        self.layout_mapping = {}
+        for master in self.prs.slide_masters:
+            for layout in master.slide_layouts:
+                name = layout.name if layout.name else f"_unnamed_{id(layout)}"
+                self.layout_mapping[name] = layout
+        # Map auto-assigned layout names (layout_N) from slides with empty layout names
+        slide_idx = 0
+        for slide in self.prs.slides:
+            if slide._element.get("show", 1) == "0":
+                continue
+            slide_idx += 1
+            if not slide.slide_layout.name:
+                auto_name = f"layout_{slide_idx}"
+                self.layout_mapping[auto_name] = slide.slide_layout
         self.prs.core_properties.last_modified_by = "PPTAgent"
 
     @classmethod
@@ -460,5 +473,4 @@ class Presentation:
 
     def __setstate__(self, state: object):
         self.__dict__.update(state)
-        self.prs = load_prs(self.source_file)
-        self.layout_mapping = {layout.name: layout for layout in self.prs.slide_layouts}
+        self.__post_init__()
