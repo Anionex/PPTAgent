@@ -79,7 +79,11 @@ class ModelManager:
 
     @property
     def image_model(self):
-        import torch
+        try:
+            import torch
+        except ImportError:
+            logger.warning("torch not installed, ViT image model unavailable")
+            return []
 
         if self._image_model is None:
             self._image_model = get_image_model(
