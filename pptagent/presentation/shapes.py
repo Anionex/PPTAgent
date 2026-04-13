@@ -496,9 +496,6 @@ class ShapeElement:
         Raises:
             ValueError: If nested group shapes are not allowed.
         """
-        if shape_idx > 100 and isinstance(shape, PPTXGroupShape):
-            raise ValueError("Nested group shapes are not allowed")
-
         shape_normalize(shape)
 
         # Create style dictionary
