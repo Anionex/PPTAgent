@@ -308,7 +308,10 @@ class Presentation:
         slides = []
         error_history = []
         slide_idx = 0
-        layouts = [layout.name for layout in prs.slide_layouts]
+        layouts = set()
+        for master in prs.slide_masters:
+            for layout in master.slide_layouts:
+                layouts.add(layout.name if layout.name else f"_unnamed_{id(layout)}")
         num_pages = len(prs.slides)
 
         if shape_cast is None:
@@ -321,9 +324,13 @@ class Presentation:
 
             slide_idx += 1
             try:
-                if slide.slide_layout.name not in layouts:
+                layout_name = slide.slide_layout.name
+                if not layout_name:
+                    slide.slide_layout.name = f"layout_{slide_idx}"
+                    layouts.add(slide.slide_layout.name)
+                elif layout_name not in layouts:
                     raise ValueError(
-                        f"Slide layout {slide.slide_layout.name} not found"
+                        f"Slide layout {layout_name} not found"
                     )
                 slides.append(
                     SlidePage.from_slide(
