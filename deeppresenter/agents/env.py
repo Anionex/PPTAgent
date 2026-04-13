@@ -239,11 +239,9 @@ class AgentEnv:
         except NotFound:
             pass
         except DockerException as e:
-            error(f"Docker is not accessible: {e}.")
-            sys.exit(1)
+            warning(f"Docker is not accessible: {e}. Sandbox tools will be unavailable.")
         except Exception as e:
-            error(f"Unexpected error when launching docker containers: {e}.")
-            sys.exit(1)
+            warning(f"Unexpected error when checking docker containers: {e}. Sandbox tools will be unavailable.")
 
         with timer("Connecting MCP servers"):
             await asyncio.gather(
