@@ -113,7 +113,8 @@ class Layout(BaseModel):
                 expected_length = ceil(
                     self[el.name].suggested_characters * length_factor
                 )
-                if charater_counts - expected_length > 5:
+                LENGTH_FACTOR=1.0
+                if charater_counts > expected_length * LENGTH_FACTOR:
                     task = tg.create_task(
                         language_model(
                             LENGTHY_REWRITE_PROMPT.render(
