@@ -143,7 +143,7 @@ class PPTAgentServer(PPTAgent):
             return f"Markdown table converted to image and saved to {path}"
 
         @self.mcp.tool()
-        def list_templates() -> list[dict]:
+        def list_templates() -> dict:
             """List all available templates."""
             return {
                 "message": "Please choose one the following templates by calling `set_template`",
