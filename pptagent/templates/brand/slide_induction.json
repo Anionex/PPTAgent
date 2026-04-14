@@ -6,75 +6,68 @@
         "template_id": 1,
         "elements": [
             {
-                "name": "background image",
+                "name": "background graphic",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "Background: Abstract graphic featuring flowing blue and white wave patterns at the bottom with faint, blocky shapes suggesting a city skyline against a light blue gradient backdrop."
                 ],
                 "type": "image"
             },
             {
-                "name": "english header",
+                "name": "large decorative title",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "secondary header",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "description paragraphs",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations.",
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "text"
-            },
-            {
-                "name": "main title",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "presenter",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "BUSINESS"
                 ],
                 "type": "text"
             },
             {
                 "name": "subtitle",
                 "data": [
+                    "企业品牌宣传"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "description paragraphs",
+                "data": [
+                    "Add your text content.Add your text content.Add your text content.",
+                    "Add your text content.Add your text content."
+                ],
+                "type": "text"
+            },
+            {
+                "name": "category label",
+                "data": [
                     "企业品牌介绍"
                 ],
                 "type": "text"
             },
             {
-                "name": "placeholder background",
+                "name": "main title",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "科技新品上市宣传介绍——"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "footer branding",
+                "data": [
+                    "第一PPT"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "secondary subtitle",
+                "data": [
+                    "品牌宣传介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background element",
+                "data": [
+                    "Background: A solid, plain white square with no visible content, patterns, or details."
                 ],
                 "type": "image"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section title",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
             }
         ]
     },
@@ -87,21 +80,28 @@
             {
                 "name": "main title",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "目录"
                 ],
                 "type": "text"
             },
             {
-                "name": "main subtitle",
+                "name": "sub title",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "CONTENTS"
                 ],
                 "type": "text"
             },
             {
-                "name": "footer source link",
+                "name": "footer",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "PPT下载 http://www.1ppt.com/xiazai/"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "header",
+                "data": [
+                    "企业品牌介绍"
                 ],
                 "type": "text"
             },
@@ -115,123 +115,109 @@
             {
                 "name": "section 2 number",
                 "data": [
-                    "01"
+                    "02"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 3 number",
                 "data": [
-                    "01"
+                    "03"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 4 number",
                 "data": [
-                    "01"
+                    "04"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 1 description",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations.",
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "Add your text content. ",
+                    "Add your text content."
                 ],
                 "type": "text"
             },
             {
                 "name": "section 1 title",
                 "data": [
-                    "企业品牌介绍"
+                    "企业介绍"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 2 description",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations.",
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "Add your text content. ",
+                    "Add your text content."
                 ],
                 "type": "text"
             },
             {
                 "name": "section 2 title",
                 "data": [
-                    "企业品牌介绍"
+                    "产品系列"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 3 description",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations.",
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "Add your text content. ",
+                    "Add your text content."
                 ],
                 "type": "text"
             },
             {
                 "name": "section 3 title",
                 "data": [
-                    "企业品牌介绍"
+                    "商业模式"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 4 description",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations.",
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "Add your text content. ",
+                    "Add your text content."
                 ],
                 "type": "text"
             },
             {
                 "name": "section 4 title",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "战略规划"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 1 label",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "PART ONE"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 2 label",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "PART TWO"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 3 label",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "PART THREE"
                 ],
                 "type": "text"
             },
             {
                 "name": "section 4 label",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section indicator index",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "footer branding title",
-                "data": [
-                    "企业品牌介绍"
+                    "PART FOUR"
                 ],
                 "type": "text"
             }
@@ -249,50 +235,29 @@
             {
                 "name": "top banner image",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "Banner: A wide panoramic view of a modern city skyline with several prominent skyscrapers under a clear blue sky, featuring a heavy white mist or fade effect transitioning from the left."
                 ],
                 "type": "image"
             },
             {
-                "name": "section indicator text",
+                "name": "section name in English",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "ONE"
                 ],
                 "type": "text"
             },
             {
-                "name": "primary section title",
+                "name": "section title",
                 "data": [
                     "企业品牌介绍"
                 ],
                 "type": "text"
             },
             {
-                "name": "section description",
+                "name": "description paragraphs",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations.",
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section subtitle",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "text"
-            },
-            {
-                "name": "secondary section number",
-                "data": [
-                    "01"
+                    "Add your text content.Add your text content.Add your text content.",
+                    "Add your text content.Add your text content."
                 ],
                 "type": "text"
             },
@@ -300,6 +265,20 @@
                 "name": "secondary section title",
                 "data": [
                     "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "large section number",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section header",
+                "data": [
+                    "PART ONE"
                 ],
                 "type": "text"
             }
@@ -314,64 +293,29 @@
             {
                 "name": "background image",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "Background: Abstract graphic featuring flowing blue and white wave patterns at the bottom with faint, blocky shapes suggesting a city skyline against a light blue gradient backdrop."
                 ],
                 "type": "image"
-            },
-            {
-                "name": "header",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
             },
             {
                 "name": "main title",
                 "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容添加您的文本内容"
+                    "BUSINESS"
                 ],
                 "type": "text"
             },
             {
-                "name": "description",
+                "name": "closing remark",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations.",
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "谢谢您的观赏"
                 ],
                 "type": "text"
             },
             {
-                "name": "sub title",
+                "name": "placeholder content",
                 "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "footer",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "text"
-            },
-            {
-                "name": "caption",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "landscape image",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
+                    "Add your text content.Add your text content.Add your text content.",
+                    "Add your text content.Add your text content."
                 ],
                 "type": "text"
             },
@@ -381,26 +325,472 @@
                     "企业品牌介绍"
                 ],
                 "type": "text"
+            },
+            {
+                "name": "sub title",
+                "data": [
+                    "科技新品上市宣传介绍——"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "brand name",
+                "data": [
+                    "第一PPT"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "description",
+                "data": [
+                    "品牌宣传介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative square image",
+                "data": [
+                    "Background: A plain, solid white square with no visible features, patterns, or objects."
+                ],
+                "type": "image"
             }
         ]
     },
-    "Landscape Image and Adjacent Colored Text Box above a Full-Width Paragraph:text": {
+    "Large diagram with four alternating arrows on the left and three bulleted text blocks on the right:image": {
+        "template_id": 11,
+        "slides": [
+            11
+        ],
+        "elements": [
+            {
+                "name": "main title",
+                "data": [
+                    "产品系列展示"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle",
+                "data": [
+                    "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background graphic",
+                "data": [
+                    "Background:A solid, uniform shade of medium forest green with no patterns or textures."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "timeline year 1",
+                "data": [
+                    "2015"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline year 2",
+                "data": [
+                    "2014"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline year 3",
+                "data": [
+                    "2013"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline year 4",
+                "data": [
+                    "2012"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content paragraph 1",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content paragraph 2",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content paragraph 3",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Introductory text block followed by four parallel vertical columns with icons, highlighted headers, and descriptive text:text": {
+        "template_id": 13,
+        "slides": [
+            13
+        ],
+        "elements": [
+            {
+                "name": "main title",
+                "data": [
+                    "商业运营模式"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle",
+                "data": [
+                    "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "introductory paragraph",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first column sub-header",
+                "data": [
+                    "Add contents"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first column header",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second column sub-header",
+                "data": [
+                    "Add contents"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second column header",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third column sub-header",
+                "data": [
+                    "Add contents"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third column header",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth column sub-header",
+                "data": [
+                    "Add contents"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth column header",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first column description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容添加文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second column description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容添加文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third column description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容添加文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth column description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容添加文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Three vertical columns featuring a central colored text block flanked by two image-text pairs:image": {
+        "template_id": 15,
+        "slides": [
+            15
+        ],
+        "elements": [
+            {
+                "name": "section title",
+                "data": [
+                    "商业运营模式"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left image",
+                "data": [
+                    "Picture: A group of business professionals in suits sitting around a table during a meeting, with a close-up on a person's hand writing on a document while others review paperwork in the blurred background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "right image",
+                "data": [
+                    "Picture: A close-up photograph of two business professionals shaking hands over a desk with documents and a tablet, signifying a formal agreement or partnership."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "first feature title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first feature description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second feature description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second feature title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third feature description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third feature title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Two symmetrical columns of three stacked text boxes with headers, divided by a central circular element:text": {
+        "template_id": 17,
+        "slides": [
+            17
+        ],
+        "elements": [
+            {
+                "name": "header",
+                "data": [
+                    "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "comparison indicator",
+                "data": [
+                    "VS"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left descriptions",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left descriptions",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left descriptions",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right descriptions",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right descriptions",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right descriptions",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Central circular graphic flanked by four icons and three numbered text callouts above a wide footer paragraph:text": {
+        "template_id": 18,
+        "slides": [
+            18
+        ],
+        "elements": [
+            {
+                "name": "main title",
+                "data": [
+                    "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main subtitle",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section index 1",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content description 1",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section index 2",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content description 2",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section index 3",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content description 3",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Top title above a landscape image and a colored text box side-by-side with a wide paragraph at the bottom:text": {
         "template_id": 4,
         "slides": [
             4
         ],
         "elements": [
             {
-                "name": "content paragraph",
+                "name": "main title",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "企业品牌介绍"
                 ],
                 "type": "text"
             },
             {
-                "name": "content paragraph",
+                "name": "left body paragraph",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right body paragraph",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
                 ],
                 "type": "text"
             },
@@ -412,337 +802,283 @@
                 "type": "text"
             },
             {
-                "name": "content paragraph",
+                "name": "bottom description paragraph",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "main title",
-                "data": [
-                    "企业品牌介绍"
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
                 ],
                 "type": "text"
             }
         ]
     },
-    "Three numbered text blocks with corresponding icons and one large square image:image": {
-        "template_id": 8,
+    "Hierarchical text and two sub-columns on the left with a large vertical image on the right.:image": {
+        "template_id": 9,
         "slides": [
-            8
+            9
         ],
         "elements": [
             {
-                "name": "left column index",
+                "name": "top left header",
                 "data": [
-                    "01"
+                    "产品系列展示"
                 ],
                 "type": "text"
             },
             {
-                "name": "center column index",
+                "name": "top right header",
                 "data": [
-                    "01"
+                    "企业品牌介绍"
                 ],
                 "type": "text"
             },
             {
-                "name": "right column index",
+                "name": "main title and subtitle",
                 "data": [
-                    "01"
+                    "Alcra Presentation",
+                    "预设标题文本"
                 ],
                 "type": "text"
             },
             {
-                "name": "background image",
+                "name": "introductory paragraph",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加文本内容添加文本内容在此处添加您的文本内容在此处添加您的文本内容此处添加文本内容添加文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main business image",
+                "data": [
+                    "Picture: Five business professionals in formal attire are seen from above, sitting around a white table and collaborating on documents and charts while drinking coffee."
                 ],
                 "type": "image"
             },
             {
-                "name": "left column description",
+                "name": "image caption text",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容此处添加文本内容添加文本内容添加文本内容添加您的文本内容"
                 ],
                 "type": "text"
             },
             {
-                "name": "left column title",
+                "name": "left column subheading",
                 "data": [
                     "预设标题文本"
                 ],
                 "type": "text"
             },
             {
-                "name": "center column description",
+                "name": "left column paragraph",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容此处添加文本内容添加文本内容添加文本内容添加您的文本内容"
                 ],
                 "type": "text"
             },
             {
-                "name": "center column title",
+                "name": "right column subheading",
                 "data": [
                     "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "right column description",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "right column title",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "main section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "main title",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "header section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "header section title",
-                "data": [
-                    "企业品牌介绍"
                 ],
                 "type": "text"
             }
         ]
     },
-    "Central two-by-two grid of numbered banners flanked by four text blocks with highlighted titles:text": {
+    "Four central numbered banner graphics in a 2x2 grid flanked by four descriptive text blocks:text": {
         "template_id": 5,
         "slides": [
             5
         ],
         "elements": [
             {
-                "name": "index number 1",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "index number 2",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "index number 3",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "index number 4",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "description 1",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "sub title 1",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "description 2",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "sub title 2",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "description 3",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "sub title 3",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "description 4",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "sub title 4",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
                 "name": "main title",
                 "data": [
                     "企业品牌介绍"
                 ],
                 "type": "text"
+            },
+            {
+                "name": "section number 1",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 2",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 3",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 4",
+                "data": [
+                    "04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section description 1",
+                "data": [
+                    "在此处添加您的文本内容在此处添加文本内容此处添加文本内容添加文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle 1",
+                "data": [
+                    "  预设标题文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section description 2",
+                "data": [
+                    "在此处添加您的文本内容在此处添加文本内容此处添加文本内容添加文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle 2",
+                "data": [
+                    "  预设标题文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section description 3",
+                "data": [
+                    "在此处添加您的文本内容在此处添加文本内容此处添加文本内容添加文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle 3",
+                "data": [
+                    "  预设标题文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section description 4",
+                "data": [
+                    "在此处添加您的文本内容在此处添加文本内容此处添加文本内容添加文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle 4",
+                "data": [
+                    "  预设标题文本内容"
+                ],
+                "type": "text"
             }
         ]
     },
-    "Central cluster of four circles with four surrounding text blocks linked by arrows:text": {
-        "template_id": 14,
+    "Three numbered text blocks with associated icons arranged vertically beside a large square image:image": {
+        "template_id": 8,
         "slides": [
-            14
+            8
         ],
         "elements": [
             {
-                "name": "step marker 1",
+                "name": "main title",
+                "data": [
+                    "产品系列展示"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle",
+                "data": [
+                    "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section index 1",
                 "data": [
                     "01"
                 ],
                 "type": "text"
             },
             {
-                "name": "step marker 2",
+                "name": "section index 2",
                 "data": [
-                    "42%"
+                    "02"
                 ],
                 "type": "text"
             },
             {
-                "name": "step marker 4",
+                "name": "section index 3",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "03"
                 ],
                 "type": "text"
             },
             {
-                "name": "step marker 3",
+                "name": "background image",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "Background:A solid, uniform shade of medium forest green with no patterns or textures."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "feature description 1",
+                "data": [
+                    "在此处添加您的文本内容在此处添加文本内容在此处添加文本内容添加文本内容在此处添加您的文本内容添加文本内容"
                 ],
                 "type": "text"
             },
             {
-                "name": "item title 1",
+                "name": "feature title 1",
                 "data": [
                     "预设标题文本"
                 ],
                 "type": "text"
             },
             {
-                "name": "item description 1",
+                "name": "feature description 2",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容在此处添加文本内容在此处添加文本内容添加文本内容在此处添加您的文本内容添加文本内容"
                 ],
                 "type": "text"
             },
             {
-                "name": "item title 2",
+                "name": "feature title 2",
                 "data": [
                     "预设标题文本"
                 ],
                 "type": "text"
             },
             {
-                "name": "item description 2",
+                "name": "feature description 3",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容在此处添加文本内容在此处添加文本内容添加文本内容在此处添加您的文本内容添加文本内容"
                 ],
                 "type": "text"
             },
             {
-                "name": "item title 3",
+                "name": "feature title 3",
                 "data": [
                     "预设标题文本"
                 ],
                 "type": "text"
-            },
-            {
-                "name": "item description 3",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "item title 4",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "item description 4",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
+            }
+        ]
+    },
+    "Left-aligned image with an overlaid text box and footer caption, alongside three vertically stacked numerical highlights with descriptions on the right.:image": {
+        "template_id": 19,
+        "slides": [
+            19
+        ],
+        "elements": [
             {
                 "name": "main title",
                 "data": [
@@ -751,292 +1087,362 @@
                 "type": "text"
             },
             {
-                "name": "sub title number",
+                "name": "landscape image",
                 "data": [
-                    "01"
+                    "Picture: Several individuals are collaborating around a small round table, using two laptops and reviewing printed documents with charts and diagrams."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "top introductory paragraph",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
                 ],
                 "type": "text"
             },
             {
-                "name": "sub title",
+                "name": "middle introductory paragraph",
                 "data": [
-                    "企业品牌介绍"
+                    "添加您的文本内容此处添加您的文本内容添加您的文本内容添加您的文本内容"
                 ],
                 "type": "text"
-            }
-        ]
-    },
-    "Introductory paragraph above four vertical content columns, each featuring an icon, a highlighted banner, and a descriptive text block.:text": {
-        "template_id": 13,
-        "slides": [
-            13
-        ],
-        "elements": [
+            },
             {
-                "name": "main description",
+                "name": "bottom introductory paragraph",
                 "data": [
                     "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
                 ],
                 "type": "text"
             },
             {
-                "name": "block subtitle 1",
+                "name": "quote mark icon",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "“"
                 ],
                 "type": "text"
             },
             {
-                "name": "block title 1",
+                "name": "first percentage highlight",
+                "data": [
+                    "42%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first highlight description",
+                "data": [
+                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first highlight subtitle",
                 "data": [
                     "预设标题文本"
                 ],
                 "type": "text"
             },
             {
-                "name": "block subtitle 2",
+                "name": "second percentage highlight",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "58%"
                 ],
                 "type": "text"
             },
             {
-                "name": "block title 2",
+                "name": "second highlight description",
+                "data": [
+                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second highlight subtitle",
                 "data": [
                     "预设标题文本"
                 ],
                 "type": "text"
             },
             {
-                "name": "block subtitle 3",
+                "name": "third percentage highlight",
                 "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+                    "72%"
                 ],
                 "type": "text"
             },
             {
-                "name": "block title 3",
+                "name": "third highlight description",
+                "data": [
+                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third highlight subtitle",
                 "data": [
                     "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "block subtitle 4",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "text"
-            },
-            {
-                "name": "block title 4",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "block description 1",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "block description 2",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "block description 3",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "block description 4",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section title",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "subsection number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "subsection title",
-                "data": [
-                    "企业品牌介绍"
                 ],
                 "type": "text"
             }
         ]
     },
-    "Two symmetrical columns each featuring a primary header and three stacked text boxes, separated by a central circular graphic:text": {
-        "template_id": 17,
+    "Left-side text block above a landscape image and three vertically stacked icon-text units on the right:image": {
+        "template_id": 10,
         "slides": [
-            17
+            10
         ],
         "elements": [
             {
-                "name": "left column header",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "right column header",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "comparison label",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "left content bullet point 1",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "left content bullet point 2",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "left content bullet point 3",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "right content bullet point 1",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "right content bullet point 2",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "right content bullet point 3",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
                 "name": "section title",
                 "data": [
+                    "产品系列展示"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
                     "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main paragraph",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "feature 1 title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main image",
+                "data": [
+                    "Picture: Business professionals in suits are gathered around a table, actively discussing and reviewing a document featuring a chart while one individual points at it with a pen."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "feature 2 title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "feature 2 description",
+                "data": [
+                    "在此处添加您的文本内容添加您的文本内容添加您的文本内容添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "feature 3 title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "feature 3 description",
+                "data": [
+                    "在此处添加您的文本内容添加您的文本内容添加您的文本内容添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "feature 4 title",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "feature 4 description",
+                "data": [
+                    "在此处添加您的文本内容添加您的文本内容添加您的文本内容添加您的文本内容在此处添加您的文本内容"
                 ],
                 "type": "text"
             }
         ]
     },
-    "Four horizontal columns with a numbered graphic, an icon, a header, and descriptive text below each:text": {
+    "Central four-circle diagram with four surrounding text blocks connected by arrows:text": {
+        "template_id": 14,
+        "slides": [
+            14
+        ],
+        "elements": [
+            {
+                "name": "main title",
+                "data": [
+                    "商业运营模式"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle",
+                "data": [
+                    "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 1 identifier",
+                "data": [
+                    "P1"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 2 identifier",
+                "data": [
+                    "P2"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 4 identifier",
+                "data": [
+                    "P4"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 3 identifier",
+                "data": [
+                    "P3"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 1 subtitle",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 1 description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 2 subtitle",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 2 description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 3 subtitle",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 3 description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 4 subtitle",
+                "data": [
+                    "预设标题文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 4 description",
+                "data": [
+                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Four vertical columns, each with an icon graphic above a title and descriptive text paragraphs.:text": {
         "template_id": 6,
         "slides": [
             6
         ],
         "elements": [
             {
-                "name": "item 1 index",
+                "name": "main title",
+                "data": [
+                    "企业品牌介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item 1 number",
                 "data": [
                     "01"
                 ],
                 "type": "text"
             },
             {
-                "name": "item 2 index",
+                "name": "item 2 number",
                 "data": [
-                    "01"
+                    "02"
                 ],
                 "type": "text"
             },
             {
-                "name": "item 3 index",
+                "name": "item 3 number",
                 "data": [
-                    "01"
+                    "03"
                 ],
                 "type": "text"
             },
             {
-                "name": "item 4 index",
+                "name": "item 4 number",
                 "data": [
-                    "01"
+                    "04"
                 ],
                 "type": "text"
             },
             {
                 "name": "item 1 description",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
                 ],
                 "type": "text"
             },
             {
                 "name": "item 2 description",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
                 ],
                 "type": "text"
             },
             {
                 "name": "item 3 description",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
                 ],
                 "type": "text"
             },
             {
                 "name": "item 4 description",
                 "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+                    "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
                 ],
                 "type": "text"
             },
@@ -1065,580 +1471,6 @@
                 "name": "item 4 subtitle",
                 "data": [
                     "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "main title",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            }
-        ]
-    },
-    "Large rectangular diagram on the left and three icon-indexed text blocks on the right:image": {
-        "template_id": 11,
-        "slides": [
-            11
-        ],
-        "elements": [
-            {
-                "name": "background image",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "timeline year label",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "timeline year label",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "timeline year label",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "timeline year label",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "content paragraph",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "content paragraph",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "content paragraph",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section title",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section title",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            }
-        ]
-    },
-    "Left-side titled text with two sub-columns and a large vertical image on the right:image": {
-        "template_id": 9,
-        "slides": [
-            9
-        ],
-        "elements": [
-            {
-                "name": "main title and sub-title",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations.",
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "main introductory description",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "landscape image of business professionals",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "left column descriptive text",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "left column section title",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "right column descriptive text",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "right column section title",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section index number 02",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section index name 02",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section index number 01",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section index name 01",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            }
-        ]
-    },
-    "Three-column layout with a central icon and text block flanked by two columns each featuring a top-aligned image and text below:image": {
-        "template_id": 15,
-        "slides": [
-            15
-        ],
-        "elements": [
-            {
-                "name": "top left portrait image",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "top right portrait image",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "subsection title 1",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "paragraph content 1",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "paragraph content 2",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "subsection title 2",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "paragraph content 3",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "subsection title 3",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number 1",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section title 1",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number 2",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section title 2",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            }
-        ]
-    },
-    "Central graphic surrounded by four icons and three numbered text callouts on an orbital path with a bottom text block:text": {
-        "template_id": 18,
-        "slides": [
-            18
-        ],
-        "elements": [
-            {
-                "name": "main title",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "point 1 index",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "point 1 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "point 2 index",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "point 2 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "point 3 index",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "point 3 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "bottom body paragraph",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            }
-        ]
-    },
-    "Text and landscape image on the left column, three icon-led text blocks on the right column:image": {
-        "template_id": 10,
-        "slides": [
-            10
-        ],
-        "elements": [
-            {
-                "name": "item 1 description",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "item 1 heading",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "main image",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "item 2 heading",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "item 2 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "item 3 heading",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "item 3 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "item 4 heading",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "item 4 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section 2 number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section 2 title",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section 1 number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section 1 title",
-                "data": [
-                    "企业品牌介绍"
-                ],
-                "type": "text"
-            }
-        ]
-    },
-    "Large landscape image with text overlay on the left and three vertical data points on the right:image": {
-        "template_id": 19,
-        "slides": [
-            19
-        ],
-        "elements": [
-            {
-                "name": "main image",
-                "data": [
-                    "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "introduction paragraph 1",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "introduction paragraph 2",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "introduction paragraph 3",
-                "data": [
-                    "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "opening quote decoration",
-                "data": [
-                    "“"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 1 percentage",
-                "data": [
-                    "42%"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 1 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 1 title",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 2 percentage",
-                "data": [
-                    "58%"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 2 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 2 title",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 3 percentage",
-                "data": [
-                    "72%"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 3 description",
-                "data": [
-                    "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "statistic 3 title",
-                "data": [
-                    "预设标题文本"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section number",
-                "data": [
-                    "01"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "main title",
-                "data": [
-                    "企业品牌介绍"
                 ],
                 "type": "text"
             }

@@ -30,6 +30,146 @@ from .shapes import (
 
 logger = get_logger(__name__)
 
+# EMU per point
+_EMU_PER_PT = 12700
+_MIN_FONT_PT = 6
+_DEFAULT_FONT_PT = 18.0
+
+
+def _get_explicit_font_size_pt(run, para, tf) -> float | None:
+    """Return explicit font size in points, or None if fully inherited."""
+    for source in (run.font, para.font, tf.font):
+        if source.size is not None:
+            return source.size / _EMU_PER_PT
+    return None
+
+
+def _is_promotable_textbox(shape) -> bool:
+    """Return True if a layout/master TEXT_BOX should be promoted to slides.
+
+    Skip short decorative text (section numbers like "01", "ONE") that would
+    pollute the text pool and distort suggested_characters during induction.
+    """
+    if shape.shape_type != MSO_SHAPE_TYPE.TEXT_BOX:
+        return False
+    if not shape.has_text_frame:
+        return False
+    text = shape.text_frame.text.strip()
+    return len(text) > 4
+
+
+def _promote_layout_text_in_prs(prs) -> None:
+    """Move TEXT_BOX shapes with text from layouts/masters onto each slide.
+
+    This makes layout-level text (e.g. section headers, watermarks) visible
+    to pptagent's parsing pipeline and editable during generation.  The
+    originals are removed from layouts/masters to prevent duplication.
+    Only promotes TEXT_BOXes with >4 chars to skip decorative numbers/labels.
+    """
+    layout_elements: dict[str, list[etree._Element]] = {}
+    master_elements: list[etree._Element] = []
+
+    for master in prs.slide_masters:
+        for shape in list(master.shapes):
+            if _is_promotable_textbox(shape):
+                master_elements.append(deepcopy(shape._element))
+                shape._element.getparent().remove(shape._element)
+
+        for layout in master.slide_layouts:
+            name = layout.name if layout.name else f"_unnamed_{id(layout)}"
+            for shape in list(layout.shapes):
+                if _is_promotable_textbox(shape):
+                    layout_elements.setdefault(name, []).append(
+                        deepcopy(shape._element)
+                    )
+                    shape._element.getparent().remove(shape._element)
+
+    for slide in prs.slides:
+        layout_name = (
+            slide.slide_layout.name
+            if slide.slide_layout.name
+            else f"_unnamed_{id(slide.slide_layout)}"
+        )
+        for el in layout_elements.get(layout_name, []) + master_elements:
+            slide.shapes._spTree.append(deepcopy(el))
+
+
+def _iter_text_shapes(shapes):
+    """Yield all shapes with text frames, recursing into groups."""
+    for shape in shapes:
+        if shape.shape_type == MSO_SHAPE_TYPE.GROUP:
+            yield from _iter_text_shapes(shape.shapes)
+        elif shape.has_text_frame:
+            yield shape
+
+
+def _autofit_slide_text(pptx_slide: PPTXSlide) -> None:
+    """Shrink font sizes on a built slide so text fits within shape bounds.
+
+    Only operates on shapes where at least one run has an explicit font size.
+    Shapes with fully inherited sizes are skipped (we cannot know the true
+    rendered size without theme resolution).
+    """
+    from pptagent_pptx.util import Pt
+
+    for shape in _iter_text_shapes(pptx_slide.shapes):
+        tf = shape.text_frame
+        width_pt = shape.width / _EMU_PER_PT
+        height_pt = shape.height / _EMU_PER_PT
+        if width_pt <= 0 or height_pt <= 0:
+            continue
+        if not tf.text.strip():
+            continue
+
+        # Collect per-paragraph font sizes; skip shape if no explicit sizes
+        para_fonts: list[float] = []
+        has_explicit = False
+        for para in tf.paragraphs:
+            pf = None
+            for run in para.runs:
+                sz = _get_explicit_font_size_pt(run, para, tf)
+                if sz is not None:
+                    has_explicit = True
+                    pf = max(pf or 0, sz)
+            para_fonts.append(pf)
+
+        if not has_explicit:
+            continue
+
+        # Use the most common explicit size as fallback for paragraphs
+        # where all runs are inherited
+        explicit_sizes = [s for s in para_fonts if s is not None]
+        fallback = max(explicit_sizes)
+        para_fonts = [s if s is not None else fallback for s in para_fonts]
+
+        # Estimate required height
+        required_height = 0.0
+        for para, para_font in zip(tf.paragraphs, para_fonts):
+            text = para.text
+            if not text:
+                required_height += para_font * 1.3
+                continue
+            cjk = sum(
+                1 for c in text
+                if "\u4e00" <= c <= "\u9fff"
+                or "\u3040" <= c <= "\u30ff"
+                or "\uac00" <= c <= "\ud7af"
+            )
+            char_width = (cjk * 1.0 + (len(text) - cjk) * 0.55) * para_font
+            lines = max(1, -(-int(char_width) // int(width_pt)))
+            required_height += lines * para_font * 1.3
+
+        if required_height <= height_pt:
+            continue
+
+        scale = max(0.5, height_pt / required_height)
+
+        for para, para_font in zip(tf.paragraphs, para_fonts):
+            for run in para.runs:
+                sz = _get_explicit_font_size_pt(run, para, tf)
+                original = sz if sz is not None else para_font
+                run.font.size = Pt(max(_MIN_FONT_PT, original * scale))
+
 
 @dataclass
 class SlidePage:
@@ -332,6 +472,10 @@ class Presentation:
         if shape_cast is None:
             shape_cast = {}
 
+        # Move TEXT_BOX shapes from layouts/masters onto slides so they
+        # become visible to the parsing pipeline and editable at generation.
+        _promote_layout_text_in_prs(prs)
+
         for slide in prs.slides:
             # Skip slides that won't be printed to PDF, as they are invisible
             if slide._element.get("show", 1) == "0":
@@ -380,16 +524,13 @@ class Presentation:
             file_path (str): The path to save the presentation to.
             layout_only (bool): Whether to save only the layout.
         """
-        promoted = self._promote_master_text()
+        _promote_layout_text_in_prs(self.prs)
         self.clear_slides()
         for slide in self.slides:
             if layout_only:
                 self.clear_images(slide.shapes)
             pptx_slide = self.build_slide(slide)
-            # Append promoted text shapes from layout/master
-            layout_name = slide.slide_layout_name
-            for xml_el in promoted.get(layout_name, []) + promoted.get("__master__", []):
-                pptx_slide.shapes._spTree.append(deepcopy(xml_el))
+            _autofit_slide_text(pptx_slide)
             if layout_only:
                 self.clear_text(pptx_slide.shapes)
         self.prs.save(file_path)
@@ -421,48 +562,9 @@ class Presentation:
                         )
                     )
 
-        return self.build_slide(slide)
-
-    def _promote_master_text(self) -> dict[str, list[etree._Element]]:
-        """Move TEXT_BOX shapes with text from masters/layouts to slide level.
-
-        Returns a dict mapping layout name (or "__master__") to a list of XML
-        elements that should be appended to each slide using that layout.
-        The originals are removed from the master/layout so they don't render
-        twice.
-        """
-        promoted: dict[str, list[etree._Element]] = {}
-
-        for master in self.prs.slide_masters:
-            elements = []
-            for shape in list(master.shapes):
-                if (
-                    shape.shape_type == MSO_SHAPE_TYPE.TEXT_BOX
-                    and shape.has_text_frame
-                    and shape.text_frame.text.strip()
-                ):
-                    el = shape._element
-                    elements.append(deepcopy(el))
-                    el.getparent().remove(el)
-            if elements:
-                promoted["__master__"] = elements
-
-            for layout in master.slide_layouts:
-                name = layout.name if layout.name else f"_unnamed_{id(layout)}"
-                layout_elements = []
-                for shape in list(layout.shapes):
-                    if (
-                        shape.shape_type == MSO_SHAPE_TYPE.TEXT_BOX
-                        and shape.has_text_frame
-                        and shape.text_frame.text.strip()
-                    ):
-                        el = shape._element
-                        layout_elements.append(deepcopy(el))
-                        el.getparent().remove(el)
-                if layout_elements:
-                    promoted[name] = layout_elements
-
-        return promoted
+        pptx_slide = self.build_slide(slide)
+        _autofit_slide_text(pptx_slide)
+        return pptx_slide
 
     def clear_slides(self):
         """

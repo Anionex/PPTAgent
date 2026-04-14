@@ -4,7 +4,7 @@ template: |
 
   Requirements:
   1. Element Quantity:
-    - Generate suitable content for important elements like titles and main content. For secondary or decorative elements, if no proper content fits, set `data` to an empty array `[]` to leave it blank — this is preferred over fabricating filler content.
+    - Make best effort to generate suitable content for every element. You may set `data` to an empty array `[]` ONLY for image elements when no matching image is available. For text elements, always provide content — shorter or approximate content is better than leaving it empty.
     - For any element, aim to generate the same quantity of content as specified by the default_quantity, unless there is insufficient suitable content available (e.g., when 2 images are needed but only 1 is provided in the source material).
     - For element with `default_quantity>1`, you can generate more content than the default_quantity if necessary.
 

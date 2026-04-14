@@ -183,7 +183,14 @@ class CodeExecutor:
                 partial_func = partial(self.registered_functions[func], edit_slide)
                 if func == "replace_image":
                     partial_func = partial(partial_func, doc)
-                eval(line, {}, {func: partial_func})
+                try:
+                    eval(line, {}, {func: partial_func})
+                except SyntaxError:
+                    # Retry with nested quotes escaped (handles Chinese "…")
+                    first = line.index('"')
+                    last = line.rindex('"')
+                    inner = line[first + 1 : last].replace('"', r'\"')
+                    eval(line[: first + 1] + inner + line[last:], {}, {func: partial_func})
                 self.code_history[-1][0] = HistoryMark.CODE_RUN_CORRECT
             except Exception as e:
                 if not isinstance(e, SlideEditError):

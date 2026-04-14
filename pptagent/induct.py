@@ -201,14 +201,17 @@ class SlideInducter:
                 continue
             slide: SlidePage = self.prs.slides[cluster["template_id"] - 1]
 
-            contents = [para.text for para in slide.iter_paragraphs()] + [
+            text_contents = [para.text for para in slide.iter_paragraphs()]
+            image_contents = [
                 shape.caption for shape in slide.shape_filter(Picture)
             ]
             partial_funcs.append(
                 partial(
                     self.schema_extractor,
                     slide=slide.to_html(),
-                    response_format=SlideSchema.response_model(contents),
+                    response_format=SlideSchema.response_model(
+                        text_contents, image_contents
+                    ),
                     slide_idx=cluster["template_id"],
                 )
             )
