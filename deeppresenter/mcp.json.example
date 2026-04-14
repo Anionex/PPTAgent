@@ -73,18 +73,5 @@
             "$WORKSPACE",
             "deeppresenter-sandbox"
         ]
-    },
-    {
-        "name": "pptagent",
-        "description": "Template-based PowerPoint generation via PPTAgent",
-        "command": "python3",
-        "args": [
-            "-m", "pptagent.mcp_server"
-        ],
-        "env": {
-            "PPTAGENT_MODEL": "openai/gpt-4.1",
-            "PPTAGENT_API_BASE": "http://localhost:8000/v1",
-            "PPTAGENT_API_KEY": "your_pptagent_api_key_here"
-        }
     }
 ]

@@ -8,7 +8,6 @@ from typing import Literal
 from deeppresenter.agents.design import Design
 from deeppresenter.agents.env import AgentEnv
 from deeppresenter.agents.planner import Planner
-from deeppresenter.agents.pptagent import PPTAgent
 from deeppresenter.agents.research import Research
 from deeppresenter.agents.subagent import SubAgent
 from deeppresenter.utils.config import DeepPresenterConfig
@@ -139,32 +138,19 @@ class AgentLoop:
                 self.save_results()
 
             if request.convert_type == ConvertType.PPTAGENT:
-                self.pptagent = PPTAgent(
-                    self.config,
-                    agent_env,
-                    self.workspace,
-                    self.language,
-                )
-                self.agent = self.pptagent
                 try:
-                    async for msg in self.pptagent.loop(request, md_file):
-                        if isinstance(msg, str):
-                            pptx_file = Path(msg)
-                            if not pptx_file.is_absolute():
-                                pptx_file = self.workspace / pptx_file
-                            self.intermediate_output["pptx"] = pptx_file
-                            self.intermediate_output["final"] = pptx_file
-                            msg = str(pptx_file)
-                            break
-                        yield msg
-                except Exception as e:
-                    error_message = (
-                        f"PPTAgent failed with error: {e}\n{traceback.format_exc()}"
+                    yield ChatMessage(
+                        role=Role.SYSTEM,
+                        content=f"Starting PPTAgent template generation (template={request.template})",
                     )
-                    error(error_message)
-                    raise e
+                    pptx_file = await self._run_pptagent(md_file, request)
+                    self.intermediate_output["pptx"] = pptx_file
+                    self.intermediate_output["final"] = pptx_file
+                    msg = pptx_file
+                except Exception as e:
+                    error(f"PPTAgent failed: {e}\n{traceback.format_exc()}")
+                    raise
                 finally:
-                    self.pptagent.save_history()
                     self.save_results()
             else:
                 self.designagent = Design(
@@ -222,6 +208,70 @@ class AgentLoop:
             self.save_results()
             debug(f"DeepPresenter finished, final output at: {msg}")
             yield msg
+
+    async def _run_pptagent(self, md_file: Path, request: InputRequest) -> Path:
+        """Run pptagent template engine directly via Python API.
+
+        Bypasses the MCP agent loop — calls PPTAgent.generate_pres() for
+        deterministic, template-based slide generation.
+        """
+        from pptagent.document import Document
+        from pptagent.llms import AsyncLLM
+        from pptagent.multimodal import ImageLabler
+        from pptagent.pptgen import PPTAgent as PPTAgentCore
+        from pptagent.presentation import Presentation
+        from pptagent.utils import Config, package_join
+
+        # Build AsyncLLM from deeppresenter config
+        cfg = self.config.long_context_model
+        llm = AsyncLLM(cfg.model, cfg.base_url, cfg.api_key)
+        debug(f"PPTAgent using model: {cfg.model}")
+
+        # Resolve template
+        template_name = request.template or "default"
+        template_dir = Path(package_join("templates")) / template_name
+        available = [p.name for p in Path(package_join("templates")).iterdir() if p.is_dir()]
+        if not template_dir.exists():
+            raise ValueError(
+                f"Template '{template_name}' not found. Available: {available}"
+            )
+        debug(f"PPTAgent template: {template_name} ({template_dir})")
+
+        # Load template artifacts
+        prs_config = Config(str(template_dir))
+        prs = Presentation.from_file(str(template_dir / "source.pptx"), prs_config)
+        image_labler = ImageLabler(prs, prs_config)
+        image_stats_path = template_dir / "image_stats.json"
+        if image_stats_path.exists():
+            image_labler.apply_stats(json.loads(image_stats_path.read_text()))
+        slide_induction = json.loads(
+            (template_dir / "slide_induction.json").read_text()
+        )
+
+        # Create pptagent core and set reference
+        agent = PPTAgentCore(language_model=llm, vision_model=llm)
+        agent.set_reference(slide_induction=slide_induction, presentation=prs)
+
+        # Parse markdown into Document
+        md_content = md_file.read_text(encoding="utf-8")
+        image_dir = str(md_file.parent / "images")
+        doc = await Document.from_markdown(md_content, llm, llm, image_dir)
+
+        # Generate presentation
+        num_slides = int(request.num_pages) if request.num_pages else None
+        pres, history = await agent.generate_pres(
+            source_doc=doc,
+            num_slides=num_slides,
+            image_dir=image_dir,
+        )
+        if pres is None:
+            raise RuntimeError("PPTAgent generation failed — no slides produced")
+
+        # Save
+        output_path = self.workspace / f"{md_file.stem}.pptx"
+        pres.save(str(output_path))
+        debug(f"PPTAgent saved {len(pres.slides)} slides to {output_path}")
+        return output_path
 
     def save_results(self):
         with open(self.workspace / "intermediate_output.json", "w") as f:
