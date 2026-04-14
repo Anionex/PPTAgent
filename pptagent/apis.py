@@ -1,4 +1,5 @@
 import inspect
+import os
 import re
 import traceback
 from copy import deepcopy
@@ -462,7 +463,18 @@ def replace_image(slide: SlidePage, doc: Document | None, img_id: int, image_pat
                 f"Failed to replace image with table element: {e}, fallback to use image directly."
             )
 
-    img_size = Image.open(image_path).size
+    if not os.path.isfile(image_path) or os.path.getsize(image_path) == 0:
+        raise SlideEditError(
+            f"Image file '{image_path}' does not exist or is empty. "
+            "Please use a valid image path or remove this image element."
+        )
+    try:
+        img_size = Image.open(image_path).size
+    except Exception:
+        raise SlideEditError(
+            f"Image file '{image_path}' is not a valid image. "
+            "Please use a valid image path or remove this image element."
+        )
     r = min(shape.width / img_size[0], shape.height / img_size[1])
     new_width = img_size[0] * r
     new_height = img_size[1] * r
