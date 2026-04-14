@@ -1,0 +1,137 @@
+{
+    "b0e7bdefb5fb14e71964a72f6a41b9617b80230e.png": {
+        "size": [
+            1279,
+            645
+        ],
+        "appear_times": 2,
+        "slide_numbers": [
+            1,
+            20
+        ],
+        "relative_area": 89.62962962962962,
+        "top_ranges_str": "1, 20",
+        "caption": "Background: Light blue flowing wave patterns at the bottom transition into a faint, stylized city skyline silhouette set against a white gradient background."
+    },
+    "3b8add963136f361ab5c80602bd6fe9fa41541a5.png": {
+        "size": [
+            800,
+            800
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            1
+        ],
+        "relative_area": 0.0933641975308642,
+        "top_ranges_str": "1",
+        "caption": "Background: A completely blank, solid white image with no discernible features, textures, or objects."
+    },
+    "6b15b2b44a99abb9a7cb4a896242c5aaf878cd05.png": {
+        "size": [
+            2100,
+            1000
+        ],
+        "appear_times": 4,
+        "slide_numbers": [
+            3,
+            7,
+            12,
+            16
+        ],
+        "relative_area": 99.81481481481481,
+        "top_ranges_str": "3, 7, 12",
+        "caption": "Banner:A wide panoramic view of a modern urban skyline with several prominent skyscrapers, including the Guangzhou IFC, partially faded into a bright white gradient on the left."
+    },
+    "88b34e82751cdee6e3f9d9e7ad36e924fde7a362.png": {
+        "size": [
+            400,
+            400
+        ],
+        "appear_times": 2,
+        "slide_numbers": [
+            8,
+            11
+        ],
+        "relative_area": 19.128279320987655,
+        "top_ranges_str": "8, 11",
+        "caption": "Background: A solid, uniform medium-dark green color fill covering the entire area without any textures, patterns, or gradients."
+    },
+    "5d0ad04bb3e43d9f2d0473aecda9fd03ac90565e.jpg": {
+        "size": [
+            542,
+            417
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            9
+        ],
+        "relative_area": 24.435185185185183,
+        "top_ranges_str": "9",
+        "caption": "Picture: Top-down view of five business professionals collaborating around a white table filled with documents, charts, and coffee cups."
+    },
+    "f88e1897b005146a456a32fffbdb8b3b8b1a5b6b.jpg": {
+        "size": [
+            431,
+            244
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            10
+        ],
+        "relative_area": 11.402199074074074,
+        "top_ranges_str": "10",
+        "caption": "Picture: Business professionals in suits are gathered around a table, pointing at and discussing a document containing a chart during a collaborative meeting."
+    },
+    "7b8180d4b481d7fd9d89a43159a9d0161734fde6.jpg": {
+        "size": [
+            390,
+            260
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            15
+        ],
+        "relative_area": 10.927469135802468,
+        "top_ranges_str": "15",
+        "caption": "Picture: Professionals in business attire sit at a glass table, reviewing and signing documents during a formal meeting."
+    },
+    "46062a1da84a08aa7fa274ef8e42869d51cf590a.jpg": {
+        "size": [
+            370,
+            247
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            15
+        ],
+        "relative_area": 9.885223765432098,
+        "top_ranges_str": "15",
+        "caption": "Picture: Close-up of two business professionals shaking hands over a desk with a tablet and paperwork, symbolizing a successful agreement or partnership."
+    },
+    "d53fa4c4fa22d28bb4be51c0af4c9c634c4f63ef.jpg": {
+        "size": [
+            553,
+            369
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            19
+        ],
+        "relative_area": 22.041666666666668,
+        "top_ranges_str": "19",
+        "caption": "Picture: People gathered around a small table collaborating on a project using laptops and reviewing printed documents with data visualizations."
+    },
+    "cc43ea53a92cf935fa80d63d91f2b4e55f28b2ef.png": {
+        "size": [
+            31,
+            31
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            20
+        ],
+        "relative_area": 0.0933641975308642,
+        "top_ranges_str": "20",
+        "caption": "Background: A solid white image without any visible features or content."
+    }
+}
