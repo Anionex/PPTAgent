@@ -140,8 +140,6 @@ class Layout(BaseModel):
                 if len(el.data) == 0:
                     self.elements.remove(el)
                 return
-        else:
-            raise ValueError(f"Item {item} not found in layout {self.title}")
 
     def __contains__(self, key: str | int):
         if isinstance(key, int):
