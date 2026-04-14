@@ -1,177 +1,291 @@
 {
-    "0d3bdf31851bbfb57f56c6b5903aea92d0e6b916.png": {
-        "size": [
-            325,
-            260
-        ],
-        "appear_times": 2,
-        "slide_numbers": [
-            1,
-            7
-        ],
-        "relative_area": 1.8248456790123455,
-        "top_ranges_str": "1, 7",
-        "caption": "Logo: A blue stylized symbol, resembling an 'X' or a wing, is positioned to the left of the Chinese characters '科大讯飞' and the English text 'iFLYTEK', all on a black background."
-    },
-    "08a25bed9b657468e3d9309ff5d28aac6df05423.png": {
-        "size": [
-            1200,
-            1200
-        ],
-        "appear_times": 2,
-        "slide_numbers": [
-            1,
-            7
-        ],
-        "relative_area": 24.424382716049383,
-        "top_ranges_str": "1, 7",
-        "caption": "Background: An abstract black and white graphic featuring a stylized burst or explosion with sharp, angular lines radiating from the left side of the frame."
-    },
-    "8918b9aca01708b06c171dcb3dc844befe650495.png": {
-        "size": [
-            486,
-            486
-        ],
-        "appear_times": 6,
-        "slide_numbers": [
-            1,
-            7
-        ],
-        "relative_area": 2.020833333333333,
-        "top_ranges_str": "1, 7",
-        "caption": "Picture: A bright white light source with prominent horizontal lens flare streaks and an encompassing soft yellow-orange glow, set against a black background."
-    },
-    "a95cfcf3ae08df5f8694d12d5e765eeaee74aca2.png": {
-        "size": [
-            1919,
-            1624
-        ],
-        "appear_times": 11,
-        "slide_numbers": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            7
-        ],
-        "relative_area": 9.22800925925926,
-        "top_ranges_str": "1-5, 7",
-        "caption": "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
-    },
-    "ee560e7170c2de6a6110fed8009b08e79de78258.png": {
-        "size": [
-            1019,
-            191
-        ],
-        "appear_times": 5,
-        "slide_numbers": [
-            1,
-            7
-        ],
-        "relative_area": 6.197916666666667,
-        "top_ranges_str": "1, 7",
-        "caption": "Picture: An abstract image showing a bright light source at the center with radiating horizontal blue and purple lines extending outwards, forming an elongated oval shape on a black background."
-    },
-    "a3fcb49543bf159088da14e388e4289d222b6f2b.png": {
-        "size": [
-            1000,
-            1000
-        ],
-        "appear_times": 1,
-        "slide_numbers": [
-            1
-        ],
-        "relative_area": 1.9228395061728396,
-        "top_ranges_str": "1",
-        "caption": "Icon: A glowing blue semi-circular arc featuring a bright white center line and a light glare, set against a dark background with a contrasting white inner area."
-    },
-    "8def75f1e340b70e5f5a0457430dedbcf287cf38.png": {
-        "size": [
-            299,
-            610
-        ],
-        "appear_times": 1,
-        "slide_numbers": [
-            1
-        ],
-        "relative_area": 2.5308641975308643,
-        "top_ranges_str": "1",
-        "caption": "Picture: A glowing blue light beam shoots upwards from a bright starburst at the bottom, expanding into a wider blue field against a dark, textured background."
-    },
-    "6b99f09471617f824bc2e8a0fc03eae5c6fc5de2.png": {
-        "size": [
-            611,
-            402
-        ],
-        "appear_times": 2,
-        "slide_numbers": [
-            1,
-            7
-        ],
-        "relative_area": 1.6851851851851851,
-        "top_ranges_str": "1, 7",
-        "caption": "Logo: White logo of Zhejiang University featuring a circular emblem with an eagle and \"1897\", alongside the university's name in Chinese characters and English text on a black background."
-    },
-    "7667aae6da1a9ee4cae43be23e34401cd31e692c.jpg": {
-        "size": [
-            1700,
-            850
-        ],
-        "appear_times": 8,
-        "slide_numbers": [
-            2,
-            3
-        ],
-        "relative_area": 6.052276234567901,
-        "top_ranges_str": "2-3",
-        "caption": "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-    },
-    "3987da06b173ce7c4b293959a4f5f855c25a30a4.png": {
-        "size": [
-            454,
-            158
-        ],
-        "appear_times": 5,
-        "slide_numbers": [
-            2,
-            3,
-            4,
-            5,
-            6
-        ],
-        "relative_area": 1.242091049382716,
-        "top_ranges_str": "2-6",
-        "caption": "Logo: The logo for Zhejiang University features a circular emblem with a stylized phoenix, 'ZHEJIANG UNIVERSITY' text, and '1897', accompanied by its name in Chinese and English."
-    },
-    "491791d0a3fbe71cfa1ebef6bc3d17e41103a27b.png": {
-        "size": [
-            658,
-            658
-        ],
-        "appear_times": 5,
-        "slide_numbers": [
-            2,
-            3,
-            4,
-            5,
-            6
-        ],
-        "relative_area": 1.5461033950617284,
-        "top_ranges_str": "2-6",
-        "caption": "Icon: A white circle with a horizontal oval ring passing through its center, set against a black background, representing a ringed planet."
-    },
-    "338dc8442078a4cca39a4ee44cd330ee1bb8e774.png": {
-        "size": [
-            2610,
-            582
-        ],
-        "appear_times": 1,
-        "slide_numbers": [
-            5
-        ],
-        "relative_area": 44.67091049382716,
-        "top_ranges_str": "5",
-        "caption": "Background: A horizontal abstract wavy shape, predominantly blue with a lighter blue/white lower border, on a black background."
-    }
+  "0d3bdf31851bbfb57f56c6b5903aea92d0e6b916.png": {
+    "size": [
+      325,
+      260
+    ],
+    "appear_times": 2,
+    "slide_numbers": [
+      1,
+      7
+    ],
+    "relative_area": 1.8248456790123455,
+    "top_ranges_str": "1, 7",
+    "caption": "Logo: A blue stylized symbol, resembling an 'X' or a wing, is positioned to the left of the Chinese characters '科大讯飞' and the English text 'iFLYTEK', all on a black background."
+  },
+  "08a25bed9b657468e3d9309ff5d28aac6df05423.png": {
+    "size": [
+      1200,
+      1200
+    ],
+    "appear_times": 2,
+    "slide_numbers": [
+      1,
+      7
+    ],
+    "relative_area": 24.424382716049383,
+    "top_ranges_str": "1, 7",
+    "caption": "Background: An abstract black and white graphic featuring a stylized burst or explosion with sharp, angular lines radiating from the left side of the frame."
+  },
+  "8918b9aca01708b06c171dcb3dc844befe650495.png": {
+    "size": [
+      486,
+      486
+    ],
+    "appear_times": 6,
+    "slide_numbers": [
+      1,
+      7
+    ],
+    "relative_area": 2.020833333333333,
+    "top_ranges_str": "1, 7",
+    "caption": "Picture: A bright white light source with prominent horizontal lens flare streaks and an encompassing soft yellow-orange glow, set against a black background."
+  },
+  "a95cfcf3ae08df5f8694d12d5e765eeaee74aca2.png": {
+    "size": [
+      1919,
+      1624
+    ],
+    "appear_times": 9,
+    "slide_numbers": [
+      1,
+      3,
+      4,
+      5,
+      7
+    ],
+    "relative_area": 9.22800925925926,
+    "top_ranges_str": "3-5, 1, 7",
+    "caption": "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
+  },
+  "ee560e7170c2de6a6110fed8009b08e79de78258.png": {
+    "size": [
+      1019,
+      191
+    ],
+    "appear_times": 6,
+    "slide_numbers": [
+      1,
+      2,
+      7
+    ],
+    "relative_area": 6.197916666666667,
+    "top_ranges_str": "1-2, 7",
+    "caption": "Picture: An abstract image showing a bright light source at the center with radiating horizontal blue and purple lines extending outwards, forming an elongated oval shape on a black background."
+  },
+  "a3fcb49543bf159088da14e388e4289d222b6f2b.png": {
+    "size": [
+      1000,
+      1000
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      1
+    ],
+    "relative_area": 1.9228395061728396,
+    "top_ranges_str": "1",
+    "caption": "Icon: A glowing blue semi-circular arc featuring a bright white center line and a light glare, set against a dark background with a contrasting white inner area."
+  },
+  "8def75f1e340b70e5f5a0457430dedbcf287cf38.png": {
+    "size": [
+      299,
+      610
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      1
+    ],
+    "relative_area": 2.5308641975308643,
+    "top_ranges_str": "1",
+    "caption": "Picture: A glowing blue light beam shoots upwards from a bright starburst at the bottom, expanding into a wider blue field against a dark, textured background."
+  },
+  "6b99f09471617f824bc2e8a0fc03eae5c6fc5de2.png": {
+    "size": [
+      611,
+      402
+    ],
+    "appear_times": 2,
+    "slide_numbers": [
+      1,
+      7
+    ],
+    "relative_area": 1.6851851851851851,
+    "top_ranges_str": "1, 7",
+    "caption": "Logo: White logo of Zhejiang University featuring a circular emblem with an eagle and \"1897\", alongside the university's name in Chinese characters and English text on a black background."
+  },
+  "9964ef06c77e0e2a5a46e314b7ad2984316fbc35.png": {
+    "size": [
+      1878,
+      1336
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 70.02199074074073,
+    "top_ranges_str": "2",
+    "caption": "Picture: A humanoid robot with glowing blue eyes and an outstretched hand is surrounded by an interconnected network of glowing blue lines linking various AI and technology-related icons like brains, gears, and microchips on a blurred blue background."
+  },
+  "2d37bef192cf8c8f7d51c96cd99a2f09bd2dac07.png": {
+    "size": [
+      192,
+      192
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 0.19753086419753088,
+    "top_ranges_str": "2",
+    "caption": "Icon: A stylized blue and cyan icon on a black background, depicting an abstract line graph or chart with a 3D effect, suggesting data or analytics."
+  },
+  "c738c30aea71585dd6974ce984b240ae4cc700db.png": {
+    "size": [
+      192,
+      192
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 0.19753086419753088,
+    "top_ranges_str": "2",
+    "caption": "Icon: A stylized blue-cyan gradient circle with a light blue crosshair symbol centered on a black background, resembling a target or focus marker."
+  },
+  "97af7b0ef2dc73e21a3a7fd32b47e2c4b13f47e1.png": {
+    "size": [
+      192,
+      192
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 0.19753086419753088,
+    "top_ranges_str": "2",
+    "caption": "Icon: Three abstract shapes (rounded square, circle, rounded rectangle) with glowing blue outlines and gradient fills on a black background."
+  },
+  "e3d896e3b99cf05e2ed8c811c5eee4dc9d2f6263.png": {
+    "size": [
+      192,
+      192
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 0.19753086419753088,
+    "top_ranges_str": "2",
+    "caption": "Icon: A blue gradient monitor icon displaying a white percentage symbol on its screen."
+  },
+  "3708e5853e353e52763572c5ab6bc070d231a341.png": {
+    "size": [
+      192,
+      192
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 0.19753086419753088,
+    "top_ranges_str": "2",
+    "caption": "Icon: A stylized blue and cyan gradient puzzle piece with a bright blue outline, set against a black background."
+  },
+  "52860e3a074b3e522dcc448e7ff62b31d71a0094.png": {
+    "size": [
+      192,
+      192
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 0.19753086419753088,
+    "top_ranges_str": "2",
+    "caption": "Icon: A neon blue outline of a balance scale (scales of justice) on a solid black background."
+  },
+  "90a37f10dd80bc3dd6f655964681a1a210b14d29.png": {
+    "size": [
+      192,
+      192
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 0.19753086419753088,
+    "top_ranges_str": "2",
+    "caption": "Icon: An icon depicting two stylized human figures, one larger and in front of the other smaller one, outlined in bright blue with a gradient fill, on a black background."
+  },
+  "764d28c36a917922367695fdb97c25c5ea05243a.png": {
+    "size": [
+      192,
+      192
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      2
+    ],
+    "relative_area": 0.19753086419753088,
+    "top_ranges_str": "2",
+    "caption": "Icon: A blue gradient document icon with a white border, featuring a rectangular placeholder and two lines of text."
+  },
+  "7667aae6da1a9ee4cae43be23e34401cd31e692c.jpg": {
+    "size": [
+      1700,
+      850
+    ],
+    "appear_times": 3,
+    "slide_numbers": [
+      3
+    ],
+    "relative_area": 6.052276234567901,
+    "top_ranges_str": "3",
+    "caption": "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
+  },
+  "491791d0a3fbe71cfa1ebef6bc3d17e41103a27b.png": {
+    "size": [
+      658,
+      658
+    ],
+    "appear_times": 4,
+    "slide_numbers": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "relative_area": 1.5461033950617284,
+    "top_ranges_str": "3-6",
+    "caption": "Icon: A white circle with a horizontal oval ring passing through its center, set against a black background, representing a ringed planet."
+  },
+  "3987da06b173ce7c4b293959a4f5f855c25a30a4.png": {
+    "size": [
+      454,
+      158
+    ],
+    "appear_times": 4,
+    "slide_numbers": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "relative_area": 1.242091049382716,
+    "top_ranges_str": "3-6",
+    "caption": "Logo: The logo for Zhejiang University features a circular emblem with a stylized phoenix, 'ZHEJIANG UNIVERSITY' text, and '1897', accompanied by its name in Chinese and English."
+  },
+  "338dc8442078a4cca39a4ee44cd330ee1bb8e774.png": {
+    "size": [
+      2610,
+      582
+    ],
+    "appear_times": 1,
+    "slide_numbers": [
+      5
+    ],
+    "relative_area": 44.67091049382716,
+    "top_ranges_str": "5",
+    "caption": "Background: A horizontal abstract wavy shape, predominantly blue with a lighter blue/white lower border, on a black background."
+  }
 }
