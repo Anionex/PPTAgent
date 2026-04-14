@@ -1,10 +1,12 @@
 import tempfile
 import traceback
 from collections.abc import Generator
+from copy import deepcopy
 from dataclasses import dataclass
 from functools import partial
 from typing import Literal
 
+from lxml import etree
 from pptagent_pptx import Presentation as load_prs
 from pptagent_pptx.enum.shapes import MSO_SHAPE_TYPE
 from pptagent_pptx.shapes.base import BaseShape
@@ -378,11 +380,16 @@ class Presentation:
             file_path (str): The path to save the presentation to.
             layout_only (bool): Whether to save only the layout.
         """
+        promoted = self._promote_master_text()
         self.clear_slides()
         for slide in self.slides:
             if layout_only:
                 self.clear_images(slide.shapes)
             pptx_slide = self.build_slide(slide)
+            # Append promoted text shapes from layout/master
+            layout_name = slide.slide_layout_name
+            for xml_el in promoted.get(layout_name, []) + promoted.get("__master__", []):
+                pptx_slide.shapes._spTree.append(deepcopy(xml_el))
             if layout_only:
                 self.clear_text(pptx_slide.shapes)
         self.prs.save(file_path)
@@ -415,6 +422,47 @@ class Presentation:
                     )
 
         return self.build_slide(slide)
+
+    def _promote_master_text(self) -> dict[str, list[etree._Element]]:
+        """Move TEXT_BOX shapes with text from masters/layouts to slide level.
+
+        Returns a dict mapping layout name (or "__master__") to a list of XML
+        elements that should be appended to each slide using that layout.
+        The originals are removed from the master/layout so they don't render
+        twice.
+        """
+        promoted: dict[str, list[etree._Element]] = {}
+
+        for master in self.prs.slide_masters:
+            elements = []
+            for shape in list(master.shapes):
+                if (
+                    shape.shape_type == MSO_SHAPE_TYPE.TEXT_BOX
+                    and shape.has_text_frame
+                    and shape.text_frame.text.strip()
+                ):
+                    el = shape._element
+                    elements.append(deepcopy(el))
+                    el.getparent().remove(el)
+            if elements:
+                promoted["__master__"] = elements
+
+            for layout in master.slide_layouts:
+                name = layout.name if layout.name else f"_unnamed_{id(layout)}"
+                layout_elements = []
+                for shape in list(layout.shapes):
+                    if (
+                        shape.shape_type == MSO_SHAPE_TYPE.TEXT_BOX
+                        and shape.has_text_frame
+                        and shape.text_frame.text.strip()
+                    ):
+                        el = shape._element
+                        layout_elements.append(deepcopy(el))
+                        el.getparent().remove(el)
+                if layout_elements:
+                    promoted[name] = layout_elements
+
+        return promoted
 
     def clear_slides(self):
         """
