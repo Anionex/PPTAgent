@@ -508,6 +508,8 @@ class ShapeElement:
             },
             "shape_type": str(shape.shape_type).split("(")[0].lower(),
             "rotation": shape.rotation,
+            "flipH": shape._element.flipH,
+            "flipV": shape._element.flipV,
             "name": shape.name,
         }
 
@@ -896,10 +898,12 @@ class Picture(ShapeElement):
         shape.name = self.style["name"]
         dict_to_object(self.style["img_style"], shape)
 
-        # Apply shape bounds and rotation
+        # Apply shape bounds, rotation and flip
         dict_to_object(self.style["shape_bounds"], shape)
         if hasattr(shape, "rotation"):
             shape.rotation = self.style["rotation"]
+        shape._element.flipH = self.style["flipH"]
+        shape._element.flipV = self.style["flipV"]
 
         return shape
 
