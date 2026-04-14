@@ -12,6 +12,42 @@ from pydantic import BaseModel
 from pptagent.utils import get_json_from_response, get_logger, tenacity_decorator
 
 logger = get_logger(__name__)
+
+
+def _validate_with_coercion(parsed: dict | list, model: type[BaseModel]) -> str:
+    """Validate parsed JSON against a Pydantic model with best-effort coercion.
+
+    Handles common proxy quirks (no strict schema enforcement):
+    - Top-level response wrapped in a single-element list → unwrap
+    - A field expected as list[X] returned as bare dict → wrap in list
+    - Malformed optional fields → drop and use defaults on retry
+    """
+    from pydantic import ValidationError
+
+    if isinstance(parsed, list):
+        # Model returned a list instead of a single object — pick the first dict
+        for item in parsed:
+            if isinstance(item, dict):
+                parsed = item
+                break
+    if isinstance(parsed, dict):
+        for name, field in model.model_fields.items():
+            if name not in parsed:
+                continue
+            origin = getattr(field.annotation, "__origin__", None)
+            if origin is list and isinstance(parsed[name], dict):
+                parsed[name] = [parsed[name]]
+    try:
+        return model.model_validate(parsed).model_dump_json()
+    except ValidationError:
+        # Drop optional fields that may be malformed and retry
+        if not isinstance(parsed, dict):
+            raise
+        stripped = {
+            k: v for k, v in parsed.items()
+            if k in model.model_fields and model.model_fields[k].is_required()
+        }
+        return model.model_validate(stripped).model_dump_json()
 MAX_CONTEXT_SIZE = 32768
 
 
@@ -74,7 +110,7 @@ class LLM:
         response = completion.choices[0].message.content
         if response_format is not None:
             parsed = get_json_from_response(response)
-            response = response_format.model_validate(parsed).model_dump_json()
+            response = _validate_with_coercion(parsed, response_format)
         message.append({"role": "assistant", "content": response})
         return self.__post_process__(response, message, return_json, return_message)
 
@@ -306,7 +342,7 @@ class AsyncLLM(LLM):
         response = completion.choices[0].message.content
         if response_format is not None:
             parsed = get_json_from_response(response)
-            response = response_format.model_validate(parsed).model_dump_json()
+            response = _validate_with_coercion(parsed, response_format)
         message.append({"role": "assistant", "content": response})
         return self.__post_process__(response, message, return_json, return_message)
 
