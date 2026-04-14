@@ -132,3 +132,38 @@ Do not assume the root `README.md` is fully current. It still references paths l
 2. Edit the smallest relevant surface.
 3. Run the narrowest meaningful test subset.
 4. Call out any dependency you could not validate locally.
+
+## Anionex Fork Changes (merged 2026-04-14)
+
+### `--template` CLI flag + direct Python API
+
+`pptagent generate` now accepts `--template/-t <name>`. When provided, it sets `ConvertType.PPTAGENT` and calls `AgentLoop._run_pptagent()`, which **bypasses the MCP agent loop entirely** and calls `PPTAgentCore.generate_pres()` directly via Python API. Without `--template`, the default deeppresenter free-form pipeline runs unchanged.
+
+```bash
+uv run pptagent generate "..." --template xunfei -o out.pptx
+```
+
+The template name is resolved against `pptagent/templates/<name>/`. Available: beamer, cip, default, hit, thu, ucas, xunfei.
+
+### PPTX parsing fixes
+
+- **Multi-master layouts** (`presentation.py`): `layout_mapping` and `from_file` now iterate all slide masters, not just the first. Required for any PPTX with more than one master.
+- **Empty layout names** (`presentation.py`): Layouts with blank names are auto-named `layout_N`. `__setstate__` now delegates to `__post_init__` instead of duplicating logic.
+- **Nested group shapes** (`shapes.py`): Removed the arbitrary `shape_idx > 100` guard that blocked nested groups. Complex templates with deep shape trees now parse correctly.
+
+### ViT model is now fully optional
+
+- `ModelManager.image_model` returns `[]` (not a crash) when `torch` is not installed.
+- Template induction (`induct.py`) catches ViT failure and falls back to one-slide-per-layout clustering, so `template_induct.py` runs without GPU/transformers.
+
+### Other bug fixes
+
+- `apis.py / replace_image`: validates image file exists and is non-empty before `PIL.open`, raises `SlideEditError` with clear message instead of crashing.
+- `layout.py / remove_item`: silent no-op when item is absent (idempotent delete, no `ValueError`).
+- `mcp_server.py / mcp_slide_validate`: skips already-missing elements to avoid secondary KeyError; `list_templates` return type annotation corrected to `dict`.
+- `agents/env.py`: Docker unavailability is now a `warning` instead of `sys.exit(1)` — non-Docker environments can still start, sandbox tools just become unavailable.
+
+### New assets
+
+- `pptagent/templates/xunfei/`: new competition template with 21 fully annotated image slots.
+- `start.sh`: convenience startup script for WSL deployment.
