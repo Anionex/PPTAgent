@@ -891,7 +891,7 @@ class Picture(ShapeElement):
 
         # Set properties
         shape.name = self.style["name"]
-        dict_to_object(self.style["img_style"], shape.image)
+        dict_to_object(self.style["img_style"], shape)
 
         # Apply shape bounds and rotation
         dict_to_object(self.style["shape_bounds"], shape)
