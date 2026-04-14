@@ -106,6 +106,7 @@ class PPTGen(ABC):
         """
         self.presentation = presentation
 
+        slide_induction = deepcopy(slide_induction)
         self.reference_lang = Language(**slide_induction.pop("language"))
         self.functional_layouts = slide_induction.pop("functional_keys")
 
