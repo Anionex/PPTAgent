@@ -19,6 +19,7 @@ from rich.prompt import Confirm, Prompt
 from rich.table import Table
 
 from deeppresenter.main import AgentLoop, InputRequest
+from deeppresenter.utils.typings import ConvertType
 from deeppresenter.utils.config import DeepPresenterConfig
 from deeppresenter.utils.outline import Outline
 
@@ -331,6 +332,10 @@ def generate(
             help="Generate and interactively edit an outline before research",
         ),
     ] = False,
+    template: Annotated[
+        str,
+        typer.Option("--template", "-t", help="Template name for PPTAgent mode (e.g., 'xunfei', 'default')"),
+    ] = None,
 ):
     """Generate a presentation from prompt and optional files."""
     ensure_supported_platform()
@@ -348,12 +353,16 @@ def generate(
                 sys.exit(1)
             attachments.append(str(f.resolve()))
 
+    convert_type = ConvertType.PPTAGENT if template else ConvertType.DEEPPRESENTER
+
     request = InputRequest(
         instruction=prompt,
         attachments=attachments,
         num_pages=pages,
         powerpoint_type=aspect_ratio,
         enable_planner=planner,
+        template=template,
+        convert_type=convert_type,
     )
 
     config = DeepPresenterConfig.load_from_file(str(CONFIG_FILE))
