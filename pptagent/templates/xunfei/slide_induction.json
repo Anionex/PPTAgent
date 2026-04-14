@@ -6,7 +6,7 @@
         "template_id": 1,
         "elements": [
             {
-                "name": "main title character",
+                "name": "branding character - 'Ke'",
                 "data": [
                     "科"
                 ],
@@ -15,168 +15,372 @@
             {
                 "name": "company logo",
                 "data": [
-                    "Logo: A blue stylized symbol, resembling an 'X' or a wing, is positioned to the left of the Chinese characters '科大讯飞' and the English text 'iFLYTEK', all on a black background."
+                    "Logo: The logo for iFLYTEK, featuring a stylized blue 'X' graphic alongside its name in Chinese characters (科大讯飞) and English (iFLYTEK) on a black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "main title character",
+                "name": "branding character - 'Da'",
                 "data": [
                     "大"
                 ],
                 "type": "text"
             },
             {
-                "name": "background element",
+                "name": "background burst graphic",
                 "data": [
-                    "Background: An abstract black and white graphic featuring a stylized burst or explosion with sharp, angular lines radiating from the left side of the frame."
+                    "Background: A stylized black and white graphic depicting a jagged, sharp-edged burst of white light radiating from the upper-left corner against a solid black field."
                 ],
                 "type": "image"
             },
             {
-                "name": "main title character",
+                "name": "branding character - 'Fei'",
                 "data": [
                     "飞"
                 ],
                 "type": "text"
             },
             {
-                "name": "decorative light effect image",
+                "name": "background light flare",
                 "data": [
-                    "Picture: A bright white light source with prominent horizontal lens flare streaks and an encompassing soft yellow-orange glow, set against a black background."
+                    "Background: A bright yellow and white light flare or energy burst with a central glow and radiating rays against a black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "main subtitle",
+                "name": "main title",
                 "data": [
                     "AI行业领军企业的深度剖析与未来展望"
                 ],
                 "type": "text"
             },
             {
-                "name": "main illustrative image",
+                "name": "main image - humanoid robot",
                 "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "decorative light effect image",
+                "name": "background light flare",
                 "data": [
-                    "Picture: A bright white light source with prominent horizontal lens flare streaks and an encompassing soft yellow-orange glow, set against a black background."
+                    "Background: A bright yellow and white light flare or energy burst with a central glow and radiating rays against a black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "main title character",
+                "name": "branding character - 'Xun'",
                 "data": [
                     "讯"
                 ],
                 "type": "text"
             },
             {
-                "name": "secondary title",
+                "name": "slogan",
                 "data": [
                     "智创未来"
                 ],
                 "type": "text"
             },
             {
-                "name": "decorative abstract image",
+                "name": "background digital graphic",
                 "data": [
-                    "Picture: An abstract image showing a bright light source at the center with radiating horizontal blue and purple lines extending outwards, forming an elongated oval shape on a black background."
+                    "Background: Abstract digital graphic featuring an elongated cyan and blue oval with concentric horizontal bands and a bright white lens flare at the center."
                 ],
                 "type": "image"
             },
             {
-                "name": "data source footnote",
+                "name": "subtitle/report period",
                 "data": [
                     "基于科大讯飞2024年报及2025年一季报"
                 ],
                 "type": "text"
             },
             {
-                "name": "data source footnote",
+                "name": "data source footer",
                 "data": [
                     "Data Source: iFlytek Annual Report 2024"
                 ],
                 "type": "text"
             },
             {
-                "name": "decorative icon",
+                "name": "decorative icon arc",
                 "data": [
-                    "Icon: A glowing blue semi-circular arc featuring a bright white center line and a light glare, set against a dark background with a contrasting white inner area."
+                    "Icon: A glowing, bright blue semi-circular arc with a luminous white light streak and feathered edges, set against a background of black and white rectangular blocks."
                 ],
                 "type": "image"
             },
             {
-                "name": "decorative abstract image",
+                "name": "background digital graphic",
                 "data": [
-                    "Picture: An abstract image showing a bright light source at the center with radiating horizontal blue and purple lines extending outwards, forming an elongated oval shape on a black background."
+                    "Background: Abstract digital graphic featuring an elongated cyan and blue oval with concentric horizontal bands and a bright white lens flare at the center."
                 ],
                 "type": "image"
             },
             {
-                "name": "decorative light effect image",
+                "name": "background light burst",
                 "data": [
-                    "Picture: A glowing blue light beam shoots upwards from a bright starburst at the bottom, expanding into a wider blue field against a dark, textured background."
+                    "Background: Abstract digital artwork featuring a bright starburst at the bottom with a central vertical beam of light and a wide, triangular glow in various shades of blue and purple."
                 ],
                 "type": "image"
             },
             {
-                "name": "decorative light effect image",
+                "name": "background light flare",
                 "data": [
-                    "Picture: A bright white light source with prominent horizontal lens flare streaks and an encompassing soft yellow-orange glow, set against a black background."
+                    "Background: A bright yellow and white light flare or energy burst with a central glow and radiating rays against a black background."
                 ],
                 "type": "image"
             },
             {
                 "name": "university logo",
                 "data": [
-                    "Logo: White logo of Zhejiang University featuring a circular emblem with an eagle and \"1897\", alongside the university's name in Chinese characters and English text on a black background."
+                    "Logo: White emblem and name of Zhejiang University on a black background, featuring Chinese calligraphy, the English title, and a circular seal containing a bird motif and the founding year 1897."
                 ],
                 "type": "image"
             },
             {
-                "name": "presenter name",
+                "name": "presenter info",
                 "data": [
                     "负责人：XXX"
                 ],
                 "type": "text"
             },
             {
-                "name": "advisor name",
+                "name": "supervisor info",
                 "data": [
                     "指导老师：XXXXX"
                 ],
                 "type": "text"
             },
             {
-                "name": "project group",
+                "name": "project group info",
                 "data": [
                     "项目组别：XXXXX组"
                 ],
                 "type": "text"
             },
             {
-                "name": "competition category",
+                "name": "competition category info",
                 "data": [
                     "参赛类别：XXXXX类"
                 ],
                 "type": "text"
             },
             {
-                "name": "project theme",
+                "name": "English slogan",
                 "data": [
                     "AI COMMERCIALIZATION INNOVATION"
                 ],
                 "type": "text"
             },
             {
-                "name": "decorative abstract image",
+                "name": "background digital graphic",
                 "data": [
-                    "Picture: An abstract image showing a bright light source at the center with radiating horizontal blue and purple lines extending outwards, forming an elongated oval shape on a black background."
+                    "Background: Abstract digital graphic featuring an elongated cyan and blue oval with concentric horizontal bands and a bright white lens flare at the center."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "table of contents": {
+        "slides": [
+            2
+        ],
+        "template_id": 2,
+        "elements": [
+            {
+                "name": "main decorative image",
+                "data": [
+                    "Picture: A white humanoid robot with glowing blue eyes interacts with a digital interface of interconnected icons representing artificial intelligence, data processing, and technological systems."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc icon 1",
+                "data": [
+                    "Icon: A stylized graphic featuring blue and cyan gradient polygons arranged to resemble an area chart against a solid black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc icon 2",
+                "data": [
+                    "Icon:A circular blue icon with a gradient finish, featuring four internal tick marks at cardinal positions and a diagonal line passing through the center against a black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc icon 3",
+                "data": [
+                    "Icon: Three abstract, bright blue geometric shapes with gradients and thin diagonal lines—a rounded square, a circle, and a long horizontal button—arranged on a black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc icon 4",
+                "data": [
+                    "Icon: A blue computer monitor icon featuring a prominent white percentage sign on its screen."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc title 1",
+                "data": [
+                    "行业复盘"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc subtitle 1",
+                "data": [
+                    "Industry Review"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc title 2",
+                "data": [
+                    "企业痛点"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc subtitle 2",
+                "data": [
+                    "Pain Points Analysis"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc title 3",
+                "data": [
+                    "模型分析"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc subtitle 3",
+                "data": [
+                    "Model Analysis"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc title 4",
+                "data": [
+                    "数据洞察"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc subtitle 4",
+                "data": [
+                    "Data Insights"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc icon 5",
+                "data": [
+                    "Icon: A single jigsaw puzzle piece featuring a blue gradient from light cyan to deep blue, with two tabs and one notch, isolated against a black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc icon 6",
+                "data": [
+                    "Icon: A bright blue icon of a balanced scale of justice on a black background, representing fairness, equality, or legal matters."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc icon 7",
+                "data": [
+                    "Icon: A blue stylized user profile icon with a circular head and rounded shoulders, featuring a blue-to-light-blue gradient on a black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc icon 8",
+                "data": [
+                    "Icon: A blue rectangular icon with rounded corners featuring a white rectangle at the top and two horizontal lines of varying lengths below, suggesting a document or card layout with a gradient background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "toc title 5",
+                "data": [
+                    "解决方案"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc subtitle 5",
+                "data": [
+                    "Solutions"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc title 6",
+                "data": [
+                    "收益风险"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc subtitle 6",
+                "data": [
+                    "ROI & Risk Assessment"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc title 7",
+                "data": [
+                    "团队介绍"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc subtitle 7",
+                "data": [
+                    "Team Introduction"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc title 8",
+                "data": [
+                    "附录与Q&A"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "toc subtitle 8",
+                "data": [
+                    "Appendix & Q&A"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "目录"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main subtitle",
+                "data": [
+                    "CONTENTS"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background image",
+                "data": [
+                    "Background: Abstract digital graphic featuring an elongated cyan and blue oval with concentric horizontal bands and a bright white lens flare at the center."
                 ],
                 "type": "image"
             }
@@ -189,166 +393,207 @@
         "template_id": 7,
         "elements": [
             {
-                "name": "large decorative character",
+                "name": "closing title characters",
                 "data": [
-                    "感"
+                    "感",
+                    "谢",
+                    "听",
+                    "聆"
                 ],
                 "type": "text"
             },
             {
-                "name": "company logo",
+                "name": "iFLYTEK logo",
                 "data": [
-                    "Logo: A blue stylized symbol, resembling an 'X' or a wing, is positioned to the left of the Chinese characters '科大讯飞' and the English text 'iFLYTEK', all on a black background."
+                    "Logo: The logo for iFLYTEK, featuring a stylized blue 'X' graphic alongside its name in Chinese characters (科大讯飞) and English (iFLYTEK) on a black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "large decorative character",
-                "data": [
-                    "谢"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "large decorative character",
-                "data": [
-                    "听"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "background light effect image",
-                "data": [
-                    "Picture: A bright white light source with prominent horizontal lens flare streaks and an encompassing soft yellow-orange glow, set against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "presentation main title",
+                "name": "main title",
                 "data": [
                     "AI行业领军企业的深度剖析与未来展望"
                 ],
                 "type": "text"
             },
             {
-                "name": "abstract background graphic",
+                "name": "robot portrait image",
                 "data": [
-                    "Background: An abstract black and white graphic featuring a stylized burst or explosion with sharp, angular lines radiating from the left side of the frame."
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "main decorative image",
-                "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "background light effect image",
-                "data": [
-                    "Picture: A bright white light source with prominent horizontal lens flare streaks and an encompassing soft yellow-orange glow, set against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "large decorative character",
-                "data": [
-                    "聆"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "presentation subtitle",
+                "name": "context subtitle",
                 "data": [
                     "基于科大讯飞2024年报及2025年一季报"
                 ],
                 "type": "text"
             },
             {
-                "name": "data source attribution",
+                "name": "data source footer",
                 "data": [
                     "Data Source: iFlytek Annual Report 2024"
                 ],
                 "type": "text"
             },
             {
-                "name": "abstract light effect image",
+                "name": "Zhejiang University logo",
                 "data": [
-                    "Picture: An abstract image showing a bright light source at the center with radiating horizontal blue and purple lines extending outwards, forming an elongated oval shape on a black background."
+                    "Logo: White emblem and name of Zhejiang University on a black background, featuring Chinese calligraphy, the English title, and a circular seal containing a bird motif and the founding year 1897."
                 ],
                 "type": "image"
             },
             {
-                "name": "background light effect image",
+                "name": "presenter and mentor information",
                 "data": [
-                    "Picture: A bright white light source with prominent horizontal lens flare streaks and an encompassing soft yellow-orange glow, set against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "university logo",
-                "data": [
-                    "Logo: White logo of Zhejiang University featuring a circular emblem with an eagle and \"1897\", alongside the university's name in Chinese characters and English text on a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "project lead",
-                "data": [
-                    "负责人：XXX"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advisor name",
-                "data": [
+                    "负责人：XXX",
                     "指导老师：XXXXX"
                 ],
                 "type": "text"
             },
             {
-                "name": "project group",
+                "name": "project and category details",
                 "data": [
-                    "项目组别：XXXXX组"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "competition category",
-                "data": [
+                    "项目组别：XXXXX组",
                     "参赛类别：XXXXX类"
                 ],
                 "type": "text"
             },
             {
-                "name": "presentation theme slogan",
+                "name": "branding footer",
                 "data": [
                     "AI COMMERCIALIZATION INNOVATION"
                 ],
                 "type": "text"
             },
             {
-                "name": "abstract light effect image",
+                "name": "background decorative graphics",
                 "data": [
-                    "Picture: An abstract image showing a bright light source at the center with radiating horizontal blue and purple lines extending outwards, forming an elongated oval shape on a black background."
+                    "Background: A bright yellow and white light flare or energy burst with a central glow and radiating rays against a black background.",
+                    "Background: A stylized black and white graphic depicting a jagged, sharp-edged burst of white light radiating from the upper-left corner against a solid black field.",
+                    "Background: A bright yellow and white light flare or energy burst with a central glow and radiating rays against a black background.",
+                    "Background: Abstract digital graphic featuring an elongated cyan and blue oval with concentric horizontal bands and a bright white lens flare at the center.",
+                    "Background: A bright yellow and white light flare or energy burst with a central glow and radiating rays against a black background.",
+                    "Background: Abstract digital graphic featuring an elongated cyan and blue oval with concentric horizontal bands and a bright white lens flare at the center."
                 ],
                 "type": "image"
             }
         ]
     },
-    "Top Header and Subtitle, Left Information Panel with Image and Bulleted Text, Right Large Blank Area:image": {
+    "Profile sidebar with circular portrait and bulleted list alongside a two-by-three image grid:image": {
         "template_id": 4,
         "slides": [
             4
         ],
         "elements": [
             {
-                "name": "section title",
+                "name": "main title",
                 "data": [
                     "团队介绍"
                 ],
                 "type": "text"
+            },
+            {
+                "name": "section header",
+                "data": [
+                    "专业团队保驾护航"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle slogan",
+                "data": [
+                    "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "member name",
+                "data": [
+                    "熊猫"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "member category",
+                "data": [
+                    "AI算法专家"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "member job title",
+                "data": [
+                    "资深算法研究员"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "role label",
+                "data": [
+                    "负责人"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "experience bullets",
+                "data": [
+                    "拥有超过10年的人工智能算法研发经验",
+                    "曾主导多个国家级AI项目",
+                    "在自然语言处理 and 机器学习领域有深厚积累。",
+                    "曾主导多个国家级AI项目",
+                    "在自然语言处理 and 机器学习领域有深厚积累。"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main robot illustration",
+                "data": [
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "institution logo",
+                "data": [
+                    "Logo: The logo of Zhejiang University featuring a circular emblem with a bird motif, accompanied by the institution's name in both Chinese calligraphy and English block lettering, all rendered in blue against a solid black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon",
+                "data": [
+                    "Logo: A white silhouette of a circular object intersected by a thin, horizontal ring against a solid black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "bottom status labels",
+                "data": [
+                    "G端稳存量 ",
+                    "G端稳存量 ",
+                    "G端稳存量 ",
+                    "G端稳存量 ",
+                    "G端稳存量 ",
+                    "G端稳存量 "
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Three side-by-side vertical cards, each containing a circular image and a bulleted list of descriptive text points below.:image": {
+        "template_id": 5,
+        "slides": [
+            5
+        ],
+        "elements": [
+            {
+                "name": "banner graphic",
+                "data": [
+                    "Banner: A stylized, horizontal wavy graphic featuring a blue gradient from dark to light with a thin white outline underneath, set against a transparent background."
+                ],
+                "type": "image"
             },
             {
                 "name": "main title",
@@ -358,42 +603,14 @@
                 "type": "text"
             },
             {
-                "name": "introductory paragraph",
+                "name": "introductory subtitle",
                 "data": [
                     "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
                 ],
                 "type": "text"
             },
             {
-                "name": "presenter name",
-                "data": [
-                    "熊猫"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "presenter role",
-                "data": [
-                    "负责人"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "presenter expertise title",
-                "data": [
-                    "AI算法专家"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "presenter secondary role",
-                "data": [
-                    "资深算法研究员"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "presenter qualifications bullets",
+                "name": "expert 1 description bullets",
                 "data": [
                     "拥有超过10年的人工智能算法研发经验",
                     "曾主导多个国家级AI项目",
@@ -404,110 +621,7 @@
                 "type": "text"
             },
             {
-                "name": "main diagram image",
-                "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "university logo",
-                "data": [
-                    "Logo: The logo for Zhejiang University features a circular emblem with a stylized phoenix, 'ZHEJIANG UNIVERSITY' text, and '1897', accompanied by its name in Chinese and English."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "decorative icon",
-                "data": [
-                    "Icon: A white circle with a horizontal oval ring passing through its center, set against a black background, representing a ringed planet."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "key point",
-                "data": [
-                    "G端稳存量"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key point",
-                "data": [
-                    "G端稳存量"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key point",
-                "data": [
-                    "G端稳存量"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key point",
-                "data": [
-                    "G端稳存量"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key point",
-                "data": [
-                    "G端稳存量"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key point",
-                "data": [
-                    "G端稳存量"
-                ],
-                "type": "text"
-            }
-        ]
-    },
-    "Three Horizontal Content Columns with Central Image, Two Text Labels, and Bulleted List:image": {
-        "template_id": 5,
-        "slides": [
-            5
-        ],
-        "elements": [
-            {
-                "name": "background image",
-                "data": [
-                    "Background: A horizontal abstract wavy shape, predominantly blue with a lighter blue/white lower border, on a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "section title",
-                "data": [
-                    "专业团队保驾护航"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section subtitle",
-                "data": [
-                    "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "left profile bullet points",
-                "data": [
-                    "拥有超过10年的人工智能算法研发经验",
-                    "曾主导多个国家级AI项目",
-                    "在自然语言处理和机器学习领域有深厚积累。",
-                    "曾主导多个国家级AI项目",
-                    "在自然语言处理和机器学习领域有深厚积累。"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "middle profile bullet points",
+                "name": "expert 2 description bullets",
                 "data": [
                     "资深注册会计师",
                     "拥有丰富的上市公司财务分析经验",
@@ -521,7 +635,7 @@
                 "type": "text"
             },
             {
-                "name": "right profile bullet points",
+                "name": "expert 3 description bullets",
                 "data": [
                     "曾任职于国际顶尖咨询公司",
                     "为多家科技企业提供战略规划和商业创新咨询服务",
@@ -533,35 +647,35 @@
                 "type": "text"
             },
             {
-                "name": "left profile diagram image",
+                "name": "expert 1 portrait image",
                 "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "middle profile diagram image",
+                "name": "expert 2 portrait image",
                 "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "right profile diagram image",
+                "name": "expert 3 portrait image",
                 "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "left profile name",
+                "name": "expert 1 name",
                 "data": [
                     "熊猫"
                 ],
                 "type": "text"
             },
             {
-                "name": "middle profile name",
+                "name": "expert 2 name",
                 "data": [
                     "熊猫",
                     "队"
@@ -569,598 +683,275 @@
                 "type": "text"
             },
             {
-                "name": "right profile name",
+                "name": "expert 3 name",
                 "data": [
                     "熊猫"
                 ],
                 "type": "text"
             },
             {
-                "name": "left profile job title",
+                "name": "expert 1 job title",
                 "data": [
                     "资深算法研究员"
                 ],
                 "type": "text"
             },
             {
-                "name": "middle profile job title",
+                "name": "expert 2 job title",
                 "data": [
                     "注册会计师 (CPA)"
                 ],
                 "type": "text"
             },
             {
-                "name": "right profile job title",
+                "name": "expert 3 job title",
                 "data": [
                     "高级战略规划师"
                 ],
                 "type": "text"
             },
             {
-                "name": "left profile role description",
+                "name": "expert 1 role",
                 "data": [
                     "AI算法专家"
                 ],
                 "type": "text"
             },
             {
-                "name": "middle profile role description",
+                "name": "expert 2 role",
                 "data": [
                     "财务分析专家"
                 ],
                 "type": "text"
             },
             {
-                "name": "right profile role description",
+                "name": "expert 3 role",
                 "data": [
                     "战略咨询顾问"
                 ],
                 "type": "text"
             },
             {
-                "name": "university logo",
+                "name": "zhejiang university logo",
                 "data": [
-                    "Logo: The logo for Zhejiang University features a circular emblem with a stylized phoenix, 'ZHEJIANG UNIVERSITY' text, and '1897', accompanied by its name in Chinese and English."
+                    "Logo: The logo of Zhejiang University featuring a circular emblem with a bird motif, accompanied by the institution's name in both Chinese calligraphy and English block lettering, all rendered in blue against a solid black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "main title",
+                "name": "page header title",
                 "data": [
                     "团队介绍"
                 ],
                 "type": "text"
             },
             {
-                "name": "decorative icon",
+                "name": "decorative footer logo",
                 "data": [
-                    "Icon: A white circle with a horizontal oval ring passing through its center, set against a black background, representing a ringed planet."
+                    "Logo: A white silhouette of a circular object intersected by a thin, horizontal ring against a solid black background."
                 ],
                 "type": "image"
             }
         ]
     },
-    "Title and Subtitle, Two Rows of Three Panels, Top Row Text-Based with Small Images, Bottom Row Image-Based with Text Overlays, separated by a Central Horizontal Label.:image": {
-        "template_id": 2,
-        "slides": [
-            2
-        ],
-        "elements": [
-            {
-                "name": "main section title",
-                "data": [
-                    "行业复盘"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "slide main title",
-                "data": [
-                    "AI浪潮下的机遇与挑战"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key concept title",
-                "data": [
-                    "场景落地"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "decorative industrial image",
-                "data": [
-                    "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "key concept title",
-                "data": [
-                    "数据壁垒"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "decorative industrial image",
-                "data": [
-                    "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "decorative industrial image",
-                "data": [
-                    "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "section subheading",
-                "data": [
-                    "政策端"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "\"人工智能+\"行动 写入2024政府工作报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "国产替代加速，自主可控成为国家战略核心"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "AI基础设施投资持续加码"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section subheading",
-                "data": [
-                    "市场端"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "2024年中国AI市场规模超 5000亿元"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "年复合增长率超 30%"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "企业数字化转型需求爆发式增长"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section subheading",
-                "data": [
-                    "技术端"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "讯飞星火X1 成为全国产算力平台首个对标OpenAI o1的深度推理模型"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "大模型API日调用量同比增长763%"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section bullet point",
-                "data": [
-                    "802万开发者生态持续扩大"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "decorative holographic diagram image",
-                "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "decorative holographic diagram image",
-                "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "decorative holographic diagram image",
-                "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "key summary statement",
-                "data": [
-                    "政策红利+技术突破+市场需求三重共振"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advantage heading",
-                "data": [
-                    "讯飞卡位优势"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advantage subheading",
-                "data": [
-                    "技术自主"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advantage subheading bullet point",
-                "data": [
-                    "全国产算力平台训练"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advantage subheading bullet point",
-                "data": [
-                    "802万开发者生态"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advantage subheading bullet point",
-                "data": [
-                    "教育/医疗/汽车/办公"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advantage heading bullet point",
-                "data": [
-                    "全国产算力平台训练"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advantage heading bullet point",
-                "data": [
-                    "802万开发者生态"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "advantage heading bullet point",
-                "data": [
-                    "教育/医疗/汽车/办公"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key tagline",
-                "data": [
-                    "国家队战略定位"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key tagline",
-                "data": [
-                    "唯一完全自主可控"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key tagline",
-                "data": [
-                    "国内最大开发者平台"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "key tagline",
-                "data": [
-                    "G/B/C端全栈覆盖"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "slide concluding statement",
-                "data": [
-                    "讯飞处于历史最佳机遇点"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "university logo",
-                "data": [
-                    "Logo: The logo for Zhejiang University features a circular emblem with a stylized phoenix, 'ZHEJIANG UNIVERSITY' text, and '1897', accompanied by its name in Chinese and English."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "decorative icon",
-                "data": [
-                    "Icon: A white circle with a horizontal oval ring passing through its center, set against a black background, representing a ringed planet."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "data source footnote",
-                "data": [
-                    "数据来源：科大讯飞2024年年报"
-                ],
-                "type": "text"
-            }
-        ]
-    },
-    "Dual Vertical Content Sections with Titles, Text, Data Points, and Illustrative Image Clusters, plus a Footer Summary.:image": {
+    "Two rows of three vertically-aligned content blocks, featuring bulleted text boxes in the top row and image-based cards with captions in the bottom row.:image": {
         "template_id": 3,
         "slides": [
             3
         ],
         "elements": [
             {
-                "name": "main topic title",
+                "name": "industrial category icon 1",
                 "data": [
-                    "精准锁定核心经营难题"
+                    "Picture: Industrial scene featuring automated robotic arms welding a metal part with bright sparks against a blurred factory background in a monochromatic blue tone."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "category label 1",
+                "data": [
+                    "场景落地"
                 ],
                 "type": "text"
             },
             {
-                "name": "problem bullet point",
+                "name": "industrial category icon 2",
                 "data": [
-                    "高研发投入侵蚀短期盈利，战略投入期不可避免的\"阵痛\""
+                    "Picture: Industrial scene featuring automated robotic arms welding a metal part with bright sparks against a blurred factory background in a monochromatic blue tone."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "category label 2",
+                "data": [
+                    "数据壁垒"
                 ],
                 "type": "text"
             },
             {
-                "name": "revenue label",
+                "name": "industrial category icon 3",
                 "data": [
-                    "2024年营收"
+                    "Picture: Industrial scene featuring automated robotic arms welding a metal part with bright sparks against a blurred factory background in a monochromatic blue tone."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "AI浪潮下的机遇与挑战"
                 ],
                 "type": "text"
             },
             {
-                "name": "revenue growth percentage",
+                "name": "policy segment header",
                 "data": [
-                    "+18.79%"
+                    "政策端"
                 ],
                 "type": "text"
             },
             {
-                "name": "net profit label",
+                "name": "policy segment bullets",
                 "data": [
-                    "归母净利润"
+                    "\"人工智能+\"行动 写入2024政府工作报告",
+                    "国产替代加速，自主可控成为国家战略核心",
+                    "AI基础设施投资持续加码"
                 ],
                 "type": "text"
             },
             {
-                "name": "problem bullet point",
+                "name": "market segment header",
                 "data": [
-                    "G端依赖过重，C端变现效率待提升，需加速业务结构优化"
+                    "市场端"
                 ],
                 "type": "text"
             },
             {
-                "name": "business segment title smart city",
+                "name": "market segment bullets",
                 "data": [
-                    "智慧城市业务"
+                    "2024年中国AI市场规模超 5000亿元",
+                    "年复合增长率超 30%",
+                    "企业数字化转型需求爆发式增长"
                 ],
                 "type": "text"
             },
             {
-                "name": "smart city business change percentage",
+                "name": "robot technology icons",
                 "data": [
-                    "-8.07%"
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background.",
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background.",
+                    "Picture:A sleek, white humanoid robot with glowing blue eyes interacting with floating blue holographic icons representing automation, processing, and technology against a plain black background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "technology segment header",
+                "data": [
+                    "技术端"
                 ],
                 "type": "text"
             },
             {
-                "name": "smart city business details",
+                "name": "technology segment bullets",
                 "data": [
-                    "36.16亿元 | 政府预算收紧导致收入波动"
+                    "讯飞星火X1 成为全国产算力平台首个对标OpenAI o1的深度推理模型",
+                    "大模型API日调用量同比增长763%",
+                    "802万开发者生态持续扩大"
                 ],
                 "type": "text"
             },
             {
-                "name": "business segment title carrier",
+                "name": "category label 3",
                 "data": [
-                    "运营商业务"
+                    "技术自主"
                 ],
                 "type": "text"
             },
             {
-                "name": "carrier business change percentage",
+                "name": "technical feature description",
                 "data": [
-                    "-9.31%"
+                    "全国产算力平台训练",
+                    "802万开发者生态",
+                    "教育/医疗/汽车/办公"
                 ],
                 "type": "text"
             },
             {
-                "name": "carrier business details",
-                "data": [
-                    "19.01亿元 | 传统业务增长乏力"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "insight section title",
-                "data": [
-                    "核心洞察"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "core insight paragraph",
-                "data": [
-                    "战略投入期的\"阵痛\"不可避免，但投入产出比亟待优化，需从\"规模扩张\"转向\"效率提升\""
-                ],
-                "type": "text"
-            },
-            {
-                "name": "Q4 improvement title",
-                "data": [
-                    "Q4改善"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "Q4 net profit detail",
-                "data": [
-                    "单季归母净利润9.04亿元 (+62%)"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "data source footer",
+                "name": "footer source",
                 "data": [
                     "数据来源：科大讯飞2024年年报"
                 ],
                 "type": "text"
             },
             {
-                "name": "optimization status comment",
+                "name": "strategic positioning label",
                 "data": [
-                    "结构性优化进行中"
+                    "国家队战略定位"
                 ],
                 "type": "text"
             },
             {
-                "name": "key problem label profit scissors gap",
+                "name": "strategic summary statement",
                 "data": [
-                    "利润剪刀差"
+                    "政策红利+技术突破+市场需求三重共振"
                 ],
                 "type": "text"
             },
             {
-                "name": "key problem label business imbalance",
+                "name": "advantage title",
                 "data": [
-                    "业务结构失衡"
+                    "讯飞卡位优势"
                 ],
                 "type": "text"
             },
             {
-                "name": "industrial background image",
+                "name": "advantage feature bullets",
                 "data": [
-                    "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "industrial background image",
-                "data": [
-                    "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "industrial background image",
-                "data": [
-                    "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "industrial background image",
-                "data": [
-                    "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "key challenge summary",
-                "data": [
-                    "营收增长18.79%但净利润承压，需破解\"投入-产出\"效率难题"
+                    "全国产算力平台训练",
+                    "802万开发者生态",
+                    "教育/医疗/汽车/办公"
                 ],
                 "type": "text"
             },
             {
-                "name": "futuristic diagram image",
+                "name": "opportunity sub title",
                 "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "industrial background image",
-                "data": [
-                    "Picture: Robotic arms weld metal parts in a factory setting, with bright sparks and smoke, against a blurred industrial background, emphasizing automation and manufacturing."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "futuristic diagram image",
-                "data": [
-                    "Diagram: A futuristic white humanoid robot interacts with a glowing holographic diagram displaying interconnected icons for gears, a computer, a checklist, and a process flowchart against a black background."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "university logo",
-                "data": [
-                    "Logo: The logo for Zhejiang University features a circular emblem with a stylized phoenix, 'ZHEJIANG UNIVERSITY' text, and '1897', accompanied by its name in Chinese and English."
-                ],
-                "type": "image"
-            },
-            {
-                "name": "section title enterprise pain points",
-                "data": [
-                    "企业痛点"
+                    "讯飞处于历史最佳机遇点"
                 ],
                 "type": "text"
             },
             {
-                "name": "decorative icon",
+                "name": "institution logo",
                 "data": [
-                    "Icon: A white circle with a horizontal oval ring passing through its center, set against a black background, representing a ringed planet."
+                    "Logo: The logo of Zhejiang University featuring a circular emblem with a bird motif, accompanied by the institution's name in both Chinese calligraphy and English block lettering, all rendered in blue against a solid black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "revenue value",
+                "name": "core capability accent labels",
                 "data": [
-                    "233.43亿元"
+                    "唯一完全自主可控",
+                    "国内最大开发者平台",
+                    "G/B/C端全栈覆盖"
                 ],
                 "type": "text"
             },
             {
-                "name": "net profit value",
+                "name": "section title",
                 "data": [
-                    "5.60亿元"
+                    "行业复盘"
                 ],
                 "type": "text"
+            },
+            {
+                "name": "footer decorative logo",
+                "data": [
+                    "Logo: A white silhouette of a circular object intersected by a thin, horizontal ring against a solid black background."
+                ],
+                "type": "image"
             }
         ]
     },
-    "Three vertical columns of icon-prefixed multi-line text blocks, grouped under two section headers.:image": {
+    "Three columns of icon-labeled text blocks grouped into two distinct titled sections.:image": {
         "template_id": 6,
         "slides": [
             6
@@ -1174,289 +965,58 @@
                 "type": "text"
             },
             {
-                "name": "data source item title",
+                "name": "section titles",
                 "data": [
-                    "科大讯飞2024年年度报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "data source item detail",
-                "data": [
-                    "发布日期：2025年4月22日"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "data source item title",
-                "data": [
-                    "科大讯飞2025年第一季度报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "data source item detail",
-                "data": [
-                    "2025年Q1财务数据及业务进展"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "data source item title",
-                "data": [
-                    "券商研究报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "data source item detail",
-                "data": [
-                    "东吴证券、国盛证券等机构研报"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section title",
-                "data": [
-                    "数据来源"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "section title",
-                "data": [
+                    "数据来源",
                     "参考文献"
                 ],
                 "type": "text"
             },
             {
-                "name": "reference title",
+                "name": "data source list items",
                 "data": [
-                    "科大讯飞2024年年度报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "发布日期：2025年4月22日"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "科大讯飞2025年第一季度报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "2025年Q1财务数据及业务进展"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "券商研究报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
+                    "科大讯飞2024年年度报告",
+                    "发布日期：2025年4月22日",
+                    "科大讯飞2025年第一季度报告",
+                    "2025年Q1财务数据及业务进展",
+                    "券商研究报告",
+                    "东吴证券、国盛证券等机构研报",
+                    "科大讯飞2024年年度报告",
+                    "发布日期：2025年4月22日",
+                    "科大讯飞2025年第一季度报告",
+                    "2025年Q1财务数据及业务进展",
+                    "券商研究报告",
                     "东吴证券、国盛证券等机构研报"
                 ],
                 "type": "text"
             },
             {
-                "name": "reference title",
+                "name": "reference list items",
                 "data": [
-                    "《2024年中国人工智能产业发展报告》"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "中国信息通信研究院"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "国务院《\"人工智能+\"行动方案》"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "2024年政府工作报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "科大讯飞星火大模型技术白皮书"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
+                    "《2024年中国人工智能产业发展报告》",
+                    "中国信息通信研究院",
+                    "国务院《\"人工智能+\"行动方案》",
+                    "2024年政府工作报告",
+                    "科大讯飞星火大模型技术白皮书",
+                    "讯飞官网技术文档",
+                    "《2024年中国人工智能产业发展报告》",
+                    "中国信息通信研究院",
+                    "国务院《\"人工智能+\"行动方案》",
+                    "2024年政府工作报告",
+                    "科大讯飞星火大模型技术白皮书",
+                    "讯飞官网技术文档",
+                    "《2024年中国人工智能产业发展报告》",
+                    "中国信息通信研究院",
+                    "国务院《\"人工智能+\"行动方案》",
+                    "2024年政府工作报告",
+                    "科大讯飞星火大模型技术白皮书",
+                    "讯飞官网技术文档",
+                    "《2024年中国人工智能产业发展报告》",
+                    "中国信息通信研究院",
+                    "国务院《\"人工智能+\"行动方案》",
+                    "2024年政府工作报告",
+                    "科大讯飞星火大模型技术白皮书",
                     "讯飞官网技术文档"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "《2024年中国人工智能产业发展报告》"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "中国信息通信研究院"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "国务院《\"人工智能+\"行动方案》"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "2024年政府工作报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "科大讯飞星火大模型技术白皮书"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "讯飞官网技术文档"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "《2024年中国人工智能产业发展报告》"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "中国信息通信研究院"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "国务院《\"人工智能+\"行动方案》"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "2024年政府工作报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "科大讯飞星火大模型技术白皮书"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "讯飞官网技术文档"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "《2024年中国人工智能产业发展报告》"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "中国信息通信研究院"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "国务院《\"人工智能+\"行动方案》"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "2024年政府工作报告"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference title",
-                "data": [
-                    "科大讯飞星火大模型技术白皮书"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "reference detail",
-                "data": [
-                    "讯飞官网技术文档"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "footer date",
-                "data": [
-                    "报告日期：2025年"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "footer team name",
-                "data": [
-                    "商业创新战队"
-                ],
-                "type": "text"
-            },
-            {
-                "name": "footer slogan",
-                "data": [
-                    "星火燎原 · 智创未来"
                 ],
                 "type": "text"
             },
@@ -1468,16 +1028,31 @@
                 "type": "text"
             },
             {
-                "name": "company logo",
+                "name": "slogan",
                 "data": [
-                    "Logo: The logo for Zhejiang University features a circular emblem with a stylized phoenix, 'ZHEJIANG UNIVERSITY' text, and '1897', accompanied by its name in Chinese and English."
+                    "星火燎原 · 智创未来"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "footer information",
+                "data": [
+                    "报告日期：2025年",
+                    "商业创新战队"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "university logo",
+                "data": [
+                    "Logo: The logo of Zhejiang University featuring a circular emblem with a bird motif, accompanied by the institution's name in both Chinese calligraphy and English block lettering, all rendered in blue against a solid black background."
                 ],
                 "type": "image"
             },
             {
-                "name": "decorative icon",
+                "name": "decorative logo",
                 "data": [
-                    "Icon: A white circle with a horizontal oval ring passing through its center, set against a black background, representing a ringed planet."
+                    "Logo: A white silhouette of a circular object intersected by a thin, horizontal ring against a solid black background."
                 ],
                 "type": "image"
             }
@@ -1485,6 +1060,7 @@
     },
     "functional_keys": [
         "opening",
+        "table of contents",
         "ending"
     ],
     "language": {
