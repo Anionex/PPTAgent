@@ -573,6 +573,9 @@ class ShapeElement:
             self.fill.build(shape, shape.part)
         if getattr(shape, "line", None) is not None:
             self.line.build(shape.line, shape.part)
+        # Apply stored bounds AFTER fill/line.build(), because fill.build()
+        # may replace the entire spPr element (which contains xfrm/coordinates)
+        dict_to_object(self.style["shape_bounds"], shape)
         return shape
 
     def to_html(self, style_args: StyleArg) -> str:
