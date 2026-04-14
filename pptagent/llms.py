@@ -1,4 +1,5 @@
 import base64
+import mimetypes
 import re
 import threading
 from dataclasses import dataclass
@@ -61,24 +62,19 @@ class LLM:
             history = []
         system, message = self.format_message(content, images, system_message)
         try:
-            if response_format is not None:
-                completion: ChatCompletion = self.client.chat.completions.parse(
-                    model=self.model,
-                    messages=system + history + message,
-                    response_format=response_format,
-                    **client_kwargs,
-                )
-            else:
-                completion: ChatCompletion = self.client.chat.completions.create(
-                    model=self.model,
-                    messages=system + history + message,
-                    **client_kwargs,
-                )
-
+            completion: ChatCompletion = self.client.chat.completions.create(
+                model=self.model,
+                messages=system + history + message,
+                **({"response_format": {"type": "json_object"}} if response_format is not None else {}),
+                **client_kwargs,
+            )
         except Exception as e:
             logger.warning("Error in LLM (%s) service: %s", self.model, e)
             raise e
         response = completion.choices[0].message.content
+        if response_format is not None:
+            parsed = get_json_from_response(response)
+            response = response_format.model_validate(parsed).model_dump_json()
         message.append({"role": "assistant", "content": response})
         return self.__post_process__(response, message, return_json, return_message)
 
@@ -297,24 +293,20 @@ class AsyncLLM(LLM):
                     )
                 completion = ChatCompletion(**completion["result"][0])
             else:
-                if response_format is None:
-                    completion = await self.client.chat.completions.create(
-                        model=self.model,
-                        messages=system + history + message,
-                        **client_kwargs,
-                    )
-                else:
-                    completion = await self.client.chat.completions.parse(
-                        model=self.model,
-                        messages=system + history + message,
-                        response_format=response_format,
-                        **client_kwargs,
-                    )
+                completion = await self.client.chat.completions.create(
+                    model=self.model,
+                    messages=system + history + message,
+                    **({"response_format": {"type": "json_object"}} if response_format is not None else {}),
+                    **client_kwargs,
+                )
 
         except Exception as e:
             logger.error("Error in AsyncLLM call: %s", e)
             raise e
         response = completion.choices[0].message.content
+        if response_format is not None:
+            parsed = get_json_from_response(response)
+            response = response_format.model_validate(parsed).model_dump_json()
         message.append({"role": "assistant", "content": response})
         return self.__post_process__(response, message, return_json, return_message)
 
