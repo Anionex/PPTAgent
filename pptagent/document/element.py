@@ -1,4 +1,5 @@
 import hashlib
+import os
 import re
 from os.path import exists, join
 
@@ -56,7 +57,7 @@ class Media(BaseModel):
             raise ValueError("No image found in the markdown content")
         image_path = match.group(1)
         if not exists(image_path):
-            image_path = join(image_dir, image_path)
+            image_path = join(image_dir, os.path.basename(image_path))
         assert exists(image_path), f"image file not found: {image_path}"
         self.path = image_path
 
