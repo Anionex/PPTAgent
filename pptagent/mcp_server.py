@@ -39,6 +39,8 @@ def mcp_slide_validate(editor_output: EditorOutput, layout: Layout, prs_lang: La
     for el in editor_elements - layout_elements:
         errors.append(f"Element {el} not found in layout")
     for el in layout.elements:
+        if el.name not in editor_elements:
+            continue
         if layout[el.name].type == "image":
             for i in range(len(editor_output[el.name].data)):
                 if not exists(editor_output[el.name].data[i]):
