@@ -4,20 +4,23 @@
 
 ## Purpose
 
-This repository contains an agentic PowerPoint generation system with two closely related codepaths:
+This repository contains a PowerPoint generation system with two **independent** generation pipelines:
 
-- `deeppresenter/`: the current runtime, CLI, multi-agent loop, MCP tool wiring, and HTML-to-PPTX pipeline.
-- `pptagent/`: the earlier core generation and evaluation library, still shipped in the package and still used for the MCP server entrypoint `pptagent-mcp`.
+- **`deeppresenter/`** (HTML pipeline): CLI, multi-agent loop, MCP tool wiring, Design agent → HTML slides → Playwright → PPTX/PDF. This is the freeform generation path.
+- **`pptagent/`** (template pipeline): deterministic, template-based generation via `PPTAgent.generate_pres()`. Parses a source PPTX template, induces layouts, then fills them with content from a markdown Document. Also ships a standalone MCP server (`pptagent-mcp`) for external consumers.
 
-When making changes, treat `deeppresenter` as the primary product surface unless the task is explicitly about legacy `pptagent` generation internals or the MCP server.
+These are **separate pipelines, not layers of the same stack**. deeppresenter does NOT depend on pptagent's MCP server. The CLI `--template` flag calls pptagent's Python API directly (`AgentLoop._run_pptagent`), bypassing the MCP agent loop entirely.
+
+When making changes, treat `deeppresenter` as the primary product surface unless the task is explicitly about the pptagent template engine or MCP server.
 
 ## Ground Truth
 
 - Python package metadata and console entrypoints live in `pyproject.toml`.
 - The main CLI command is `pptagent`, which points to `deeppresenter.cli:main`.
-- The MCP server command is `pptagent-mcp`, which points to `pptagent.mcp_server:main`.
+- The MCP server command is `pptagent-mcp`, which points to `pptagent.mcp_server:main`. This is a **standalone** tool server — it is NOT registered in `deeppresenter/mcp.json.example` and should not be.
 - Default runtime workspaces are created under `~/.cache/deeppresenter` unless `DEEPPRESENTER_WORKSPACE_BASE` is set.
 - Configuration templates live at `deeppresenter/config.yaml.example` and `deeppresenter/mcp.json.example`.
+- `deeppresenter/mcp.json.example` lists MCP tools for the **deeppresenter agent loop only** (sandbox, search, research, etc.). Do not add pptagent here — the `--template` path calls pptagent's Python API directly.
 
 Do not assume the root `README.md` is fully current. It still references paths like `webui.py` that are not present in this checkout. Prefer the code and `pyproject.toml` over prose docs when they conflict.
 
@@ -67,23 +70,30 @@ Do not assume the root `README.md` is fully current. It still references paths l
 
 ## High-Level Architecture
 
-### `deeppresenter/`
+### `deeppresenter/` (HTML pipeline)
 
 - `cli/`: Typer CLI for `onboard`, `generate`, `serve`, `config`, and `clean`.
-- `main.py`: orchestration entrypoint. `AgentLoop.run()` executes `Research` first, then either `PPTAgent` or `Design`, and finally exports artifacts.
+  - `pptagent generate "prompt"` → deeppresenter Design pipeline (HTML → PPTX)
+  - `pptagent generate "prompt" --template xunfei` → pptagent template pipeline (direct API call)
+- `main.py`: orchestration entrypoint. `AgentLoop.run()` executes `Research` first, then branches:
+  - `ConvertType.DEEPPRESENTER` → Design agent → HTML → Playwright → PPTX/PDF
+  - `ConvertType.PPTAGENT` → `_run_pptagent()` → `pptagent.pptgen.PPTAgent.generate_pres()` (no MCP, no agent loop)
 - `agents/`: agent wrappers around the shared `Agent` base class.
   - `research.py`: builds manuscript / research output from prompt and attachments.
-  - `pptagent.py`: runs PPT-oriented generation flow from markdown.
   - `design.py`: generates slide HTML, then relies on browser conversion.
+  - `pptagent.py`: legacy MCP-based agent wrapper — no longer used by the main pipeline.
 - `tools/`: MCP-style tool servers for search, research, reflection, file conversion, and task management.
 - `utils/`: config loading, constants, logging, MinerU integration, web conversion, MCP client support.
 - `html2pptx/`: Node-based conversion helper used by the HTML slide pipeline.
 - `test/`: integration-style tests for sandbox tools, browser/PDF conversion, image processing, and related utilities.
 
-### `pptagent/`
+### `pptagent/` (template pipeline)
 
-- Core presentation generation, layout induction, document parsing, evaluation, and template-driven PPT production.
-- `mcp_server.py` exposes the template-based slide creation workflow through FastMCP.
+- Core template-based generation: `pptgen.py` (`PPTAgent.generate_pres()`) orchestrates outline → layout selection → content generation → slide editing in a deterministic loop.
+- `document/`: markdown parsing into structured `Document` objects.
+- `presentation/`: PPTX template parsing, layout induction, element structures.
+- `templates/*/`: bundled templates (source.pptx, slide_induction.json, image_stats.json).
+- `mcp_server.py`: standalone MCP server exposing template tools for external consumers (not used by deeppresenter).
 - `test/` contains both unit tests and tests marked `llm` / `parse`.
 
 ## Working Rules For Agents
@@ -101,9 +111,11 @@ Do not assume the root `README.md` is fully current. It still references paths l
 ## Known Sharp Edges
 
 - The repository contains stale documentation from older layouts. Verify files exist before referencing or editing them.
-- `deeppresenter` and `pptagent` both define generation-related concepts; changing one does not automatically update the other.
-- Browser and Docker dependencies are part of the normal runtime, not optional dev extras for some codepaths.
+- `deeppresenter` and `pptagent` are **independent pipelines**. Changing one does not automatically update the other. Do not assume one wraps or depends on the other.
+- `deeppresenter/agents/pptagent.py` and `deeppresenter/roles/PPTAgent.yaml` are a legacy MCP-based agent wrapper. The `--template` CLI path now bypasses them entirely via `AgentLoop._run_pptagent()`.
+- Browser and Docker dependencies are part of the deeppresenter HTML pipeline, not needed for the pptagent template pipeline.
 - Some tests are integration-heavy and may fail if Playwright, Docker images, or model credentials are absent.
+- pptagent's `_edit_slide` uses `eval()` to execute LLM-generated Python code. Content with unescaped quotes (especially Chinese quotation marks) can cause SyntaxError.
 
 ## File Map
 
