@@ -22,7 +22,7 @@ from pptagent_pptx.shapes.placeholder import PlaceholderPicture, SlidePlaceholde
 from pptagent_pptx.slide import Slide as PPTXSlide
 from pptagent_pptx.slide import _Background
 from pptagent_pptx.text.text import _Paragraph
-from pptagent_pptx.util import Pt
+from pptagent_pptx.util import Length, Pt
 
 from pptagent.utils import (
     Config,
@@ -1023,13 +1023,70 @@ class GroupShape(ShapeElement):
             and sub_shape.visible
         ]
 
-        # Apply shape bounds to each shape in the group
+        # Apply shape bounds to each shape in the group, converting from
+        # group-local coordinates to the parent's coordinate space.
+        self._apply_group_bounds()
+
+    def _apply_group_bounds(self) -> None:
+        """Convert child coordinates from group-local to parent space.
+
+        For nested groups, recursively remap descendant coordinates so that
+        the full transform chain is applied (group-local → ... → slide-absolute).
+        """
+        data_idx = 0
         for idx, shape_bounds in enumerate(parse_groupshape(self.shape)):
             if not self.shape.shapes[idx].visible:
                 continue
             if self.shape_cast.get(self.shape.shapes[idx].shape_type, -1) is None:
                 continue
-            self.data[idx].style["shape_bounds"] = shape_bounds
+            child = self.data[data_idx]
+            old_bounds = dict(child.style["shape_bounds"])
+            child.style["shape_bounds"] = shape_bounds
+            if isinstance(child, GroupShape):
+                # The child group's __post_init__ already ran parse_groupshape,
+                # placing its descendants in THIS group's local space.  Now that
+                # the child's own bounds have been converted to the parent's
+                # space, remap all its descendants with the same transform.
+                child._remap_descendants(old_bounds, shape_bounds)
+            data_idx += 1
+
+    @staticmethod
+    def _remap_bounds(
+        bounds: dict[str, Length],
+        old_origin: dict[str, Length],
+        new_origin: dict[str, Length],
+    ) -> dict[str, Length]:
+        """Affine-remap *bounds* from *old_origin* space to *new_origin* space."""
+        ol, ot = int(old_origin["left"]), int(old_origin["top"])
+        ow, oh = int(old_origin["width"]), int(old_origin["height"])
+        nl, nt = int(new_origin["left"]), int(new_origin["top"])
+        nw, nh = int(new_origin["width"]), int(new_origin["height"])
+        if ow == 0 or oh == 0:
+            return bounds
+        bl, bt = int(bounds["left"]), int(bounds["top"])
+        bw, bh = int(bounds["width"]), int(bounds["height"])
+        return {
+            "left": Length(int((bl - ol) * nw / ow + nl)),
+            "top": Length(int((bt - ot) * nh / oh + nt)),
+            "width": Length(int(bw * nw / ow)),
+            "height": Length(int(bh * nh / oh)),
+        }
+
+    def _remap_descendants(
+        self,
+        old_bounds: dict[str, Length],
+        new_bounds: dict[str, Length],
+    ) -> None:
+        """Recursively remap all descendants from old coordinate space to new."""
+        for child in self.data:
+            old_child = dict(child.style["shape_bounds"])
+            child.style["shape_bounds"] = self._remap_bounds(
+                child.style["shape_bounds"], old_bounds, new_bounds
+            )
+            if isinstance(child, GroupShape):
+                child._remap_descendants(
+                    old_child, child.style["shape_bounds"]
+                )
 
     def build(self, slide: PPTXSlide) -> PPTXSlide:
         """
