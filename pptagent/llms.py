@@ -208,12 +208,13 @@ class LLM:
         if images is not None:
             for image in images:
                 try:
+                    mime = mimetypes.guess_type(image)[0] or "image/png"
                     with open(image, "rb") as f:
                         message[0]["content"].append(
                             {
                                 "type": "image_url",
                                 "image_url": {
-                                    "url": f"data:image/jpeg;base64,{base64.b64encode(f.read()).decode('utf-8')}"
+                                    "url": f"data:{mime};base64,{base64.b64encode(f.read()).decode('utf-8')}"
                                 },
                             }
                         )
