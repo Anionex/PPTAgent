@@ -32,12 +32,13 @@ class Element(BaseModel):
 
     def get_schema(self):
         schema = f"Element: {self.name}\n"
-        schema += f"\type: {self.type}\n"
+        schema += f"\ttype: {self.type}\n"
         if self.type == "text":
             schema += f"\tsuggested_characters: {self.suggested_characters}\n"
+            schema += f"\texample: {self.data}\n"
         if self.variable_length is not None:
             schema += f"\tThe length of the element can vary between {self.variable_length[0]} and {self.variable_length[1]}\n"
-        schema += f"\tThe default quantity of the element is {len(self.data)}\n"
+        schema += f"\tdefault_quantity: {len(self.data)}\n"
         return schema
 
 
