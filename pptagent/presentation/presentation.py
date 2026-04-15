@@ -92,11 +92,16 @@ def _autofit_slide_text(pptx_slide: PPTXSlide) -> None:
     Only operates on shapes where at least one run has an explicit font size.
     Shapes with fully inherited sizes are skipped (we cannot know the true
     rendered size without theme resolution).
+    Shapes with SHAPE_TO_FIT_TEXT auto_size are skipped — PowerPoint resizes
+    the shape to fit the text, so shrinking the font is counterproductive.
     """
+    from pptagent_pptx.enum.text import MSO_AUTO_SIZE
     from pptagent_pptx.util import Pt
 
     for shape in _iter_text_shapes(pptx_slide.shapes):
         tf = shape.text_frame
+        if tf.auto_size == MSO_AUTO_SIZE.SHAPE_TO_FIT_TEXT:
+            continue
         width_pt = shape.width / _EMU_PER_PT
         height_pt = shape.height / _EMU_PER_PT
         if width_pt <= 0 or height_pt <= 0:
