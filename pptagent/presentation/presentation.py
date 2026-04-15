@@ -58,40 +58,23 @@ def _is_promotable_textbox(shape) -> bool:
     return len(text) > 4
 
 
-def _promote_layout_text_in_prs(prs) -> None:
-    """Move TEXT_BOX shapes with text from layouts/masters onto each slide.
+def _strip_layout_textboxes(prs) -> None:
+    """Remove TEXT_BOX shapes with text from layouts/masters.
 
-    This makes layout-level text (e.g. section headers, watermarks) visible
-    to pptagent's parsing pipeline and editable during generation.  The
-    originals are removed from layouts/masters to prevent duplication.
-    Only promotes TEXT_BOXes with >4 chars to skip decorative numbers/labels.
+    Layout/master TEXT_BOXes (section headers, watermarks) would render on
+    top of slide content and cause visual overlap.  Removing them ensures
+    only the slide's own shapes are visible.  Short decorative text (≤4
+    chars, e.g. "01") is kept as background watermarks.
     """
-    layout_elements: dict[str, list[etree._Element]] = {}
-    master_elements: list[etree._Element] = []
-
     for master in prs.slide_masters:
         for shape in list(master.shapes):
             if _is_promotable_textbox(shape):
-                master_elements.append(deepcopy(shape._element))
                 shape._element.getparent().remove(shape._element)
 
         for layout in master.slide_layouts:
-            name = layout.name if layout.name else f"_unnamed_{id(layout)}"
             for shape in list(layout.shapes):
                 if _is_promotable_textbox(shape):
-                    layout_elements.setdefault(name, []).append(
-                        deepcopy(shape._element)
-                    )
                     shape._element.getparent().remove(shape._element)
-
-    for slide in prs.slides:
-        layout_name = (
-            slide.slide_layout.name
-            if slide.slide_layout.name
-            else f"_unnamed_{id(slide.slide_layout)}"
-        )
-        for el in layout_elements.get(layout_name, []) + master_elements:
-            slide.shapes._spTree.append(deepcopy(el))
 
 
 def _iter_text_shapes(shapes):
@@ -474,7 +457,7 @@ class Presentation:
 
         # Move TEXT_BOX shapes from layouts/masters onto slides so they
         # become visible to the parsing pipeline and editable at generation.
-        _promote_layout_text_in_prs(prs)
+        _strip_layout_textboxes(prs)
 
         for slide in prs.slides:
             # Skip slides that won't be printed to PDF, as they are invisible
@@ -524,7 +507,7 @@ class Presentation:
             file_path (str): The path to save the presentation to.
             layout_only (bool): Whether to save only the layout.
         """
-        _promote_layout_text_in_prs(self.prs)
+        _strip_layout_textboxes(self.prs)
         self.clear_slides()
         for slide in self.slides:
             if layout_only:
