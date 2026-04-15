@@ -86,22 +86,38 @@ def _iter_text_shapes(shapes):
             yield shape
 
 
+def _get_line_spacing(para) -> float:
+    """Return the line spacing multiplier for a paragraph.
+
+    Reads ``<a:lnSpc><a:spcPct>`` from the paragraph XML.  Falls back to
+    1.2 (PowerPoint's default single-spacing visual height).
+    """
+    _NS = {"a": "http://schemas.openxmlformats.org/drawingml/2006/main"}
+    pPr = para._element.find("a:pPr", _NS)
+    if pPr is None:
+        return 1.2
+    lnSpc = pPr.find("a:lnSpc", _NS)
+    if lnSpc is None:
+        return 1.2
+    spcPct = lnSpc.find("a:spcPct", _NS)
+    if spcPct is not None:
+        val = spcPct.get("val")
+        if val is not None:
+            return int(val) / 100_000  # 200000 → 2.0
+    return 1.2
+
+
 def _autofit_slide_text(pptx_slide: PPTXSlide) -> None:
     """Shrink font sizes on a built slide so text fits within shape bounds.
 
-    Only operates on shapes where at least one run has an explicit font size.
-    Shapes with fully inherited sizes are skipped (we cannot know the true
-    rendered size without theme resolution).
-    Shapes with SHAPE_TO_FIT_TEXT auto_size are skipped — PowerPoint resizes
-    the shape to fit the text, so shrinking the font is counterproductive.
+    After processing, sets auto_size to NONE on all adjusted shapes so
+    PowerPoint does not resize them when opening the file.
     """
     from pptagent_pptx.enum.text import MSO_AUTO_SIZE
     from pptagent_pptx.util import Pt
 
     for shape in _iter_text_shapes(pptx_slide.shapes):
         tf = shape.text_frame
-        if tf.auto_size == MSO_AUTO_SIZE.SHAPE_TO_FIT_TEXT:
-            continue
         width_pt = shape.width / _EMU_PER_PT
         height_pt = shape.height / _EMU_PER_PT
         if width_pt <= 0 or height_pt <= 0:
@@ -130,12 +146,13 @@ def _autofit_slide_text(pptx_slide: PPTXSlide) -> None:
         fallback = max(explicit_sizes)
         para_fonts = [s if s is not None else fallback for s in para_fonts]
 
-        # Estimate required height
+        # Estimate required height using actual line spacing
         required_height = 0.0
         for para, para_font in zip(tf.paragraphs, para_fonts):
+            line_spacing = _get_line_spacing(para)
             text = para.text
             if not text:
-                required_height += para_font * 1.3
+                required_height += para_font * line_spacing
                 continue
             cjk = sum(
                 1 for c in text
@@ -143,11 +160,14 @@ def _autofit_slide_text(pptx_slide: PPTXSlide) -> None:
                 or "\u3040" <= c <= "\u30ff"
                 or "\uac00" <= c <= "\ud7af"
             )
-            char_width = (cjk * 1.0 + (len(text) - cjk) * 0.55) * para_font
+            char_width = (cjk * 1.0 + (len(text) - cjk) * 0.50) * para_font
             lines = max(1, -(-int(char_width) // int(width_pt)))
-            required_height += lines * para_font * 1.3
+            required_height += lines * para_font * line_spacing
 
         if required_height <= height_pt:
+            # Lock shape size so PowerPoint doesn't resize it
+            if tf.auto_size == MSO_AUTO_SIZE.SHAPE_TO_FIT_TEXT:
+                tf.auto_size = MSO_AUTO_SIZE.NONE
             continue
 
         scale = max(0.5, height_pt / required_height)
@@ -157,6 +177,10 @@ def _autofit_slide_text(pptx_slide: PPTXSlide) -> None:
                 sz = _get_explicit_font_size_pt(run, para, tf)
                 original = sz if sz is not None else para_font
                 run.font.size = Pt(max(_MIN_FONT_PT, original * scale))
+
+        # Lock shape size after adjusting fonts
+        if tf.auto_size == MSO_AUTO_SIZE.SHAPE_TO_FIT_TEXT:
+            tf.auto_size = MSO_AUTO_SIZE.NONE
 
 
 @dataclass
