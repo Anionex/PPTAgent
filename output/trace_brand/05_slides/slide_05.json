@@ -1,0 +1,281 @@
+{
+  "outline_item": {
+    "purpose": "Examine the era of expert systems, the causes of two AI winters, and the significance of Deep Blue's victory, illustrating the cycles of hype and disillusionment in early AI research.",
+    "topic": "AI Winters and Expert Systems",
+    "indexes": [
+      {
+        "section": "寒冬与复苏：专家系统时代 (1970-1997)",
+        "subsections": [
+          "AI研究的理想与现实",
+          "两次AI寒冬的成因分析",
+          "深蓝获胜的历史意义"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png"
+    ]
+  },
+  "retrieve": {
+    "header": "Current Slide: Examine the era of expert systems, the causes of two AI winters, and the significance of Deep Blue's victory, illustrating the cycles of hype and disillusionment in early AI research.\nThis is the 6 slide of the presentation.\n",
+    "content_source": "Paragraph: AI研究的理想与现实\nContent: **AI研究经历了理想与现实的剧烈碰撞，但专家系统的短暂辉煌证明了AI的实用价值**\nParagraph: 两次AI寒冬的成因分析\nContent: **第一次寒冬 (1974-1980)**  \n- **技术瓶颈**：计算能力不足，无法处理现实世界复杂问题\n- **资金断裂**：DARPA大幅削减AI研究预算\n- **理论局限**：组合爆炸问题无法解决\n\n**第二次寒冬 (1987-1997)**  \n- **专家系统的失败**：维护成本高昂，知识获取困难\n- **硬件市场崩溃**：LISP机器被通用计算机取代\n- **过度承诺**：第五代计算机计划未达预期\nParagraph: 深蓝获胜的历史意义\nContent: IBM Deep Blue的胜利标志着**暴力搜索+启发式评估**范式的成功，重新点燃公众对AI的信心\n",
+    "images": [
+      "<image>data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png</image>: Chart: Line chart illustrating AI research funding and interest trends from 1950 to 2025. It tracks a \"Relative Interest Index,\" highlighting two \"AI Winter\" periods (1974-1980 and 1987-1997) of decline followed by a significant surge toward peak levels in the 2020s."
+    ]
+  },
+  "select_layout_result": {
+    "selected_layout_title": "Central image with two text overlays on the left and three vertical data-driven sections on the right:image",
+    "header_passed_to_editor": "Current Slide: Examine the era of expert systems, the causes of two AI winters, and the significance of Deep Blue's victory, illustrating the cycles of hype and disillusionment in early AI research.\nThis is the 6 slide of the presentation.\n",
+    "slide_content_passed_to_editor": "[\n  {\n    \"pointName\": \"AI研究的理想与现实\",\n    \"paragraphForm\": \"AI研究经历了理想与现实的剧烈碰撞，专家系统的短暂辉煌证明了AI的实用价值，但整体发展历程充满了起伏与挑战。\",\n    \"bulletForm\": [\n      \"AI研究经历了理想与现实的剧烈碰撞。\",\n      \"专家系统的短暂辉煌证明了AI的实用价值。\"\n    ]\n  },\n  {\n    \"pointName\": \"两次AI寒冬的成因分析\",\n    \"paragraphForm\": \"第一次寒冬（1974-1980）由计算能力不足、DARPA削减预算及组合爆炸等理论局限共同导致。第二次寒冬（1987-1997）则源于专家系统维护成本高昂、LISP硬件市场崩溃以及第五代计算机计划的过度承诺与失败。\",\n    \"bulletForm\": [\n      \"第一次寒冬：计算能力不足，无法处理复杂问题。\",\n      \"第一次寒冬：DARPA大幅削减AI研究预算。\",\n      \"第一次寒冬：组合爆炸问题无法解决。\",\n      \"第二次寒冬：专家系统维护成本高、知识获取困难。\",\n      \"第二次寒冬：LISP机器被通用计算机取代。\",\n      \"第二次寒冬：第五代计算机计划未达预期。\"\n    ]\n  },\n  {\n    \"pointName\": \"深蓝获胜的历史意义\",\n    \"paragraphForm\": \"IBM深蓝战胜国际象棋冠军，标志着\\\"暴力搜索+启发式评估\\\"范式的成功，重新点燃了公众对AI发展的信心与期待。\",\n    \"bulletForm\": [\n      \"深蓝胜利标志着暴力搜索+启发式评估范式的成功。\",\n      \"重新点燃公众对AI的信心。\",\n      \"具有重要的历史里程碑意义。\"\n    ]\n  }\n]\nImages:\n<image>data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png</image>: Chart: Line chart illustrating AI research funding and interest trends from 1950 to 2025. It tracks a \"Relative Interest Index,\" highlighting two \"AI Winter\" periods (1974-1980 and 1987-1997) of decline followed by a significant surge toward peak levels in the 2020s."
+  },
+  "generate_content": {
+    "layout_title": "opening",
+    "template_id": 1,
+    "command_list": [
+      {
+        "element": "background graphic",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "decorative background text",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "BUSINESS"
+        ],
+        "new_data": [
+          "AI HISTORY"
+        ]
+      },
+      {
+        "element": "subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "企业品牌宣传"
+        ],
+        "new_data": [
+          "发展历程"
+        ]
+      },
+      {
+        "element": "placeholder paragraphs",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "new_data": [
+          "从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。",
+          "探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。"
+        ]
+      },
+      {
+        "element": "main title",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "科技新品上市宣传介绍——"
+        ],
+        "new_data": [
+          "人工智能发展简史"
+        ]
+      },
+      {
+        "element": "presenter/brand name",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "第一PPT"
+        ],
+        "new_data": [
+          "AI研究院"
+        ]
+      },
+      {
+        "element": "secondary subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "品牌宣传介绍"
+        ],
+        "new_data": [
+          "Apr 19"
+        ]
+      }
+    ],
+    "content_schema": "Element: background graphic\n\ttype: image\n\tdefault_quantity: 1\n\nElement: decorative background text\n\ttype: text\n\tsuggested_characters: 8\n\texample: ['BUSINESS']\n\tdefault_quantity: 1\n\nElement: subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['企业品牌宣传']\n\tdefault_quantity: 1\n\nElement: placeholder paragraphs\n\ttype: text\n\tsuggested_characters: 66\n\texample: ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.']\n\tdefault_quantity: 2\n\nElement: main title\n\ttype: text\n\tsuggested_characters: 12\n\texample: ['科技新品上市宣传介绍——']\n\tdefault_quantity: 1\n\nElement: presenter/brand name\n\ttype: text\n\tsuggested_characters: 5\n\texample: ['第一PPT']\n\tdefault_quantity: 1\n\nElement: secondary subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['品牌宣传介绍']\n\tdefault_quantity: 1\n"
+  },
+  "edit_slide": {
+    "template_id": 1,
+    "api_history": [
+      [
+        "api_call_correct",
+        1,
+        "```python\n# ('background graphic', 'image', 'quantity_change: -1', ['Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background.'], [])\ndel_image(0)\n\n# ('decorative background text', 'text', 'quantity_change: 0', ['BUSINESS'], ['AI HISTORY'])\nreplace_paragraph(3, 0, \"AI HISTORY\")\n\n# ('subtitle', 'text', 'quantity_change: 0', ['企业品牌宣传'], ['发展历程'])\nreplace_paragraph(4, 0, \"发展历程\")\n\n# ('placeholder paragraphs', 'text', 'quantity_change: 0', ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.'], ['从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。', '探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。'])\nreplace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")\nreplace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")\n\n# ('main title', 'text', 'quantity_change: 0', ['科技新品上市宣传介绍——'], ['人工智能发展简史'])\nreplace_paragraph(7, 0, \"人工智能发展简史\")\n\n# ('presenter/brand name', 'text', 'quantity_change: 0', ['第一PPT'], ['AI研究院'])\nreplace_paragraph(10, 0, \"AI研究院\")\n\n# ('secondary subtitle', 'text', 'quantity_change: 0', ['品牌宣传介绍'], ['Apr 19'])\nreplace_paragraph(11, 0, \"Apr 19\")\n```"
+      ]
+    ],
+    "code_history": [
+      "['code_run_correct', 'del_image(0)', None]",
+      "['code_run_correct', 'replace_paragraph(3, 0, \"AI HISTORY\")', None]",
+      "['code_run_correct', 'replace_paragraph(4, 0, \"发展历程\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")', None]",
+      "['code_run_correct', 'replace_paragraph(7, 0, \"人工智能发展简史\")', None]",
+      "['code_run_correct', 'replace_paragraph(10, 0, \"AI研究院\")', None]",
+      "['code_run_correct', 'replace_paragraph(11, 0, \"Apr 19\")', None]"
+    ],
+    "command_history": [
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "decorative background text",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "placeholder paragraphs",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "main title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "presenter/brand name",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "secondary subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "element": "d",
+          "type": "e",
+          "quantity_change": "l"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "outline_item": {
+    "purpose": "Describe the paradigm shift to data-driven machine learning, key technical breakthroughs, and landmark applications that redefined AI research between 1997 and 2012.",
+    "topic": "Rise of Machine Learning",
+    "indexes": [
+      {
+        "section": "机器学习崛起：数据驱动的范式转移 (1997-2012)",
+        "subsections": [
+          "AI研究范式革命",
+          "关键技术突破",
+          "机器学习标志性应用"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/technology_evolution.png"
+    ]
+  },
+  "retrieve": {
+    "header": "Current Slide: Describe the paradigm shift to data-driven machine learning, key technical breakthroughs, and landmark applications that redefined AI research between 1997 and 2012.\nThis is the 8 slide of the presentation.\n",
+    "content_source": "Paragraph: AI研究范式革命\nContent: **从手工编码规则到让机器从数据中学习，AI研究完成了根本性的范式革命**\nParagraph: 关键技术突破\nContent: **支持向量机 (SVM) - 1995**  \n- **提出者**：Vladimir Vapnik\n- **核心优势**：高维空间中的有效分类，强大的泛化能力\n- **应用领域**：文本分类、图像识别、生物信息学\n\n**随机森林 (Random Forest) - 2001**  \n- **提出者**：Leo Breiman\n- **创新点**：集成学习，降低过拟合风险\n- **影响**：成为工业界最常用的机器学习算法之一\n\n**深度信念网络 (DBN) - 2006**  \n- **提出者**：Geoffrey Hinton\n- **突破**：逐层预训练解决深层网络训练难题\n- **意义**：为深度学习复兴铺平道路\nParagraph: 机器学习标志性应用\nContent: **Netflix推荐系统 (2006-2009)**：协同过滤算法的大规模商业成功  \n**IBM Watson (2011)**：在Jeopardy!节目中击败人类冠军，展示自然语言理解能力\n",
+    "images": [
+      "<image>data/test_pptagent/ai_history_ppt/images/technology_evolution.png</image>: Chart: Timeline titled \"Evolution of AI Technologies\" illustrating the development of key AI paradigms from 1950 to 2025. Color-coded horizontal bars represent various fields, including Symbolic AI, Neural Networks, Machine Learning, Deep Learning, and Transformers & LLMs, showing their respective start years and durations."
+    ]
+  },
+  "select_layout_result": {
+    "selected_layout_title": "Large rectangular graphic with three icon-led text points to its right:image",
+    "header_passed_to_editor": "Current Slide: Describe the paradigm shift to data-driven machine learning, key technical breakthroughs, and landmark applications that redefined AI research between 1997 and 2012.\nThis is the 8 slide of the presentation.\n",
+    "slide_content_passed_to_editor": "[\n  {\n    \"pointName\": \"AI研究范式革命\",\n    \"paragraphForm\": \"AI研究完成了根本性的范式革命，从手工编码规则转变为让机器从数据中自动学习，这一转变深刻改变了人工智能的发展方向与研究方法。\",\n    \"bulletForm\": [\n      \"AI研究经历了根本性的范式革命。\",\n      \"从手工编码规则转向数据驱动学习。\",\n      \"机器自动从数据中学习成为核心方法。\"\n    ]\n  },\n  {\n    \"pointName\": \"关键技术突破\",\n    \"paragraphForm\": \"1995年Vapnik提出支持向量机，擅长高维分类与泛化；2001年Breiman提出随机森林，通过集成学习降低过拟合，成为工业界主流算法；2006年Hinton提出深度信念网络，通过逐层预训练解决深层网络训练难题，为深度学习复兴奠定基础。\",\n    \"bulletForm\": [\n      \"SVM（1995）：高维分类，强泛化能力。\",\n      \"SVM应用于文本分类、图像识别等领域。\",\n      \"随机森林（2001）：集成学习，降低过拟合。\",\n      \"随机森林成为工业界最常用算法之一。\",\n      \"深度信念网络（2006）：逐层预训练突破训练难题。\",\n      \"深度信念网络为深度学习复兴铺平道路。\"\n    ]\n  },\n  {\n    \"pointName\": \"机器学习标志性应用\",\n    \"paragraphForm\": \"Netflix推荐系统（2006-2009）实现了协同过滤算法的大规模商业成功；IBM Watson（2011）在Jeopardy!节目中击败人类冠军，充分展示了自然语言理解的强大能力。\",\n    \"bulletForm\": [\n      \"Netflix推荐系统实现协同过滤的商业成功。\",\n      \"Netflix系统运行周期为2006至2009年。\",\n      \"IBM Watson于2011年参加Jeopardy!节目。\",\n      \"IBM Watson击败人类冠军，展示NLP能力。\"\n    ]\n  }\n]\nImages:\n<image>data/test_pptagent/ai_history_ppt/images/technology_evolution.png</image>: Chart: Timeline titled \"Evolution of AI Technologies\" illustrating the development of key AI paradigms from 1950 to 2025. Color-coded horizontal bars represent various fields, including Symbolic AI, Neural Networks, Machine Learning, Deep Learning, and Transformers & LLMs, showing their respective start years and durations."
+  },
+  "generate_content": {
+    "layout_title": "opening",
+    "template_id": 1,
+    "command_list": [
+      {
+        "element": "background graphic",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "decorative background text",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "BUSINESS"
+        ],
+        "new_data": [
+          "AI HISTORY"
+        ]
+      },
+      {
+        "element": "subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "企业品牌宣传"
+        ],
+        "new_data": [
+          "发展历程"
+        ]
+      },
+      {
+        "element": "placeholder paragraphs",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "new_data": [
+          "从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。",
+          "探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。"
+        ]
+      },
+      {
+        "element": "main title",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "科技新品上市宣传介绍——"
+        ],
+        "new_data": [
+          "人工智能发展简史"
+        ]
+      },
+      {
+        "element": "presenter/brand name",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "第一PPT"
+        ],
+        "new_data": [
+          "AI研究院"
+        ]
+      },
+      {
+        "element": "secondary subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "品牌宣传介绍"
+        ],
+        "new_data": [
+          "Apr 19"
+        ]
+      }
+    ],
+    "content_schema": "Element: background graphic\n\ttype: image\n\tdefault_quantity: 1\n\nElement: decorative background text\n\ttype: text\n\tsuggested_characters: 8\n\texample: ['BUSINESS']\n\tdefault_quantity: 1\n\nElement: subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['企业品牌宣传']\n\tdefault_quantity: 1\n\nElement: placeholder paragraphs\n\ttype: text\n\tsuggested_characters: 66\n\texample: ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.']\n\tdefault_quantity: 2\n\nElement: main title\n\ttype: text\n\tsuggested_characters: 12\n\texample: ['科技新品上市宣传介绍——']\n\tdefault_quantity: 1\n\nElement: presenter/brand name\n\ttype: text\n\tsuggested_characters: 5\n\texample: ['第一PPT']\n\tdefault_quantity: 1\n\nElement: secondary subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['品牌宣传介绍']\n\tdefault_quantity: 1\n"
+  },
+  "edit_slide": {
+    "template_id": 1,
+    "api_history": [
+      [
+        "api_call_correct",
+        1,
+        "```python\n# ('background graphic', 'image', 'quantity_change: -1', ['Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background.'], [])\ndel_image(0)\n\n# ('decorative background text', 'text', 'quantity_change: 0', ['BUSINESS'], ['AI HISTORY'])\nreplace_paragraph(3, 0, \"AI HISTORY\")\n\n# ('subtitle', 'text', 'quantity_change: 0', ['企业品牌宣传'], ['发展历程'])\nreplace_paragraph(4, 0, \"发展历程\")\n\n# ('placeholder paragraphs', 'text', 'quantity_change: 0', ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.'], ['从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。', '探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。'])\nreplace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")\nreplace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")\n\n# ('main title', 'text', 'quantity_change: 0', ['科技新品上市宣传介绍——'], ['人工智能发展简史'])\nreplace_paragraph(7, 0, \"人工智能发展简史\")\n\n# ('presenter/brand name', 'text', 'quantity_change: 0', ['第一PPT'], ['AI研究院'])\nreplace_paragraph(10, 0, \"AI研究院\")\n\n# ('secondary subtitle', 'text', 'quantity_change: 0', ['品牌宣传介绍'], ['Apr 19'])\nreplace_paragraph(11, 0, \"Apr 19\")\n```"
+      ]
+    ],
+    "code_history": [
+      "['code_run_correct', 'del_image(0)', None]",
+      "['code_run_correct', 'replace_paragraph(3, 0, \"AI HISTORY\")', None]",
+      "['code_run_correct', 'replace_paragraph(4, 0, \"发展历程\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")', None]",
+      "['code_run_correct', 'replace_paragraph(7, 0, \"人工智能发展简史\")', None]",
+      "['code_run_correct', 'replace_paragraph(10, 0, \"AI研究院\")', None]",
+      "['code_run_correct', 'replace_paragraph(11, 0, \"Apr 19\")', None]"
+    ],
+    "command_history": [
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "decorative background text",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "placeholder paragraphs",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "main title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "presenter/brand name",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "secondary subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "element": "d",
+          "type": "e",
+          "quantity_change": "l"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ]
+    ]
+  }
+}

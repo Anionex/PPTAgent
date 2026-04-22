@@ -1,0 +1,30 @@
+{
+  "outline_item": {
+    "purpose": "Present the era of large language models from 2017 onwards, focusing on the Transformer architecture, exponential model growth, emergent capabilities, and future outlook toward general intelligence.",
+    "topic": "Large Language Models and Future",
+    "indexes": [
+      {
+        "section": "大语言模型时代：通用智能的黎明 (2017-2026)",
+        "subsections": [
+          "时代背景与核心架构",
+          "2017：Transformer革命",
+          "模型规模的指数级增长",
+          "涌现能力",
+          "发展启示与未来展望"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/transformer_architecture.png",
+      "data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png"
+    ]
+  },
+  "retrieve": {
+    "header": "Current Slide: Present the era of large language models from 2017 onwards, focusing on the Transformer architecture, exponential model growth, emergent capabilities, and future outlook toward general intelligence.\nThis is the 7 slide of the presentation.\n",
+    "content_source": "Paragraph: 时代背景与核心架构\nContent: **Transformer架构的诞生开启了AI的新纪元，大语言模型展现出令人震惊的涌现能力**\nParagraph: 2017：Transformer革命\nContent: **\"Attention is All You Need\" (Vaswani et al.)**  \n- **核心创新**：自注意力机制取代RNN/LSTM\n- **优势**：并行化训练、长距离依赖建模\n- **影响**：成为现代NLP的基础架构\nParagraph: 模型规模的指数级增长\nContent: **关键里程碑**  \n- **2018 BERT**：0.34B参数，双向预训练\n- **2019 GPT-2**：1.5B参数，\"too dangerous to release\"\n- **2020 GPT-3**：175B参数，涌现few-shot学习能力\n- **2022 ChatGPT**：基于GPT-3.5，RLHF对齐训练\n- **2023 GPT-4**：多模态能力，通过美国律师资格考试\nParagraph: 涌现能力\nContent: 当模型规模突破临界点，出现训练时未明确优化的能力：\n- **思维链推理 (Chain-of-Thought)**：逐步分解复杂问题\n- **上下文学习 (In-Context Learning)**：无需微调即可适应新任务\n- **指令遵循 (Instruction Following)**：理解并执行自然语言指令\nParagraph: 发展启示与未来展望\nContent: **技术演进的三大驱动力**  \n1. **计算能力**：从ENIAC到GPU集群，算力增长百万倍\n2. **数据规模**：从手工构建到互联网级数据集\n3. **算法创新**：从符号推理到深度学习，从监督学习到自监督学习\n\n**两次寒冬的历史教训**  \n- 避免过度承诺，技术成熟度需要时间积累\n- 基础研究与商业应用需平衡发展\n- 跨学科合作是突破瓶颈的关键\n\n**未来前沿方向**  \n- **多模态大模型**：统一处理文本、图像、音频、视频\n- **具身智能**：将AI与物理世界深度融合\n- **神经符号结合**：融合深度学习与符号推理的优势\n- **AI对齐与安全**：确保AI目标与人类价值观一致\n\n**2026年的我们站在历史的拐点**：AI不再是未来的承诺，而是现在的现实。下一个七十年，我们将见证智能的真正觉醒。\n",
+    "images": [
+      "<image>data/test_pptagent/ai_history_ppt/images/transformer_architecture.png</image>: Diagram: Flowchart illustrating the 2017 Transformer architecture sequence: input layer, token embedding, multi-head attention, feed-forward network, layer normalization, and output layer. It emphasizes the self-attention mechanism as the key innovation from the \"Attention is All You Need\" paper, which revolutionized natural language processing.",
+      "<image>data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png</image>: Chart: Two panels illustrating AI progress. A bar chart (left) shows exponential parameter growth from BERT to GPT-4 Turbo. A line chart (right) tracks AI capability milestones from 1958 to 2022, showing significant performance acceleration since the early 2010s."
+    ]
+  }
+}

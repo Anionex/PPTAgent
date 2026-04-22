@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-04-19T18:12:54.390231",
+  "markdown": "data/test_pptagent/ai_history_ppt/ai_history_presentation.md",
+  "template": "xunfei",
+  "num_slides_requested": 5,
+  "num_slides_generated": 5,
+  "output": "output/ai_history_traced.pptx",
+  "models": {
+    "parse": "gemini-3-flash-preview",
+    "generate": "claude-sonnet-4-6"
+  }
+}

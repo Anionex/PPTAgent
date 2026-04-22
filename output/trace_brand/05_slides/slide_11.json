@@ -1,0 +1,284 @@
+{
+  "outline_item": {
+    "purpose": "Explore the dawn of the Large Language Model era, focusing on the Transformer architecture, exponential model growth, emergent capabilities, and future outlook for general AI.",
+    "topic": "Large Language Models and Future Outlook",
+    "indexes": [
+      {
+        "section": "大语言模型时代：通用智能的黎明 (2017-2026)",
+        "subsections": [
+          "2017：Transformer革命",
+          "模型规模的指数级增长",
+          "大模型的涌现能力",
+          "发展启示与未来展望"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/transformer_architecture.png",
+      "data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png"
+    ]
+  },
+  "retrieve": {
+    "header": "Current Slide: Explore the dawn of the Large Language Model era, focusing on the Transformer architecture, exponential model growth, emergent capabilities, and future outlook for general AI.\nThis is the 12 slide of the presentation.\n",
+    "content_source": "Paragraph: 2017：Transformer革命\nContent: **\"Attention is All You Need\" (Vaswani et al.)**  \n- **核心创新**：自注意力机制取代RNN/LSTM\n- **优势**：并行化训练、长距离依赖建模\n- **影响**：成为现代NLP的基础架构\nParagraph: 模型规模的指数级增长\nContent: **关键里程碑**  \n- **2018 BERT**：0.34B参数，双向预训练\n- **2019 GPT-2**：1.5B参数，\"too dangerous to release\"\n- **2020 GPT-3**：175B参数，涌现few-shot学习能力\n- **2022 ChatGPT**：基于GPT-3.5，RLHF对齐训练\n- **2023 GPT-4**：多模态能力，通过美国律师资格考试\nParagraph: 大模型的涌现能力\nContent: 当模型规模突破临界点，出现训练时未明确优化的能力：\n- **思维链推理 (Chain-of-Thought)**：逐步分解复杂问题\n- **上下文学习 (In-Context Learning)**：无需微调即可适应新任务\n- **指令遵循 (Instruction Following)**：理解并执行自然语言指令\nParagraph: 发展启示与未来展望\nContent: **技术演进的三大驱动力**  \n1. **计算能力**：从ENIAC到GPU集群，算力增长百万倍\n2. **数据规模**：从手工构建到互联网级数据集\n3. **算法创新**：从符号推理到深度学习，从监督学习到自监督学习\n\n**两次寒冬的历史教训**  \n- 避免过度承诺，技术成熟度需要时间积累\n- 基础研究与商业应用需平衡发展\n- 跨学科合作是突破瓶颈的关键\n\n**未来前沿方向**  \n- **多模态大模型**：统一处理文本、图像、音频、视频\n- **具身智能**：将AI与物理世界深度融合\n- **神经符号结合**：融合深度学习与符号推理的优势\n- **AI对齐与安全**：确保AI目标与人类价值观一致\n\n**2026年的我们站在历史的拐点**：AI不再是未来的承诺，而是现在的现实。下一个七十年，我们将见证智能的真正觉醒。\n",
+    "images": [
+      "<image>data/test_pptagent/ai_history_ppt/images/transformer_architecture.png</image>: Diagram: A flowchart illustrating the 2017 Transformer architecture sequence: Input Layer, Token Embedding, Multi-Head Attention, Feed Forward Network, Layer Normalization, and Output Layer. It highlights the \"Self-Attention Mechanism\" as the key innovation from the \"Attention is All You Need\" paper.",
+      "<image>data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png</image>: Chart: Two charts illustrating AI evolution. A bar chart tracks the exponential growth of language model parameters from BERT to GPT-4 Turbo. A line chart maps AI capability milestones over time, reaching human parity in reading and speech, and passing the Turing Test by 2022."
+    ]
+  },
+  "select_layout_result": {
+    "selected_layout_title": "Two-column split layout with hierarchical text and two sub-points on the left, paired with a large image on the right:image",
+    "header_passed_to_editor": "Current Slide: Explore the dawn of the Large Language Model era, focusing on the Transformer architecture, exponential model growth, emergent capabilities, and future outlook for general AI.\nThis is the 12 slide of the presentation.\n",
+    "slide_content_passed_to_editor": "[\n  {\n    \"pointName\": \"Transformer革命\",\n    \"paragraphForm\": \"2017年，Vaswani等人提出的\\\"Attention is All You Need\\\"以自注意力机制取代RNN/LSTM，实现了并行化训练与长距离依赖建模，成为现代NLP的基础架构。\",\n    \"bulletForm\": [\n      \"2017年提出Transformer架构。\",\n      \"自注意力机制取代RNN/LSTM。\",\n      \"支持并行化训练，提升效率。\",\n      \"擅长长距离依赖建模。\",\n      \"成为现代NLP的基础架构。\"\n    ]\n  },\n  {\n    \"pointName\": \"模型规模的指数级增长\",\n    \"paragraphForm\": \"从2018年BERT的0.34B参数到2023年GPT-4的多模态能力，大模型规模呈指数级增长。GPT-3以175B参数展现few-shot学习能力，ChatGPT引入RLHF对齐训练，GPT-4更通过美国律师资格考试。\",\n    \"bulletForm\": [\n      \"2018年BERT：0.34B参数，双向预训练。\",\n      \"2019年GPT-2：1.5B参数，引发安全争议。\",\n      \"2020年GPT-3：175B参数，涌现few-shot能力。\",\n      \"2022年ChatGPT：基于GPT-3.5，引入RLHF。\",\n      \"2023年GPT-4：多模态，通过律师资格考试。\"\n    ]\n  },\n  {\n    \"pointName\": \"大模型的涌现能力\",\n    \"paragraphForm\": \"当模型规模突破临界点，会出现训练时未明确优化的能力，包括思维链推理（逐步分解复杂问题）、上下文学习（无需微调适应新任务）以及指令遵循（理解并执行自然语言指令）。\",\n    \"bulletForm\": [\n      \"规模突破临界点后出现涌现能力。\",\n      \"思维链推理：逐步分解复杂问题。\",\n      \"上下文学习：无需微调适应新任务。\",\n      \"指令遵循：理解并执行自然语言指令。\",\n      \"涌现能力并非训练时明确优化的目标。\"\n    ]\n  },\n  {\n    \"pointName\": \"发展启示与未来展望\",\n    \"paragraphForm\": \"AI发展由算力、数据与算法三大驱动力推动，两次寒冬警示需避免过度承诺、平衡基础研究与商业应用。未来前沿方向包括多模态大模型、具身智能、神经符号结合及AI对齐与安全，AI正从未来承诺走向现实。\",\n    \"bulletForm\": [\n      \"三大驱动力：算力、数据规模、算法创新。\",\n      \"历史教训：避免过度承诺，重视跨学科合作。\",\n      \"未来方向：多模态大模型统一处理多类型数据。\",\n      \"具身智能：AI与物理世界深度融合。\",\n      \"神经符号结合：融合深度学习与符号推理。\",\n      \"AI对齐与安全：确保目标与人类价值观一致。\"\n    ]\n  }\n]\nImages:\n<image>data/test_pptagent/ai_history_ppt/images/transformer_architecture.png</image>: Diagram: A flowchart illustrating the 2017 Transformer architecture sequence: Input Layer, Token Embedding, Multi-Head Attention, Feed Forward Network, Layer Normalization, and Output Layer. It highlights the \"Self-Attention Mechanism\" as the key innovation from the \"Attention is All You Need\" paper.\n<image>data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png</image>: Chart: Two charts illustrating AI evolution. A bar chart tracks the exponential growth of language model parameters from BERT to GPT-4 Turbo. A line chart maps AI capability milestones over time, reaching human parity in reading and speech, and passing the Turing Test by 2022."
+  },
+  "generate_content": {
+    "layout_title": "opening",
+    "template_id": 1,
+    "command_list": [
+      {
+        "element": "background graphic",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "decorative background text",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "BUSINESS"
+        ],
+        "new_data": [
+          "AI HISTORY"
+        ]
+      },
+      {
+        "element": "subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "企业品牌宣传"
+        ],
+        "new_data": [
+          "发展历程"
+        ]
+      },
+      {
+        "element": "placeholder paragraphs",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "new_data": [
+          "从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。",
+          "探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。"
+        ]
+      },
+      {
+        "element": "main title",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "科技新品上市宣传介绍——"
+        ],
+        "new_data": [
+          "人工智能发展简史"
+        ]
+      },
+      {
+        "element": "presenter/brand name",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "第一PPT"
+        ],
+        "new_data": [
+          "AI研究院"
+        ]
+      },
+      {
+        "element": "secondary subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "品牌宣传介绍"
+        ],
+        "new_data": [
+          "Apr 19"
+        ]
+      }
+    ],
+    "content_schema": "Element: background graphic\n\ttype: image\n\tdefault_quantity: 1\n\nElement: decorative background text\n\ttype: text\n\tsuggested_characters: 8\n\texample: ['BUSINESS']\n\tdefault_quantity: 1\n\nElement: subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['企业品牌宣传']\n\tdefault_quantity: 1\n\nElement: placeholder paragraphs\n\ttype: text\n\tsuggested_characters: 66\n\texample: ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.']\n\tdefault_quantity: 2\n\nElement: main title\n\ttype: text\n\tsuggested_characters: 12\n\texample: ['科技新品上市宣传介绍——']\n\tdefault_quantity: 1\n\nElement: presenter/brand name\n\ttype: text\n\tsuggested_characters: 5\n\texample: ['第一PPT']\n\tdefault_quantity: 1\n\nElement: secondary subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['品牌宣传介绍']\n\tdefault_quantity: 1\n"
+  },
+  "edit_slide": {
+    "template_id": 1,
+    "api_history": [
+      [
+        "api_call_correct",
+        1,
+        "```python\n# ('background graphic', 'image', 'quantity_change: -1', ['Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background.'], [])\ndel_image(0)\n\n# ('decorative background text', 'text', 'quantity_change: 0', ['BUSINESS'], ['AI HISTORY'])\nreplace_paragraph(3, 0, \"AI HISTORY\")\n\n# ('subtitle', 'text', 'quantity_change: 0', ['企业品牌宣传'], ['发展历程'])\nreplace_paragraph(4, 0, \"发展历程\")\n\n# ('placeholder paragraphs', 'text', 'quantity_change: 0', ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.'], ['从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。', '探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。'])\nreplace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")\nreplace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")\n\n# ('main title', 'text', 'quantity_change: 0', ['科技新品上市宣传介绍——'], ['人工智能发展简史'])\nreplace_paragraph(7, 0, \"人工智能发展简史\")\n\n# ('presenter/brand name', 'text', 'quantity_change: 0', ['第一PPT'], ['AI研究院'])\nreplace_paragraph(10, 0, \"AI研究院\")\n\n# ('secondary subtitle', 'text', 'quantity_change: 0', ['品牌宣传介绍'], ['Apr 19'])\nreplace_paragraph(11, 0, \"Apr 19\")\n```"
+      ]
+    ],
+    "code_history": [
+      "['code_run_correct', 'del_image(0)', None]",
+      "['code_run_correct', 'replace_paragraph(3, 0, \"AI HISTORY\")', None]",
+      "['code_run_correct', 'replace_paragraph(4, 0, \"发展历程\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")', None]",
+      "['code_run_correct', 'replace_paragraph(7, 0, \"人工智能发展简史\")', None]",
+      "['code_run_correct', 'replace_paragraph(10, 0, \"AI研究院\")', None]",
+      "['code_run_correct', 'replace_paragraph(11, 0, \"Apr 19\")', None]"
+    ],
+    "command_history": [
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "decorative background text",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "placeholder paragraphs",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "main title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "presenter/brand name",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "secondary subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "element": "d",
+          "type": "e",
+          "quantity_change": "l"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ]
+    ]
+  }
+}

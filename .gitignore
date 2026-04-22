@@ -38,5 +38,7 @@ dist-ssr
 .vscode/*
 .gradio
 .superset
+.env
+.env.*
 !.vscode/extensions.json
 !.dockerignore

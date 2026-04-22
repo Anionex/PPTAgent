@@ -1,0 +1,24 @@
+{
+  "template_name": "xunfei",
+  "source_pptx_path": "/Users/davidyang/pptagent/pptagent/templates/xunfei/source.pptx",
+  "num_template_slides": 7,
+  "layout_keys": [
+    "opening",
+    "table of contents",
+    "ending",
+    "Left profile column with circular image and bulleted list beside a two-by-three grid of captioned images:image",
+    "Three columns, each featuring a top bulleted list and a bottom landscape image with dual text labels below.:image",
+    "Two bordered sections containing a single-column list and a double-column grid of icon-labeled text boxes.:image",
+    "Three side-by-side vertical panels, each containing a circular image at the top followed by tiered text headings and a bulleted list below.:image",
+    "functional_keys",
+    "language"
+  ],
+  "language": {
+    "lid": "zh"
+  },
+  "functional_keys": [
+    "opening",
+    "table of contents",
+    "ending"
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "purpose": "opening",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "purpose": "table of contents",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "purpose": "Introduce the overall history of AI development, covering its vision, key eras, and foundational milestones from the 1950s to present day.",
+    "topic": "Introduction",
+    "indexes": [
+      {
+        "section": "人工智能发展史",
+        "subsections": [
+          "发展主题与愿景",
+          "AI发展全景时间线",
+          "六个关键时代"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/ai_timeline.png"
+    ]
+  },
+  {
+    "purpose": "Explore the origins of AI including symbolic AI, foundational milestones, the rise and practical value of expert systems, the causes of two AI winters, and the landmark event of Deep Blue defeating Kasparov.",
+    "topic": "Early AI: Foundations and Setbacks",
+    "indexes": [
+      {
+        "section": "人工智能发展史",
+        "subsections": [
+          "起源与符号主义",
+          "奠基性里程碑"
+        ]
+      },
+      {
+        "section": "寒冬与复苏：专家系统时代",
+        "subsections": [
+          "专家系统的实用价值",
+          "两次AI寒冬的成因",
+          "深蓝战胜卡斯帕罗夫"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/eniac.jpg",
+      "data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png"
+    ]
+  },
+  {
+    "purpose": "Describe the paradigm shift brought by machine learning from 1997 to 2012, highlighting key technical breakthroughs and landmark applications driven by data.",
+    "topic": "Machine Learning Era",
+    "indexes": [
+      {
+        "section": "机器学习崛起：数据驱动的范式转移 (1997-2012)",
+        "subsections": [
+          "机器学习范式革命概览",
+          "关键技术突破",
+          "机器学习标志性应用"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/technology_evolution.png"
+    ]
+  },
+  {
+    "purpose": "Cover the deep learning revolution from 2012 to 2019, including the pivotal year of 2012, the hierarchical neural network architecture, and the major milestones of the golden age.",
+    "topic": "Deep Learning Revolution",
+    "indexes": [
+      {
+        "section": "深度学习革命：神经网络的全面胜利 (2012-2019)",
+        "subsections": [
+          "深度学习时代的到来",
+          "2012：革命之年",
+          "黄金时代重要里程碑"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg"
+    ]
+  },
+  {
+    "purpose": "Present the era of large language models from 2017 onwards, focusing on the Transformer architecture, exponential model growth, emergent capabilities, and future outlook toward general intelligence.",
+    "topic": "Large Language Models and Future",
+    "indexes": [
+      {
+        "section": "大语言模型时代：通用智能的黎明 (2017-2026)",
+        "subsections": [
+          "时代背景与核心架构",
+          "2017：Transformer革命",
+          "模型规模的指数级增长",
+          "涌现能力",
+          "发展启示与未来展望"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/transformer_architecture.png",
+      "data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png"
+    ]
+  },
+  {
+    "purpose": "ending",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  }
+]

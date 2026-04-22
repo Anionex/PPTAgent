@@ -1,0 +1,281 @@
+{
+  "outline_item": {
+    "purpose": "Present the deep learning revolution starting from the 2012 breakthrough, the formal opening of the deep learning era, and the golden age milestones that led to neural networks dominating AI.",
+    "topic": "Deep Learning Revolution",
+    "indexes": [
+      {
+        "section": "深度学习革命：神经网络的全面胜利 (2012-2019)",
+        "subsections": [
+          "深度学习时代的正式开启",
+          "2012年革命性突破",
+          "深度学习黄金时代里程碑"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg"
+    ]
+  },
+  "retrieve": {
+    "header": "Current Slide: Present the deep learning revolution starting from the 2012 breakthrough, the formal opening of the deep learning era, and the golden age milestones that led to neural networks dominating AI.\nThis is the 10 slide of the presentation.\n",
+    "content_source": "Paragraph: 深度学习时代的正式开启\nContent: **2012年AlexNet的ImageNet夺冠，宣告深度学习时代的正式到来**\nParagraph: 2012年革命性突破\nContent: ### 2012：革命之年\n\n**AlexNet的历史性突破**  \n- **团队**：Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton\n- **成就**：ImageNet错误率从26%降至15.3%\n- **技术创新**：\n  - 使用ReLU激活函数加速训练\n  - Dropout防止过拟合\n  - GPU并行计算（双GTX 580）\n  - 数据增强技术\nParagraph: 深度学习黄金时代里程碑\nContent: ### 深度学习黄金时代 (2012-2019)\n\n**2014：生成对抗网络 (GAN)**  \n- **提出者**：Ian Goodfellow\n- **创新**：生成器与判别器的对抗训练机制\n- **影响**：图像生成、数据增强、艺术创作\n\n**2015：ResNet残差网络**  \n- **团队**：何恺明等（微软亚洲研究院）\n- **突破**：解决深层网络退化问题，训练152层网络\n- **成果**：ImageNet、COCO多项比赛冠军\n\n**2016：AlphaGo战胜李世石**  \n- **技术**：深度强化学习 + 蒙特卡洛树搜索\n- **意义**：AI首次在完全信息博弈中超越人类顶尖水平\n",
+    "images": [
+      "<image>data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg</image>: Diagram: Hierarchical diagram illustrating machine learning feature extraction. It shows animal inputs (elephant, kangaroo, penguin) processed through layers of increasingly complex features—from basic lines to outlines—leading to classification labels. It highlights the roles of unsupervised and supervised learning in the process."
+    ]
+  },
+  "select_layout_result": {
+    "selected_layout_title": "Two-column split layout with hierarchical text and two sub-points on the left, paired with a large image on the right:image",
+    "header_passed_to_editor": "Current Slide: Present the deep learning revolution starting from the 2012 breakthrough, the formal opening of the deep learning era, and the golden age milestones that led to neural networks dominating AI.\nThis is the 10 slide of the presentation.\n",
+    "slide_content_passed_to_editor": "[\n  {\n    \"pointName\": \"深度学习时代的开启\",\n    \"paragraphForm\": \"2012年，Alex Krizhevsky、Ilya Sutskever和Geoffrey Hinton团队凭借AlexNet在ImageNet竞赛中将错误率从26%大幅降至15.3%，正式宣告深度学习时代的到来。其核心技术创新包括ReLU激活函数、Dropout正则化、GPU并行计算及数据增强技术。\",\n    \"bulletForm\": [\n      \"2012年AlexNet夺得ImageNet冠军，开启深度学习时代。\",\n      \"错误率从26%大幅降至15.3%。\",\n      \"使用ReLU激活函数加速训练。\",\n      \"引入Dropout技术防止过拟合。\",\n      \"采用双GTX 580 GPU并行计算。\",\n      \"数据增强技术提升模型泛化能力。\"\n    ]\n  },\n  {\n    \"pointName\": \"深度学习黄金时代里程碑\",\n    \"paragraphForm\": \"2014年Ian Goodfellow提出生成对抗网络（GAN），通过生成器与判别器的对抗机制革新了图像生成领域。2015年何恺明团队提出ResNet残差网络，成功训练152层深层网络并斩获多项竞赛冠军。2016年AlphaGo结合深度强化学习与蒙特卡洛树搜索击败围棋世界冠军李世石，标志着AI首次在完全信息博弈中超越人类顶尖水平。\",\n    \"bulletForm\": [\n      \"2014年GAN由Ian Goodfellow提出，推动图像生成发展。\",\n      \"GAN采用生成器与判别器对抗训练机制。\",\n      \"2015年ResNet解决深层网络退化问题。\",\n      \"ResNet成功训练152层网络并获多项竞赛冠军。\",\n      \"2016年AlphaGo击败围棋世界冠军李世石。\",\n      \"AlphaGo结合深度强化学习与蒙特卡洛树搜索。\",\n      \"AI首次在完全信息博弈中超越人类顶尖水平。\"\n    ]\n  }\n]\nImages:\n<image>data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg</image>: Diagram: Hierarchical diagram illustrating machine learning feature extraction. It shows animal inputs (elephant, kangaroo, penguin) processed through layers of increasingly complex features—from basic lines to outlines—leading to classification labels. It highlights the roles of unsupervised and supervised learning in the process."
+  },
+  "generate_content": {
+    "layout_title": "opening",
+    "template_id": 1,
+    "command_list": [
+      {
+        "element": "background graphic",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "decorative background text",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "BUSINESS"
+        ],
+        "new_data": [
+          "AI HISTORY"
+        ]
+      },
+      {
+        "element": "subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "企业品牌宣传"
+        ],
+        "new_data": [
+          "发展历程"
+        ]
+      },
+      {
+        "element": "placeholder paragraphs",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "new_data": [
+          "从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。",
+          "探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。"
+        ]
+      },
+      {
+        "element": "main title",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "科技新品上市宣传介绍——"
+        ],
+        "new_data": [
+          "人工智能发展简史"
+        ]
+      },
+      {
+        "element": "presenter/brand name",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "第一PPT"
+        ],
+        "new_data": [
+          "AI研究院"
+        ]
+      },
+      {
+        "element": "secondary subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "品牌宣传介绍"
+        ],
+        "new_data": [
+          "Apr 19"
+        ]
+      }
+    ],
+    "content_schema": "Element: background graphic\n\ttype: image\n\tdefault_quantity: 1\n\nElement: decorative background text\n\ttype: text\n\tsuggested_characters: 8\n\texample: ['BUSINESS']\n\tdefault_quantity: 1\n\nElement: subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['企业品牌宣传']\n\tdefault_quantity: 1\n\nElement: placeholder paragraphs\n\ttype: text\n\tsuggested_characters: 66\n\texample: ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.']\n\tdefault_quantity: 2\n\nElement: main title\n\ttype: text\n\tsuggested_characters: 12\n\texample: ['科技新品上市宣传介绍——']\n\tdefault_quantity: 1\n\nElement: presenter/brand name\n\ttype: text\n\tsuggested_characters: 5\n\texample: ['第一PPT']\n\tdefault_quantity: 1\n\nElement: secondary subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['品牌宣传介绍']\n\tdefault_quantity: 1\n"
+  },
+  "edit_slide": {
+    "template_id": 1,
+    "api_history": [
+      [
+        "api_call_correct",
+        1,
+        "```python\n# ('background graphic', 'image', 'quantity_change: -1', ['Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background.'], [])\ndel_image(0)\n\n# ('decorative background text', 'text', 'quantity_change: 0', ['BUSINESS'], ['AI HISTORY'])\nreplace_paragraph(3, 0, \"AI HISTORY\")\n\n# ('subtitle', 'text', 'quantity_change: 0', ['企业品牌宣传'], ['发展历程'])\nreplace_paragraph(4, 0, \"发展历程\")\n\n# ('placeholder paragraphs', 'text', 'quantity_change: 0', ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.'], ['从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。', '探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。'])\nreplace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")\nreplace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")\n\n# ('main title', 'text', 'quantity_change: 0', ['科技新品上市宣传介绍——'], ['人工智能发展简史'])\nreplace_paragraph(7, 0, \"人工智能发展简史\")\n\n# ('presenter/brand name', 'text', 'quantity_change: 0', ['第一PPT'], ['AI研究院'])\nreplace_paragraph(10, 0, \"AI研究院\")\n\n# ('secondary subtitle', 'text', 'quantity_change: 0', ['品牌宣传介绍'], ['Apr 19'])\nreplace_paragraph(11, 0, \"Apr 19\")\n```"
+      ]
+    ],
+    "code_history": [
+      "['code_run_correct', 'del_image(0)', None]",
+      "['code_run_correct', 'replace_paragraph(3, 0, \"AI HISTORY\")', None]",
+      "['code_run_correct', 'replace_paragraph(4, 0, \"发展历程\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")', None]",
+      "['code_run_correct', 'replace_paragraph(7, 0, \"人工智能发展简史\")', None]",
+      "['code_run_correct', 'replace_paragraph(10, 0, \"AI研究院\")', None]",
+      "['code_run_correct', 'replace_paragraph(11, 0, \"Apr 19\")', None]"
+    ],
+    "command_history": [
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "decorative background text",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "placeholder paragraphs",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "main title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "presenter/brand name",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "secondary subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "element": "d",
+          "type": "e",
+          "quantity_change": "l"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ]
+    ]
+  }
+}

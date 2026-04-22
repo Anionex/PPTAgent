@@ -1,0 +1,40 @@
+<section>人工智能发展史</section>
+	Summary: 本章节概述了人工智能从1956年诞生至2026年的发展历史。内容涵盖了AI发展的全景时间线，将其划分为符号AI、两次寒冬、机器学习、深度学习及大语言模型六个关键时代。重点回顾了学科起源——1956年达特茅斯会议，探讨了符号主义范式的确立。同时详细记录了感知机的发明及其在1969年因技术局限性导致的理论瓶颈，完整呈现了AI早期从兴起到陷入低谷的曲折历程。
+	<image>data/test_pptagent/ai_history_ppt/images/ai_timeline.png</image>: Diagram: Timeline illustrating the evolution of artificial intelligence from 1956 to 2022. It highlights key milestones like the Dartmouth Conference and ChatGPT, categorized into chronological eras such as Symbolic AI, AI Winters, and the Large Language Model (LLM) era.
+	<subsection>人工智能七十年征程</subsection>
+	<subsection>AI发展全景时间线</subsection>
+	<image>data/test_pptagent/ai_history_ppt/images/eniac.jpg</image>: Picture: A black and white historical photograph of a large room filled with early computer hardware. Massive panels with numerous wires and switches line the walls. Two individuals are seen operating the system, reflecting the early era of computing.
+	<subsection>起源：达特茅斯会议</subsection>
+	<subsection>早期奠基性里程碑</subsection>
+
+<section>寒冬与复苏：专家系统时代 (1970-1997)</section>
+	Summary: 本章节详述了人工智能在1970年至1997年间起伏发展的历史。文中分析了导致两次“AI寒冬”的核心原因，包括计算能力瓶颈、资金削减、专家系统维护困难及过度承诺等。尽管面临挑战，专家系统的应用仍证明了AI的实用价值。1997年IBM“深蓝”战胜国际象棋冠军卡斯帕罗夫成为重要转机，通过暴力搜索与启发式评估的成功应用，重新提振了公众对AI技术的信心。
+	<image>data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png</image>: Chart: Line chart illustrating AI research funding and interest trends from 1950 to 2025. It tracks a "Relative Interest Index," highlighting two "AI Winter" periods (1974-1980 and 1987-1997) of decline followed by a significant surge toward peak levels in the 2020s.
+	<subsection>AI研究的理想与现实</subsection>
+	<subsection>两次AI寒冬的成因分析</subsection>
+	<subsection>深蓝获胜的历史意义</subsection>
+
+<section>机器学习崛起：数据驱动的范式转移 (1997-2012)</section>
+	Summary: 本章节重点回顾了1997年至2012年间机器学习领域的崛起与范式转型。AI研究经历了从手工编码规则到让机器自主从数据中学习的根本变革。文中详细介绍了三项关键技术突破：1995年的支持向量机（SVM）、2001年的随机森林（Random Forest）以及2006年的深度信念网络（DBN），这些技术分别在泛化能力、工业应用和深层网络训练方面取得了显著进展。此外，Netflix推荐系统和IBM Watson的成功展示了机器学习在商业及自然语言理解中的标志性应用。
+	<subsection>AI研究范式革命</subsection>
+	<subsection>关键技术突破</subsection>
+	<image>data/test_pptagent/ai_history_ppt/images/technology_evolution.png</image>: Chart: Timeline titled "Evolution of AI Technologies" illustrating the development of key AI paradigms from 1950 to 2025. Color-coded horizontal bars represent various fields, including Symbolic AI, Neural Networks, Machine Learning, Deep Learning, and Transformers & LLMs, showing their respective start years and durations.
+	<subsection>机器学习标志性应用</subsection>
+
+<section>深度学习革命：神经网络的全面胜利 (2012-2019)</section>
+	Summary: 本章节回顾了2012年至2019年深度学习领域的飞速发展与关键里程碑。从2012年AlexNet在ImageNet竞赛中夺冠开启深度学习时代，到GAN、ResNet及AlphaGo等重大技术突破的涌现。文中详细列举了各阶段的代表性成果，如ReLU激活函数、残差连接以及深度强化学习在围棋博弈中的应用，阐述了硬件加速与算法创新如何共同推动人工智能跨越式进步，并在图像生成、计算机视觉及智能博弈等领域实现对人类能力的超越。
+	<subsection>深度学习时代的正式开启</subsection>
+	<subsection>2012年革命性突破</subsection>
+	<image>data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg</image>: Diagram: Hierarchical diagram illustrating machine learning feature extraction. It shows animal inputs (elephant, kangaroo, penguin) processed through layers of increasingly complex features—from basic lines to outlines—leading to classification labels. It highlights the roles of unsupervised and supervised learning in the process.
+	<subsection>深度学习黄金时代里程碑</subsection>
+
+<section>大语言模型时代：通用智能的黎明 (2017-2026)</section>
+	Summary: 本章节详述了2017年至2026年大语言模型的爆发式发展。核心从Transformer架构的革命性创新出发，解析了模型参数规模如何实现从BERT到GPT-4的指数级增长，并由此引发了思维链、上下文学习等“涌现能力”。同时，文章总结了驱动技术演进的算力、数据与算法三大要素，吸取了历史上的“AI寒冬”教训，并展望了多模态大模型、具身智能及AI安全对齐等未来前沿方向，指出人类正处于通用智能觉醒的历史拐点。
+	<image>data/test_pptagent/ai_history_ppt/images/transformer_architecture.png</image>: Diagram: A flowchart illustrating the 2017 Transformer architecture sequence: Input Layer, Token Embedding, Multi-Head Attention, Feed Forward Network, Layer Normalization, and Output Layer. It highlights the "Self-Attention Mechanism" as the key innovation from the "Attention is All You Need" paper.
+	<subsection>大语言模型背景引言</subsection>
+	<subsection>2017：Transformer革命</subsection>
+	<subsection>模型规模的指数级增长</subsection>
+	<image>data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png</image>: Chart: Two charts illustrating AI evolution. A bar chart tracks the exponential growth of language model parameters from BERT to GPT-4 Turbo. A line chart maps AI capability milestones over time, reaching human parity in reading and speech, and passing the Turing Test by 2022.
+	<subsection>大模型的涌现能力</subsection>
+	<subsection>发展启示与未来展望</subsection>
+

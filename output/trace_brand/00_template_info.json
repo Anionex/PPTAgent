@@ -1,0 +1,35 @@
+{
+  "template_name": "brand",
+  "source_pptx_path": "/Users/davidyang/pptagent/pptagent/templates/brand/source.pptx",
+  "num_template_slides": 20,
+  "layout_keys": [
+    "opening",
+    "table of contents",
+    "section outline",
+    "ending",
+    "Introductory text followed by four uniform vertical columns, each featuring an icon, a highlighted title bar, and a text block.:text",
+    "Side-by-side landscape image and colored text box above a full-width block of text:text",
+    "Three vertically stacked text blocks with icons beside a large square image container:image",
+    "Central diagram of four overlapping circles with four surrounding text blocks connected by curved arrows:text",
+    "Central circular graphic flanked by four smaller icons with brief adjacent text and a wide bottom text block:text",
+    "Header and landscape image on the left with three vertical icon-text blocks on the right:image",
+    "Central image with two text overlays on the left and three vertical data-driven sections on the right:image",
+    "Two-column split layout with hierarchical text and two sub-points on the left, paired with a large image on the right:image",
+    "Three-column layout featuring two outer sections with an image over text and a central colored block with an icon over text.:image",
+    "Four central numbered ribbon icons in a 2x2 grid flanked by symmetrical text blocks on either side:text",
+    "Large rectangular graphic with three icon-led text points to its right:image",
+    "Four horizontal columns, each featuring a numbered icon above a heading and a text block:text",
+    "Symmetrical two-column layout with headers and three stacked text blocks flanking a central circular element:text",
+    "functional_keys",
+    "language"
+  ],
+  "language": {
+    "lid": "zh"
+  },
+  "functional_keys": [
+    "opening",
+    "table of contents",
+    "section outline",
+    "ending"
+  ]
+}

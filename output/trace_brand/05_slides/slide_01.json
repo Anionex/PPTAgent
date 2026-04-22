@@ -1,0 +1,258 @@
+{
+  "outline_item": {
+    "purpose": "table of contents",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  "generate_content": {
+    "layout_title": "opening",
+    "template_id": 1,
+    "command_list": [
+      {
+        "element": "background graphic",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "decorative background text",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "BUSINESS"
+        ],
+        "new_data": [
+          "AI HISTORY"
+        ]
+      },
+      {
+        "element": "subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "企业品牌宣传"
+        ],
+        "new_data": [
+          "发展历程"
+        ]
+      },
+      {
+        "element": "placeholder paragraphs",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "new_data": [
+          "从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。",
+          "探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。"
+        ]
+      },
+      {
+        "element": "main title",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "科技新品上市宣传介绍——"
+        ],
+        "new_data": [
+          "人工智能发展简史"
+        ]
+      },
+      {
+        "element": "presenter/brand name",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "第一PPT"
+        ],
+        "new_data": [
+          "AI研究院"
+        ]
+      },
+      {
+        "element": "secondary subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "品牌宣传介绍"
+        ],
+        "new_data": [
+          "Apr 19"
+        ]
+      }
+    ],
+    "content_schema": "Element: background graphic\n\ttype: image\n\tdefault_quantity: 1\n\nElement: decorative background text\n\ttype: text\n\tsuggested_characters: 8\n\texample: ['BUSINESS']\n\tdefault_quantity: 1\n\nElement: subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['企业品牌宣传']\n\tdefault_quantity: 1\n\nElement: placeholder paragraphs\n\ttype: text\n\tsuggested_characters: 66\n\texample: ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.']\n\tdefault_quantity: 2\n\nElement: main title\n\ttype: text\n\tsuggested_characters: 12\n\texample: ['科技新品上市宣传介绍——']\n\tdefault_quantity: 1\n\nElement: presenter/brand name\n\ttype: text\n\tsuggested_characters: 5\n\texample: ['第一PPT']\n\tdefault_quantity: 1\n\nElement: secondary subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['品牌宣传介绍']\n\tdefault_quantity: 1\n"
+  },
+  "edit_slide": {
+    "template_id": 1,
+    "api_history": [
+      [
+        "api_call_correct",
+        1,
+        "```python\n# ('background graphic', 'image', 'quantity_change: -1', ['Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background.'], [])\ndel_image(0)\n\n# ('decorative background text', 'text', 'quantity_change: 0', ['BUSINESS'], ['AI HISTORY'])\nreplace_paragraph(3, 0, \"AI HISTORY\")\n\n# ('subtitle', 'text', 'quantity_change: 0', ['企业品牌宣传'], ['发展历程'])\nreplace_paragraph(4, 0, \"发展历程\")\n\n# ('placeholder paragraphs', 'text', 'quantity_change: 0', ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.'], ['从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。', '探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。'])\nreplace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")\nreplace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")\n\n# ('main title', 'text', 'quantity_change: 0', ['科技新品上市宣传介绍——'], ['人工智能发展简史'])\nreplace_paragraph(7, 0, \"人工智能发展简史\")\n\n# ('presenter/brand name', 'text', 'quantity_change: 0', ['第一PPT'], ['AI研究院'])\nreplace_paragraph(10, 0, \"AI研究院\")\n\n# ('secondary subtitle', 'text', 'quantity_change: 0', ['品牌宣传介绍'], ['Apr 19'])\nreplace_paragraph(11, 0, \"Apr 19\")\n```"
+      ]
+    ],
+    "code_history": [
+      "['code_run_correct', 'del_image(0)', None]",
+      "['code_run_correct', 'replace_paragraph(3, 0, \"AI HISTORY\")', None]",
+      "['code_run_correct', 'replace_paragraph(4, 0, \"发展历程\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")', None]",
+      "['code_run_correct', 'replace_paragraph(7, 0, \"人工智能发展简史\")', None]",
+      "['code_run_correct', 'replace_paragraph(10, 0, \"AI研究院\")', None]",
+      "['code_run_correct', 'replace_paragraph(11, 0, \"Apr 19\")', None]"
+    ],
+    "command_history": [
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "decorative background text",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "placeholder paragraphs",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "main title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "presenter/brand name",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "secondary subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "element": "d",
+          "type": "e",
+          "quantity_change": "l"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ]
+    ]
+  }
+}

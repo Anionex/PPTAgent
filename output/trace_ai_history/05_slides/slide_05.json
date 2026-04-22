@@ -1,0 +1,781 @@
+{
+  "outline_item": {
+    "purpose": "Cover the deep learning revolution from 2012 to 2019, including the pivotal year of 2012, the hierarchical neural network architecture, and the major milestones of the golden age.",
+    "topic": "Deep Learning Revolution",
+    "indexes": [
+      {
+        "section": "深度学习革命：神经网络的全面胜利 (2012-2019)",
+        "subsections": [
+          "深度学习时代的到来",
+          "2012：革命之年",
+          "黄金时代重要里程碑"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg"
+    ]
+  },
+  "retrieve": {
+    "header": "Current Slide: Cover the deep learning revolution from 2012 to 2019, including the pivotal year of 2012, the hierarchical neural network architecture, and the major milestones of the golden age.\nThis is the 6 slide of the presentation.\n",
+    "content_source": "Paragraph: 深度学习时代的到来\nContent: **2012年AlexNet的ImageNet夺冠，宣告深度学习时代的正式到来**\nParagraph: 2012：革命之年\nContent: ### 2012：革命之年\n\n**AlexNet的历史性突破**  \n- **团队**：Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton\n- **成就**：ImageNet错误率从26%降至15.3%\n- **技术创新**：\n  - 使用ReLU激活函数加速训练\n  - Dropout防止过拟合\n  - GPU并行计算（双GTX 580）\n  - 数据增强技术\nParagraph: 黄金时代重要里程碑\nContent: ### 深度学习黄金时代 (2012-2019)\n\n**2014：生成对抗网络 (GAN)**  \n- **提出者**：Ian Goodfellow\n- **创新**：生成器与判别器的对抗训练机制\n- **影响**：图像生成、数据增强、艺术创作\n\n**2015：ResNet残差网络**  \n- **团队**：何恺明等（微软亚洲研究院）\n- **突破**：解决深层网络退化问题，训练152层网络\n- **成果**：ImageNet、COCO多项比赛冠军\n\n**2016：AlphaGo战胜李世石**  \n- **技术**：深度强化学习 + 蒙特卡洛树搜索\n- **意义**：AI首次在完全信息博弈中超越人类顶尖水平\n",
+    "images": [
+      "<image>data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg</image>: Diagram: Diagram illustrating a hierarchical neural network architecture. Image inputs of animals are processed through layers of increasingly complex features, from simple lines to identifiable shapes, concluding in classification labels. It highlights the processes of supervised and unsupervised learning within the model."
+    ]
+  },
+  "select_layout_result": {
+    "selected_layout_title": "Three side-by-side vertical panels, each containing a circular image at the top followed by tiered text headings and a bulleted list below.:image",
+    "header_passed_to_editor": "Current Slide: Cover the deep learning revolution from 2012 to 2019, including the pivotal year of 2012, the hierarchical neural network architecture, and the major milestones of the golden age.\nThis is the 6 slide of the presentation.\n",
+    "slide_content_passed_to_editor": "[\n  {\n    \"pointName\": \"深度学习时代的到来\",\n    \"paragraphForm\": \"2012年AlexNet在ImageNet竞赛中夺冠，宣告深度学习时代的正式到来。由Alex Krizhevsky、Ilya Sutskever和Geoffrey Hinton组成的团队，将ImageNet错误率从26%大幅降至15.3%。\",\n    \"bulletForm\": [\n      \"2012年AlexNet夺得ImageNet冠军。\",\n      \"错误率从26%降至15.3%。\",\n      \"标志深度学习时代正式开启。\"\n    ]\n  },\n  {\n    \"pointName\": \"AlexNet的技术创新\",\n    \"paragraphForm\": \"AlexNet引入了多项关键技术创新，包括使用ReLU激活函数加速训练、Dropout技术防止过拟合、双GTX 580 GPU并行计算，以及数据增强技术，共同推动了深度学习的突破性进展。\",\n    \"bulletForm\": [\n      \"ReLU激活函数加速模型训练。\",\n      \"Dropout技术有效防止过拟合。\",\n      \"双GTX 580 GPU实现并行计算。\",\n      \"数据增强技术提升模型泛化能力。\"\n    ]\n  },\n  {\n    \"pointName\": \"深度学习黄金时代重要里程碑\",\n    \"paragraphForm\": \"2014年Ian Goodfellow提出生成对抗网络（GAN），开创图像生成新范式；2015年何恺明等人提出ResNet，解决深层网络退化问题，成功训练152层网络并斩获多项竞赛冠军；2016年AlphaGo结合深度强化学习与蒙特卡洛树搜索，首次在完全信息博弈中超越人类顶尖水平。\",\n    \"bulletForm\": [\n      \"2014年GAN由Ian Goodfellow提出。\",\n      \"GAN开创生成器与判别器对抗训练机制。\",\n      \"2015年ResNet成功训练152层深度网络。\",\n      \"ResNet解决了深层网络退化问题。\",\n      \"ResNet赢得ImageNet和COCO多项冠军。\",\n      \"2016年AlphaGo战胜围棋世界冠军李世石。\",\n      \"AlphaGo首次在完全信息博弈中超越人类顶尖水平。\"\n    ]\n  }\n]\nImages:\n<image>data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg</image>: Diagram: Diagram illustrating a hierarchical neural network architecture. Image inputs of animals are processed through layers of increasingly complex features, from simple lines to identifiable shapes, concluding in classification labels. It highlights the processes of supervised and unsupervised learning within the model."
+  },
+  "generate_content": {
+    "layout_title": "opening",
+    "template_id": 1,
+    "command_list": [
+      {
+        "element": "stylized background character",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "团队介绍"
+        ],
+        "new_data": [
+          "人工智能发展史与未来展望"
+        ]
+      },
+      {
+        "element": "main logo",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "background light effect",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "background lens flare",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "main title",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "new_data": [
+          "人工智能发展史：从起源到大语言模型时代"
+        ]
+      },
+      {
+        "element": "subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "new_data": [
+          "从1950年代到AGI时代的演进之路"
+        ]
+      },
+      {
+        "element": "presenter and project details",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "拥有超过10年的人工智能算法研发经验",
+          "注册会计师 (CPA)",
+          "团队介绍",
+          "团队介绍"
+        ],
+        "new_data": [
+          "演讲者：AI研究团队",
+          "日期：2026年4月19日",
+          "人工智能发展史",
+          "专题研究报告"
+        ]
+      },
+      {
+        "element": "decorative banner",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "footer source note",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "new_data": [
+          "仅供学术交流与研究参考"
+        ]
+      },
+      {
+        "element": "footer data source",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "new_data": [
+          "Background: Dark cosmic background with soft blue and purple glowing light beams from the center, evoking a futuristic ambiance."
+        ]
+      },
+      {
+        "element": "background planet horizon",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "English tagline",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "曾主导多个国家级AI项目"
+        ],
+        "new_data": [
+          "AI: Past & Future"
+        ]
+      },
+      {
+        "element": "background light beam",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "university logo",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "new_data": []
+      }
+    ],
+    "content_schema": "Element: stylized background character\n\ttype: text\n\tsuggested_characters: 22\n\texample: ['为多家科技企业提供战略规划和商业创新咨询服务']\n\tdefault_quantity: 1\n\nElement: main logo\n\ttype: image\n\tdefault_quantity: 1\n\nElement: stylized background character\n\ttype: text\n\tsuggested_characters: 4\n\texample: ['团队介绍']\n\tdefault_quantity: 1\n\nElement: background light effect\n\ttype: image\n\tdefault_quantity: 1\n\nElement: stylized background character\n\ttype: text\n\tsuggested_characters: 4\n\texample: ['团队介绍']\n\tdefault_quantity: 1\n\nElement: background lens flare\n\ttype: image\n\tdefault_quantity: 1\n\nElement: main title\n\ttype: text\n\tsuggested_characters: 28\n\texample: ['我们的团队致力于为企业提供全方位的专业支持与创新解决方案']\n\tdefault_quantity: 1\n\nElement: background lens flare\n\ttype: image\n\tdefault_quantity: 1\n\nElement: stylized background character\n\ttype: text\n\tsuggested_characters: 4\n\texample: ['团队介绍']\n\tdefault_quantity: 1\n\nElement: subtitle\n\ttype: text\n\tsuggested_characters: 18\n\texample: ['拥有超过10年的人工智能算法研发经验']\n\tdefault_quantity: 1\n\nElement: presenter and project details\n\ttype: text\n\tsuggested_characters: 18\n\texample: ['拥有超过10年的人工智能算法研发经验', '注册会计师 (CPA)', '团队介绍', '团队介绍']\n\tdefault_quantity: 4\n\nElement: decorative banner\n\ttype: image\n\tdefault_quantity: 1\n\nElement: footer source note\n\ttype: text\n\tsuggested_characters: 18\n\texample: ['拥有超过10年的人工智能算法研发经验']\n\tdefault_quantity: 1\n\nElement: footer data source\n\ttype: text\n\tsuggested_characters: 137\n\texample: ['Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background.']\n\tdefault_quantity: 1\n\nElement: background planet horizon\n\ttype: image\n\tdefault_quantity: 1\n\nElement: English tagline\n\ttype: text\n\tsuggested_characters: 12\n\texample: ['曾主导多个国家级AI项目']\n\tdefault_quantity: 1\n\nElement: decorative banner\n\ttype: image\n\tdefault_quantity: 1\n\nElement: decorative banner\n\ttype: image\n\tdefault_quantity: 1\n\nElement: background light beam\n\ttype: image\n\tdefault_quantity: 1\n\nElement: background lens flare\n\ttype: image\n\tdefault_quantity: 1\n\nElement: university logo\n\ttype: image\n\tdefault_quantity: 1\n"
+  },
+  "edit_slide": {
+    "template_id": 2,
+    "api_history": [
+      [
+        "api_call_correct",
+        2,
+        "Looking at the slide content, I need to map the commands to the actual elements in the HTML. The slide has:\n- `img id='3'` - the main image\n- Various divs with paragraphs for section titles and subtitles\n\nSince many commands reference images that don't exist in the current HTML (only `img id='3'` exists), I'll only process elements that are actually present. For image deletions where the image doesn't exist, I'll skip them. For text commands, I need to match them to the actual div/paragraph IDs.\n\nLooking at the structure, the divs appear to be paired (title + subtitle) for each section:\n- div 13/14: section 1 (行业复盘 / Industry Review)\n- div 15/16: section 2 (企业痛点 / Pain Points Analysis)\n- div 17/18: section 3 (模型分析 / Model Analysis)\n- div 19/20: section 4 (数据洞察 / Data Insights)\n- div 29/30: section 5 (解决方案 / Solutions)\n- div 31/32: section 6 (收益风险 / ROI & Risk Assessment)\n- div 33/34: section 7 (团队介绍 / Team Introduction)\n- div 35/36: section 8 (附录与Q&A / Appendix & Q&A)\n- div 37: main title (目录)\n- div 38: sub title (CONTENTS)\n\n```python\n# ('main image', 'image', 'quantity_change: -1', [...], [])\ndel_image(3)\n\n# ('section 1 icon', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n# ('section 2 icon', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n# ('section 3 icon', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n# ('section 4 icon', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n\n# ('section 1 title', 'text', 'quantity_change: 0', ['具备丰富的行业洞察和实战经验。'], ['Introduction'])\nreplace_paragraph(13, 0, \"Introduction\")\n\n# ('section 1 subtitle', 'text', 'quantity_change: 0', [...], ['介绍人工智能发展的整体历史，涵盖其愿景、关键时代及从1950年代至今的基础性里程碑。'])\nreplace_paragraph(14, 0, \"介绍人工智能发展的整体历史，涵盖其愿景、关键时代及从1950年代至今的基础性里程碑。\")\n\n# ('section 2 title', 'text', 'quantity_change: 0', ['擅长通过财务数据洞察企业经营'], ['Early AI'])\nreplace_paragraph(15, 0, \"Early AI\")\n\n# ('section 2 subtitle', 'text', 'quantity_change: 0', [...], ['探索AI的起源，包括符号AI、基础里程碑、专家系统的兴起与实用价值、两次AI寒冬的成因，以及Deep Blue击败Kasparov的标志性事件。'])\nreplace_paragraph(16, 0, \"探索AI的起源，包括符号AI、基础里程碑、专家系统的兴起与实用价值、两次AI寒冬的成因，以及Deep Blue击败Kasparov的标志性事件。\")\n\n# ('section 3 title', 'text', 'quantity_change: 0', ['财务分析专家'], ['机器学习时代'])\nreplace_paragraph(17, 0, \"机器学习时代\")\n\n# ('section 3 subtitle', 'text', 'quantity_change: 0', [...], ['描述1997至2012年间机器学习带来的范式转变，重点介绍由数据驱动的关键技术突破与标志性应用。'])\nreplace_paragraph(18, 0, \"描述1997至2012年间机器学习带来的范式转变，重点介绍由数据驱动的关键技术突破与标志性应用。\")\n\n# ('section 4 title', 'text', 'quantity_change: 0', ['擅长通过财务数据洞察企业经营'], ['深度学习革命'])\nreplace_paragraph(19, 0, \"深度学习革命\")\n\n# ('section 4 subtitle', 'text', 'quantity_change: 0', ['AI算法专家'], ['深度学习'])\nreplace_paragraph(20, 0, \"深度学习\")\n\n# ('section 5 icon', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n# ('section 6 icon', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n# ('section 7 icon', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n# ('section 8 icon', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n\n# ('section 5 title', 'text', 'quantity_change: 0', [...], ['Large Language Models and Future'])\nreplace_paragraph(29, 0, \"Large Language Models and Future\")\n\n# ('section 5 subtitle', 'text', 'quantity_change: 0', [...], ['聚焦2017年以来大语言模型时代，介绍Transformer架构、模型规模的指数级增长、涌现能力及迈向通用智能的未来展望。'])\nreplace_paragraph(30, 0, \"聚焦2017年以来大语言模型时代，介绍Transformer架构、模型规模的指数级增长、涌现能力及迈向通用智能的未来展望。\")\n\n# ('section 6 title', 'text', 'quantity_change: 0', ['团队介绍'], ['概述'])\nreplace_paragraph(31, 0, \"概述\")\n\n# ('section 6 subtitle', 'text', 'quantity_change: 0', ['注册会计师 (CPA)'], ['AI发展简史'])\nreplace_paragraph(32, 0, \"AI发展简史\")\n\n# ('section 7 title', 'text', 'quantity_change: 0', ['团队介绍'], ['寒冬'])\nreplace_paragraph(33, 0, \"寒冬\")\n\n# ('section 7 subtitle', 'text', 'quantity_change: 0', [...], ['回顾两次AI寒冬的成因与影响，以及Deep Blue击败Kasparov等标志性历史节点。'])\nreplace_paragraph(34, 0, \"回顾两次AI寒冬的成因与影响，以及Deep Blue击败Kasparov等标志性历史节点。\")\n\n# ('section 8 title', 'text', 'quantity_change: 0', ['注册会计师 (CPA)'], ['未来展望'])\nreplace_paragraph(35, 0, \"未来展望\")\n\n# ('section 8 subtitle', 'text', 'quantity_change: 0', ['注册会计师 (CPA)'], ['通用智能'])\nreplace_paragraph(36, 0, \"通用智能\")\n\n# ('main title', 'text', 'quantity_change: 0', ['团队介绍'], ['目录'])\nreplace_paragraph(37, 0, \"目录\")\n\n# ('sub title', 'text', 'quantity_change: 0', [...], ['本演示文稿将依次介绍：Introduction、Early AI: Foundations and Setbacks、Machine Learning Era、Deep Learning Revolution，以及Large Language Models and Future，带您纵览人工智能的发展历程。'])\nreplace_paragraph(38, 0, \"本演示文稿将依次介绍：Introduction、Early AI: Foundations and Setbacks、Machine Learning Era、Deep Learning Revolution，以及Large Language Models and Future，带您纵览人工智能的发展历程。\")\n\n# ('decorative banner', 'image', 'quantity_change: -1', [...], []) - no matching image in slide, skip\n```"
+      ]
+    ],
+    "code_history": [
+      "['code_run_correct', 'del_image(3)', None]",
+      "['code_run_correct', 'replace_paragraph(13, 0, \"Introduction\")', None]",
+      "['code_run_correct', 'replace_paragraph(14, 0, \"介绍人工智能发展的整体历史，涵盖其愿景、关键时代及从1950年代至今的基础性里程碑。\")', None]",
+      "['code_run_correct', 'replace_paragraph(15, 0, \"Early AI\")', None]",
+      "['code_run_correct', 'replace_paragraph(16, 0, \"探索AI的起源，包括符号AI、基础里程碑、专家系统的兴起与实用价值、两次AI寒冬的成因，以及Deep Blue击败Kasparov的标志性事件。\")', None]",
+      "['code_run_correct', 'replace_paragraph(17, 0, \"机器学习时代\")', None]",
+      "['code_run_correct', 'replace_paragraph(18, 0, \"描述1997至2012年间机器学习带来的范式转变，重点介绍由数据驱动的关键技术突破与标志性应用。\")', None]",
+      "['code_run_correct', 'replace_paragraph(19, 0, \"深度学习革命\")', None]",
+      "['code_run_correct', 'replace_paragraph(20, 0, \"深度学习\")', None]",
+      "['code_run_correct', 'replace_paragraph(29, 0, \"Large Language Models and Future\")', None]",
+      "['code_run_correct', 'replace_paragraph(30, 0, \"聚焦2017年以来大语言模型时代，介绍Transformer架构、模型规模的指数级增长、涌现能力及迈向通用智能的未来展望。\")', None]",
+      "['code_run_correct', 'replace_paragraph(31, 0, \"概述\")', None]",
+      "['code_run_correct', 'replace_paragraph(32, 0, \"AI发展简史\")', None]",
+      "['code_run_correct', 'replace_paragraph(33, 0, \"寒冬\")', None]",
+      "['code_run_correct', 'replace_paragraph(34, 0, \"回顾两次AI寒冬的成因与影响，以及Deep Blue击败Kasparov等标志性历史节点。\")', None]",
+      "['code_run_correct', 'replace_paragraph(35, 0, \"未来展望\")', None]",
+      "['code_run_correct', 'replace_paragraph(36, 0, \"通用智能\")', None]",
+      "['code_run_correct', 'replace_paragraph(37, 0, \"目录\")', None]",
+      "['code_run_correct', 'replace_paragraph(38, 0, \"本演示文稿将依次介绍：Introduction、Early AI: Foundations and Setbacks、Machine Learning Era、Deep Learning Revolution，以及Large Language Models and Future，带您纵览人工智能的发展历程。\")', None]"
+    ],
+    "command_history": [
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "section 1 icon",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        },
+        {
+          "element": "section 2 icon",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        },
+        {
+          "element": "section 3 icon",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        },
+        {
+          "element": "section 4 icon",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        },
+        {
+          "element": "section 1 title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 1 subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 2 title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 2 subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 3 title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 3 subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 4 title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 4 subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 5 icon",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        },
+        {
+          "element": "section 6 icon",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        },
+        {
+          "element": "section 7 icon",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        },
+        {
+          "element": "section 8 icon",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        },
+        {
+          "element": "section 5 title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 5 subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 6 title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 6 subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 7 title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 7 subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 8 title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "section 8 subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "main title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "sub title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "decorative banner",
+          "type": "image",
+          "quantity_change": "quantity_change: -1"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "element": "d",
+          "type": "e",
+          "quantity_change": "l"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ]
+    ]
+  }
+}

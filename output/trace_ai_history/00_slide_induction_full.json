@@ -1,0 +1,1332 @@
+{
+  "opening": {
+    "slides": [
+      1
+    ],
+    "template_id": 1,
+    "elements": [
+      {
+        "name": "stylized background character",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main logo",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "stylized background character",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background light effect",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "stylized background character",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background lens flare",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "main title",
+        "data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main image",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "background lens flare",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "stylized background character",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "presenter and project details",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验",
+          "注册会计师 (CPA)",
+          "团队介绍",
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "decorative banner",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "footer source note",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "footer data source",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background planet horizon",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "English tagline",
+        "data": [
+          "曾主导多个国家级AI项目"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "decorative banner",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "decorative banner",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "background light beam",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "background lens flare",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "university logo",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "table of contents": {
+    "slides": [
+      2
+    ],
+    "template_id": 2,
+    "elements": [
+      {
+        "name": "main image",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 1 icon",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 2 icon",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 3 icon",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 4 icon",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 1 title",
+        "data": [
+          "具备丰富的行业洞察和实战经验。"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 1 subtitle",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 2 title",
+        "data": [
+          "擅长通过财务数据洞察企业经营"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 2 subtitle",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 3 title",
+        "data": [
+          "财务分析专家"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 3 subtitle",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 4 title",
+        "data": [
+          "擅长通过财务数据洞察企业经营"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 4 subtitle",
+        "data": [
+          "AI算法专家"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 5 icon",
+        "data": [
+          "Background: A stylized blue wave with a gradient effect transitioning from dark to light blue, featuring a thin white outline along the bottom against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 6 icon",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 7 icon",
+        "data": [
+          "Background: A stylized blue wave with a gradient effect transitioning from dark to light blue, featuring a thin white outline along the bottom against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 8 icon",
+        "data": [
+          "Background: A stylized blue wave with a gradient effect transitioning from dark to light blue, featuring a thin white outline along the bottom against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section 5 title",
+        "data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 5 subtitle",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 6 title",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 6 subtitle",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 7 title",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 7 subtitle",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 8 title",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 8 subtitle",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main title",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "sub title",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "decorative banner",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "ending": {
+    "slides": [
+      7
+    ],
+    "template_id": 7,
+    "elements": [
+      {
+        "name": "main title character (top left)",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "iFLYTEK logo (top left)",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "main title character (middle left)",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main title character (bottom right)",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background decoration flare (top right)",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "main subtitle (center)",
+        "data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background decoration rays (top left)",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "central robot portrait",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "background decoration flare (middle right)",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "main title character (middle right)",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "presenter information",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "mentor information",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "project group details",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "competition category details",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "footer note",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "footer data source",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "banner subheader text",
+        "data": [
+          "曾主导多个国家级AI项目"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "banner decorative flare 1",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "banner decorative flare 2",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "background decoration flare (bottom left)",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "Zhejiang University logo",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "Left profile column with circular image and bulleted list beside a two-by-three grid of captioned images:image": {
+    "template_id": 4,
+    "slides": [
+      4
+    ],
+    "elements": [
+      {
+        "name": "section title",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background image",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "main title",
+        "data": [
+          "专业团队保驾护航"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle",
+        "data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "role header",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "highlight tag",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "highlight tag",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "highlight tag",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "highlight tag",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "highlight tag",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "highlight tag",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "experience bullets",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验",
+          "曾主导多个国家级AI项目",
+          "在自然语言处理和机器学习领域有深厚积累。",
+          "曾主导多个国家级AI项目",
+          "在自然语言处理和机器学习领域有深厚积累。"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "presenter name",
+        "data": [
+          "熊猫"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "presenter title",
+        "data": [
+          "资深算法研究员"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "presenter specialization",
+        "data": [
+          "AI算法专家"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main illustration",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "university logo",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "Three columns, each featuring a top bulleted list and a bottom landscape image with dual text labels below.:image": {
+    "template_id": 3,
+    "slides": [
+      3
+    ],
+    "elements": [
+      {
+        "name": "manufacturing image",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "image label",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "manufacturing image",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "image label",
+        "data": [
+          "擅长通过财务数据洞察企业经营"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "manufacturing image",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "bolded feature labels",
+        "data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案",
+          "团队介绍",
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main section title",
+        "data": [
+          "具备丰富的行业洞察和实战经验。"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background starburst graphic",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "slide subtitle",
+        "data": [
+          "AI算法专家"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "policy section title",
+        "data": [
+          "提供精准决策支持。"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "policy section bullets",
+        "data": [
+          "具备丰富的行业洞察和实战经验。",
+          "曾主导多个国家级AI项目",
+          "AI算法专家"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "market section title",
+        "data": [
+          "拥有丰富的上市公司财务分析经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "market section bullets",
+        "data": [
+          "AI算法专家",
+          "拥有超过10年的人工智能算法研发经验",
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "robot technology image",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "robot technology image",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "robot technology image",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "technology section title",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "technology section bullets",
+        "data": [
+          "曾主导多个国家级AI项目",
+          "AI算法专家",
+          "提供精准决策支持。"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "technical autonomy header",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "technical autonomy detail bullets",
+        "data": [
+          "资深算法研究员",
+          "拥有超过10年的人工智能算法研发经验",
+          "曾任职于国际顶尖咨询公司"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source footer",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "strategic positioning label",
+        "data": [
+          "曾主导多个国家级AI项目"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "highlighted conclusion header",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "advantage subsection title",
+        "data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "advantage feature bullets",
+        "data": [
+          "资深算法研究员",
+          "拥有超过10年的人工智能算法研发经验",
+          "曾任职于国际顶尖咨询公司"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main conclusion title",
+        "data": [
+          "曾任职于国际顶尖咨询公司"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "footer university logo",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "Two bordered sections containing a single-column list and a double-column grid of icon-labeled text boxes.:image": {
+    "template_id": 6,
+    "slides": [
+      6
+    ],
+    "elements": [
+      {
+        "name": "main title",
+        "data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background image",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "data source entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry detail",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry detail",
+        "data": [
+          "擅长通过财务数据洞察企业经营"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry title",
+        "data": [
+          "资深算法研究员"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry detail",
+        "data": [
+          "曾主导多个国家级AI项目"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section heading",
+        "data": [
+          "擅长通过财务数据洞察企业经营"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section heading",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry detail",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry detail",
+        "data": [
+          "擅长通过财务数据洞察企业经营"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry title",
+        "data": [
+          "资深算法研究员"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "data source entry detail",
+        "data": [
+          "曾主导多个国家级AI项目"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "资深算法研究员"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "资深算法研究员"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "资深算法研究员"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "资深算法研究员"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry title",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "reference entry detail",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "footer text",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "footer text",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "bolded slogan",
+        "data": [
+          "拥有超过10年的人工智能算法研发经验"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "closing remark",
+        "data": [
+          "为多家科技企业提供战略规划和商业创新咨询服务"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "footer logo",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "Three side-by-side vertical panels, each containing a circular image at the top followed by tiered text headings and a bulleted list below.:image": {
+    "template_id": 5,
+    "slides": [
+      5
+    ],
+    "elements": [
+      {
+        "name": "background wave image",
+        "data": [
+          "Background: A stylized blue wave with a gradient effect transitioning from dark to light blue, featuring a thin white outline along the bottom against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section title",
+        "data": [
+          "团队介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "decorative starburst image",
+        "data": [
+          "Background: A bright white glowing starburst with a thin horizontal light streak across its center, set against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "main title",
+        "data": [
+          "专业团队保驾护航"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle",
+        "data": [
+          "我们的团队致力于为企业提供全方位的专业支持与创新解决方案"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "left portrait image",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "center portrait image",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "right portrait image",
+        "data": [
+          "Picture: A white humanoid robot with glowing blue eyes interacts with a floating digital hologram featuring icons for gears, a monitor, and a flowchart against a solid black background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "left presenter name",
+        "data": [
+          "熊猫"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "center presenter name",
+        "data": [
+          "熊猫",
+          "队"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "right presenter name",
+        "data": [
+          "熊猫"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "left presenter title",
+        "data": [
+          "资深算法研究员"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "center presenter title",
+        "data": [
+          "注册会计师 (CPA)"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "right presenter title",
+        "data": [
+          "高级战略规划师"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "left presenter specialty",
+        "data": [
+          "AI算法专家"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "center presenter specialty",
+        "data": [
+          "财务分析专家"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "right presenter specialty",
+        "data": [
+          "战略咨询顾问"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "university logo",
+        "data": [
+          "Logo: The official insignia of Zhejiang University, featuring a circular seal with an eagle emblem on the left, followed by the university's name in blue Chinese calligraphy and English capital letters against a solid black background."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "functional_keys": [
+    "opening",
+    "table of contents",
+    "ending"
+  ],
+  "language": {
+    "lid": "zh"
+  }
+}

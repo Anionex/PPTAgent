@@ -1,0 +1,283 @@
+{
+  "outline_item": {
+    "purpose": "Introduce the 70-year journey of AI development, covering the origins at the Dartmouth Conference and early foundational milestones that set the stage for modern AI.",
+    "topic": "Origins of Artificial Intelligence",
+    "indexes": [
+      {
+        "section": "人工智能发展史",
+        "subsections": [
+          "人工智能七十年征程",
+          "起源：达特茅斯会议",
+          "早期奠基性里程碑"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/eniac.jpg",
+      "data/test_pptagent/ai_history_ppt/images/ai_timeline.png"
+    ]
+  },
+  "retrieve": {
+    "header": "Current Slide: Introduce the 70-year journey of AI development, covering the origins at the Dartmouth Conference and early foundational milestones that set the stage for modern AI.\nThis is the 4 slide of the presentation.\n",
+    "content_source": "Paragraph: 人工智能七十年征程\nContent: ## 从符号主义到大语言模型的七十年征程\n\n**1956 - 2026**  \n探索智能的本质，重塑人类文明的未来\nParagraph: 起源：达特茅斯会议\nContent: ## 起源：达特茅斯会议与符号主义 (1956-1969)\n\n**\"每一个学习的方面或智能的任何其他特征，原则上都可以被精确描述，从而可以制造一台机器来模拟它\"**  \n—— 达特茅斯会议提案 (1956)\nParagraph: 早期奠基性里程碑\nContent: ### 奠基性里程碑\n\n**1956年达特茅斯会议**  \n- **发起人**：John McCarthy, Marvin Minsky, Claude Shannon, Nathaniel Rochester\n- **核心理念**：\"人工智能\"术语首次提出，确立符号主义范式\n- **历史意义**：标志着AI作为独立学科的诞生\n\n**1958年感知机 (Perceptron)**  \n- **发明者**：Frank Rosenblatt\n- **技术突破**：首个能够学习的人工神经元模型\n- **影响**：奠定神经网络的理论基础\n\n**1969年关键转折**  \n- **Perceptrons一书**：Minsky & Papert 证明单层感知机的局限性\n- **后果**：神经网络研究陷入长达十余年的低谷\n",
+    "images": [
+      "<image>data/test_pptagent/ai_history_ppt/images/eniac.jpg</image>: Picture: A black and white historical photograph of a large room filled with early computer hardware. Massive panels with numerous wires and switches line the walls. Two individuals are seen operating the system, reflecting the early era of computing.",
+      "<image>data/test_pptagent/ai_history_ppt/images/ai_timeline.png</image>: Diagram: Timeline illustrating the evolution of artificial intelligence from 1956 to 2022. It highlights key milestones like the Dartmouth Conference and ChatGPT, categorized into chronological eras such as Symbolic AI, AI Winters, and the Large Language Model (LLM) era."
+    ]
+  },
+  "select_layout_result": {
+    "selected_layout_title": "Two-column split layout with hierarchical text and two sub-points on the left, paired with a large image on the right:image",
+    "header_passed_to_editor": "Current Slide: Introduce the 70-year journey of AI development, covering the origins at the Dartmouth Conference and early foundational milestones that set the stage for modern AI.\nThis is the 4 slide of the presentation.\n",
+    "slide_content_passed_to_editor": "[\n  {\n    \"pointName\": \"起源与背景\",\n    \"paragraphForm\": \"人工智能的征程始于1956年的达特茅斯会议，由John McCarthy、Marvin Minsky等人发起，首次提出\\\"人工智能\\\"术语，确立符号主义范式，标志着AI作为独立学科的诞生，开启了长达七十年的探索之旅。\",\n    \"bulletForm\": [\n      \"1956年达特茅斯会议标志AI学科正式诞生。\",\n      \"由McCarthy、Minsky、Shannon等人共同发起。\",\n      \"人工智能\",\n      \"术语在此首次被正式提出。\",\n      \"确立了符号主义作为早期AI的核心范式。\"\n    ]\n  },\n  {\n    \"pointName\": \"早期奠基性里程碑\",\n    \"paragraphForm\": \"1958年Frank Rosenblatt发明感知机（Perceptron），作为首个能够学习的人工神经元模型，奠定了神经网络的理论基础。然而1969年Minsky与Papert在《Perceptrons》一书中证明了单层感知机的局限性，导致神经网络研究陷入长达十余年的低谷。\",\n    \"bulletForm\": [\n      \"1958年Rosenblatt发明感知机，首个可学习神经元模型。\",\n      \"感知机奠定了神经网络的早期理论基础。\",\n      \"1969年《Perceptrons》揭示单层感知机的局限性。\",\n      \"神经网络研究因此陷入长达十余年低谷。\"\n    ]\n  }\n]\nImages:\n<image>data/test_pptagent/ai_history_ppt/images/eniac.jpg</image>: Picture: A black and white historical photograph of a large room filled with early computer hardware. Massive panels with numerous wires and switches line the walls. Two individuals are seen operating the system, reflecting the early era of computing.\n<image>data/test_pptagent/ai_history_ppt/images/ai_timeline.png</image>: Diagram: Timeline illustrating the evolution of artificial intelligence from 1956 to 2022. It highlights key milestones like the Dartmouth Conference and ChatGPT, categorized into chronological eras such as Symbolic AI, AI Winters, and the Large Language Model (LLM) era."
+  },
+  "generate_content": {
+    "layout_title": "opening",
+    "template_id": 1,
+    "command_list": [
+      {
+        "element": "background graphic",
+        "type": "image",
+        "quantity_change": "quantity_change: -1",
+        "old_data": [
+          "Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background."
+        ],
+        "new_data": []
+      },
+      {
+        "element": "decorative background text",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "BUSINESS"
+        ],
+        "new_data": [
+          "AI HISTORY"
+        ]
+      },
+      {
+        "element": "subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "企业品牌宣传"
+        ],
+        "new_data": [
+          "发展历程"
+        ]
+      },
+      {
+        "element": "placeholder paragraphs",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "new_data": [
+          "从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。",
+          "探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。"
+        ]
+      },
+      {
+        "element": "main title",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "科技新品上市宣传介绍——"
+        ],
+        "new_data": [
+          "人工智能发展简史"
+        ]
+      },
+      {
+        "element": "presenter/brand name",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "第一PPT"
+        ],
+        "new_data": [
+          "AI研究院"
+        ]
+      },
+      {
+        "element": "secondary subtitle",
+        "type": "text",
+        "quantity_change": "quantity_change: 0",
+        "old_data": [
+          "品牌宣传介绍"
+        ],
+        "new_data": [
+          "Apr 19"
+        ]
+      }
+    ],
+    "content_schema": "Element: background graphic\n\ttype: image\n\tdefault_quantity: 1\n\nElement: decorative background text\n\ttype: text\n\tsuggested_characters: 8\n\texample: ['BUSINESS']\n\tdefault_quantity: 1\n\nElement: subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['企业品牌宣传']\n\tdefault_quantity: 1\n\nElement: placeholder paragraphs\n\ttype: text\n\tsuggested_characters: 66\n\texample: ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.']\n\tdefault_quantity: 2\n\nElement: main title\n\ttype: text\n\tsuggested_characters: 12\n\texample: ['科技新品上市宣传介绍——']\n\tdefault_quantity: 1\n\nElement: presenter/brand name\n\ttype: text\n\tsuggested_characters: 5\n\texample: ['第一PPT']\n\tdefault_quantity: 1\n\nElement: secondary subtitle\n\ttype: text\n\tsuggested_characters: 6\n\texample: ['品牌宣传介绍']\n\tdefault_quantity: 1\n"
+  },
+  "edit_slide": {
+    "template_id": 1,
+    "api_history": [
+      [
+        "api_call_correct",
+        1,
+        "```python\n# ('background graphic', 'image', 'quantity_change: -1', ['Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background.'], [])\ndel_image(0)\n\n# ('decorative background text', 'text', 'quantity_change: 0', ['BUSINESS'], ['AI HISTORY'])\nreplace_paragraph(3, 0, \"AI HISTORY\")\n\n# ('subtitle', 'text', 'quantity_change: 0', ['企业品牌宣传'], ['发展历程'])\nreplace_paragraph(4, 0, \"发展历程\")\n\n# ('placeholder paragraphs', 'text', 'quantity_change: 0', ['Add your text content.Add your text content.Add your text content.', 'Add your text content.Add your text content.'], ['从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。', '探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。'])\nreplace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")\nreplace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")\n\n# ('main title', 'text', 'quantity_change: 0', ['科技新品上市宣传介绍——'], ['人工智能发展简史'])\nreplace_paragraph(7, 0, \"人工智能发展简史\")\n\n# ('presenter/brand name', 'text', 'quantity_change: 0', ['第一PPT'], ['AI研究院'])\nreplace_paragraph(10, 0, \"AI研究院\")\n\n# ('secondary subtitle', 'text', 'quantity_change: 0', ['品牌宣传介绍'], ['Apr 19'])\nreplace_paragraph(11, 0, \"Apr 19\")\n```"
+      ]
+    ],
+    "code_history": [
+      "['code_run_correct', 'del_image(0)', None]",
+      "['code_run_correct', 'replace_paragraph(3, 0, \"AI HISTORY\")', None]",
+      "['code_run_correct', 'replace_paragraph(4, 0, \"发展历程\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 0, \"从 Dartmouth 会议的起源到大语言模型时代，回顾人工智能70年的发展历程。\")', None]",
+      "['code_run_correct', 'replace_paragraph(5, 1, \"探索 AI 的关键突破、技术变革与未来展望，见证智能时代的演进与跨越。\")', None]",
+      "['code_run_correct', 'replace_paragraph(7, 0, \"人工智能发展简史\")', None]",
+      "['code_run_correct', 'replace_paragraph(10, 0, \"AI研究院\")', None]",
+      "['code_run_correct', 'replace_paragraph(11, 0, \"Apr 19\")', None]"
+    ],
+    "command_history": [
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "decorative background text",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "placeholder paragraphs",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "main title",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "presenter/brand name",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        },
+        {
+          "element": "secondary subtitle",
+          "type": "text",
+          "quantity_change": "quantity_change: 0"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "element": "d",
+          "type": "e",
+          "quantity_change": "l"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ],
+      [
+        {
+          "element": "c",
+          "type": "o",
+          "quantity_change": "m"
+        },
+        {
+          "element": "#",
+          "type": " ",
+          "quantity_change": "("
+        },
+        {
+          "raw": "None"
+        }
+      ]
+    ]
+  }
+}

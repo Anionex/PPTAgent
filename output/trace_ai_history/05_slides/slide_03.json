@@ -1,0 +1,35 @@
+{
+  "outline_item": {
+    "purpose": "Explore the origins of AI including symbolic AI, foundational milestones, the rise and practical value of expert systems, the causes of two AI winters, and the landmark event of Deep Blue defeating Kasparov.",
+    "topic": "Early AI: Foundations and Setbacks",
+    "indexes": [
+      {
+        "section": "人工智能发展史",
+        "subsections": [
+          "起源与符号主义",
+          "奠基性里程碑"
+        ]
+      },
+      {
+        "section": "寒冬与复苏：专家系统时代",
+        "subsections": [
+          "专家系统的实用价值",
+          "两次AI寒冬的成因",
+          "深蓝战胜卡斯帕罗夫"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/eniac.jpg",
+      "data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png"
+    ]
+  },
+  "retrieve": {
+    "header": "Current Slide: Explore the origins of AI including symbolic AI, foundational milestones, the rise and practical value of expert systems, the causes of two AI winters, and the landmark event of Deep Blue defeating Kasparov.\nThis is the 4 slide of the presentation.\n",
+    "content_source": "Paragraph: 起源与符号主义\nContent: ## 起源：达特茅斯会议与符号主义 (1956-1969)\n\n**\"每一个学习的方面或智能的任何其他特征，原则上都可以被精确描述，从而可以制造一台机器来模拟它\"**  \n—— 达特茅斯会议提案 (1956)\nParagraph: 奠基性里程碑\nContent: ### 奠基性里程碑\n\n**1956年达特茅斯会议**  \n- **发起人**：John McCarthy, Marvin Minsky, Claude Shannon, Nathaniel Rochester\n- **核心理念**：\"人工智能\"术语首次提出，确立符号主义范式\n- **历史意义**：标志着AI作为独立学科的诞生\n\n**1958年感知机 (Perceptron)**  \n- **发明者**：Frank Rosenblatt\n- **技术突破**：首个能够学习的人工神经元模型\n- **影响**：奠定神经网络的理论基础\n\n**1969年关键转折**  \n- **Perceptrons一书**：Minsky & Papert 证明单层感知机的局限性\n- **后果**：神经网络研究陷入长达十余年的低谷\nParagraph: 专家系统的实用价值\nContent: **AI研究经历了理想与现实的剧烈碰撞，但专家系统的短暂辉煌证明了AI的实用价值**\nParagraph: 两次AI寒冬的成因\nContent: **第一次寒冬 (1974-1980)**  \n- **技术瓶颈**：计算能力不足，无法处理现实世界复杂问题\n- **资金断裂**：DARPA大幅削减AI研究预算\n- **理论局限**：组合爆炸问题无法解决\n\n**第二次寒冬 (1987-1997)**  \n- **专家系统的失败**：维护成本高昂，知识获取困难\n- **硬件市场崩溃**：LISP机器被通用计算机取代\n- **过度承诺**：第五代计算机计划未达预期\nParagraph: 深蓝战胜卡斯帕罗夫\nContent: IBM Deep Blue的胜利标志着**暴力搜索+启发式评估**范式的成功，重新点燃公众对AI的信心\n",
+    "images": [
+      "<image>data/test_pptagent/ai_history_ppt/images/eniac.jpg</image>: Picture: A black and white historical photograph showing two operators working with a massive, early-generation mainframe computer. The machine features complex, exposed wiring and numerous control panels spanning across a large room, illustrating the dawn of electronic computing.",
+      "<image>data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png</image>: Chart: Line graph showing AI research funding and interest from 1950 to 2025. Two shaded regions mark \"AI Winter I\" (1974-1980) and \"AI Winter II\" (1987-1997), representing periods of decreased interest, followed by a sharp, consistent rise leading to the present."
+    ]
+  }
+}

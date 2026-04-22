@@ -1,0 +1,41 @@
+<section>人工智能发展史</section>
+	Summary: 本文回顾了人工智能从1956年至今的七十年发展历程。内容梳理了AI从理论设想到工业革命的蜕变，将其划分为符号AI、两次寒冬、机器学习、深度学习及大语言模型六个关键时代。文中详述了学科起源时期的重要里程碑，包括达特茅斯会议确立符号主义范式、感知机的发明及其后的技术局限性转折，系统地展现了AI在逻辑推理与神经网络研究中的演进路径，旨在探索智能本质并重塑未来。
+	<image>data/test_pptagent/ai_history_ppt/images/ai_timeline.png</image>: Diagram: A timeline titled "The Evolution of Artificial Intelligence" spanning 1956 to 2022. It highlights key milestones like the Dartmouth Conference and ChatGPT, while categorizing historical periods into eras such as Symbolic AI, ML, Deep Learning, and LLM, separated by two distinct AI Winters.
+	<subsection>发展主题与愿景</subsection>
+	<subsection>AI发展全景时间线</subsection>
+	<subsection>六个关键时代</subsection>
+	<image>data/test_pptagent/ai_history_ppt/images/eniac.jpg</image>: Picture: A black and white historical photograph showing two operators working with a massive, early-generation mainframe computer. The machine features complex, exposed wiring and numerous control panels spanning across a large room, illustrating the dawn of electronic computing.
+	<subsection>起源与符号主义</subsection>
+	<subsection>奠基性里程碑</subsection>
+
+<section>寒冬与复苏：专家系统时代</section>
+	Summary: 本章节回顾了1970年至1997年间人工智能的发展历程。期间，AI经历了两次“寒冬”，主因包括计算瓶颈、资金削减及专家系统维护困难等。尽管遭遇挫折，专家系统的出现证明了AI的实用价值。1997年，IBM的“深蓝”战胜卡斯帕罗夫，凭借暴力搜索与启发式评估范式的成功，重新点燃了公众对AI的信心，标志着技术复苏的转机。
+	<image>data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png</image>: Chart: Line graph showing AI research funding and interest from 1950 to 2025. Two shaded regions mark "AI Winter I" (1974-1980) and "AI Winter II" (1987-1997), representing periods of decreased interest, followed by a sharp, consistent rise leading to the present.
+	<subsection>专家系统的实用价值</subsection>
+	<subsection>两次AI寒冬的成因</subsection>
+	<subsection>深蓝战胜卡斯帕罗夫</subsection>
+
+<section>机器学习崛起：数据驱动的范式转移 (1997-2012)</section>
+	Summary: 本章节概述了人工智能在1997至2012年间从手工编码规则向数据驱动学习的重大范式变革。文中重点介绍了三大关键技术：支持向量机（SVM）、随机森林和深度信念网络（DBN），涵盖了其提出者、技术优势及深远影响。此外，章节还列举了Netflix推荐系统和IBM Watson作为机器学习的标志性应用，展示了该技术在商业协同过滤和自然语言理解领域的成功，为后续深度学习的全面复兴奠定了坚实的基础。
+	<subsection>机器学习范式革命概览</subsection>
+	<subsection>关键技术突破</subsection>
+	<image>data/test_pptagent/ai_history_ppt/images/technology_evolution.png</image>: Chart: Timeline titled "Evolution of AI Technologies" illustrating the progression of AI fields from 1956 to 2025. Color-coded bars track the development and longevity of techniques like Symbolic AI, Neural Networks, Machine Learning, and Transformers, with several modern technologies extending to 2025 and beyond.
+	<subsection>机器学习标志性应用</subsection>
+
+<section>深度学习革命：神经网络的全面胜利 (2012-2019)</section>
+	Summary: 本章节回顾了2012年至2019年深度学习领域的爆发式发展。从2012年AlexNet在ImageNet竞赛中取得历史性突破并引入ReLU、Dropout及GPU计算开始，深度学习进入黄金时代。随后，2014年生成对抗网络（GAN）的提出、2015年ResNet残差网络对深层网络退化问题的解决，以及2016年AlphaGo在围棋博弈中战胜人类，共同标志着AI在图像生成、深度架构及强化学习等多个维度取得了全面胜利。
+	<subsection>深度学习时代的到来</subsection>
+	<subsection>2012：革命之年</subsection>
+	<image>data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg</image>: Diagram: Diagram illustrating a hierarchical neural network architecture. Image inputs of animals are processed through layers of increasingly complex features, from simple lines to identifiable shapes, concluding in classification labels. It highlights the processes of supervised and unsupervised learning within the model.
+	<subsection>黄金时代重要里程碑</subsection>
+
+<section>大语言模型时代：通用智能的黎明 (2017-2026)</section>
+	Summary: 本章节详述了2017年至2026年大语言模型的跨越式发展。从Transformer架构的诞生奠定现代NLP基础开始，通过模型规模的指数级增长（如GPT系列），AI展现出思维链推理、上下文学习等显著的涌现能力。文章分析了算力、数据与算法作为驱动技术演进的三大支柱，并从AI历史教训中总结出平衡发展与安全的重要性。展望未来，多模态大模型、具身智能及AI对齐将成为关键方向，预示着通用智能时代的全面开启。
+	<image>data/test_pptagent/ai_history_ppt/images/transformer_architecture.png</image>: Diagram: Flowchart illustrating the 2017 Transformer architecture sequence: input layer, token embedding, multi-head attention, feed-forward network, layer normalization, and output layer. It emphasizes the self-attention mechanism as the key innovation from the "Attention is All You Need" paper, which revolutionized natural language processing.
+	<subsection>时代背景与核心架构</subsection>
+	<subsection>2017：Transformer革命</subsection>
+	<subsection>模型规模的指数级增长</subsection>
+	<image>data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png</image>: Chart: Two panels illustrating AI progress. A bar chart (left) shows exponential parameter growth from BERT to GPT-4 Turbo. A line chart (right) tracks AI capability milestones from 1958 to 2022, showing significant performance acceleration since the early 2010s.
+	<subsection>涌现能力</subsection>
+	<subsection>发展启示与未来展望</subsection>
+

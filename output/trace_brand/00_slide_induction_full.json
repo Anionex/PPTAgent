@@ -1,0 +1,1326 @@
+{
+  "opening": {
+    "slides": [
+      1
+    ],
+    "template_id": 1,
+    "elements": [
+      {
+        "name": "background graphic",
+        "data": [
+          "Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "decorative background text",
+        "data": [
+          "BUSINESS"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle",
+        "data": [
+          "企业品牌宣传"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "placeholder paragraphs",
+        "data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main title",
+        "data": [
+          "科技新品上市宣传介绍——"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "presenter/brand name",
+        "data": [
+          "第一PPT"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "secondary subtitle",
+        "data": [
+          "品牌宣传介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "presentation icon",
+        "data": [
+          "Icon: Stylized white icon of a person wearing a tie pointing towards a line chart displayed on a presentation screen against a black background."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "table of contents": {
+    "slides": [
+      2
+    ],
+    "template_id": 2,
+    "elements": [
+      {
+        "name": "main title",
+        "data": [
+          "目录"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "sub title",
+        "data": [
+          "CONTENTS"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "footer link",
+        "data": [
+          "PPT下载 http://www.1ppt.com/xiazai/"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "large section number 1",
+        "data": [
+          "01"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "large section number 2",
+        "data": [
+          "02"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "large section number 3",
+        "data": [
+          "03"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "large section number 4",
+        "data": [
+          "04"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section bullets 1",
+        "data": [
+          "Add your text content. ",
+          "Add your text content."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section title 1",
+        "data": [
+          "企业介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section bullets 2",
+        "data": [
+          "Add your text content. ",
+          "Add your text content."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section title 2",
+        "data": [
+          "产品系列"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section bullets 3",
+        "data": [
+          "Add your text content. ",
+          "Add your text content."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section title 3",
+        "data": [
+          "商业模式"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section bullets 4",
+        "data": [
+          "Add your text content. ",
+          "Add your text content."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section title 4",
+        "data": [
+          "战略规划"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section label 1",
+        "data": [
+          "PART ONE"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section label 2",
+        "data": [
+          "PART TWO"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section label 3",
+        "data": [
+          "PART THREE"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section label 4",
+        "data": [
+          "PART FOUR"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "section outline": {
+    "slides": [
+      3,
+      7,
+      12,
+      16
+    ],
+    "template_id": 3,
+    "elements": [
+      {
+        "name": "banner image",
+        "data": [
+          "Banner: A wide panoramic image of a modern urban skyline with glass skyscrapers against a blue sky, fading into a bright white light on the left."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section label word",
+        "data": [
+          "ONE"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section title",
+        "data": [
+          "企业品牌介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "description paragraphs",
+        "data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section number",
+        "data": [
+          "01"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "part label",
+        "data": [
+          "PART ONE"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "ending": {
+    "slides": [
+      20
+    ],
+    "template_id": 20,
+    "elements": [
+      {
+        "name": "background abstract graphic",
+        "data": [
+          "Background: An abstract light blue and white graphic featuring stylized wave patterns at the bottom and a faint, rectangular skyline silhouette in the background."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "large section title",
+        "data": [
+          "BUSINESS"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "closing statement",
+        "data": [
+          "谢谢您的观赏"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "body text paragraphs",
+        "data": [
+          "Add your text content.Add your text content.Add your text content.",
+          "Add your text content.Add your text content."
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main subtitle",
+        "data": [
+          "科技新品上市宣传介绍——"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "bolded brand name",
+        "data": [
+          "第一PPT"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "secondary subtitle",
+        "data": [
+          "品牌宣传介绍"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "white background image",
+        "data": [
+          "Background: A solid white, featureless surface without any visible objects, textures, or markings."
+        ],
+        "type": "image"
+      }
+    ]
+  },
+  "Introductory text followed by four uniform vertical columns, each featuring an icon, a highlighted title bar, and a text block.:text": {
+    "template_id": 13,
+    "slides": [
+      13
+    ],
+    "elements": [
+      {
+        "name": "top main description",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 1 label",
+        "data": [
+          "Add contents"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 1 subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 2 label",
+        "data": [
+          "Add contents"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 2 subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 3 label",
+        "data": [
+          "Add contents"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 3 subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 4 label",
+        "data": [
+          "Add contents"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 4 subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 1 content block",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容添加文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 2 content block",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容添加文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 3 content block",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容添加文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section 4 content block",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容添加文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Side-by-side landscape image and colored text box above a full-width block of text:text": {
+    "template_id": 4,
+    "slides": [
+      4
+    ],
+    "elements": [
+      {
+        "name": "text paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "text paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main title",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "extended text paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Three vertically stacked text blocks with icons beside a large square image container:image": {
+    "template_id": 8,
+    "slides": [
+      8
+    ],
+    "elements": [
+      {
+        "name": "section number 1",
+        "data": [
+          "01"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section number 2",
+        "data": [
+          "02"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section number 3",
+        "data": [
+          "03"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "background decoration",
+        "data": [
+          "Background: A solid, uniform medium-green color square with no patterns, gradients, or other features."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "paragraph content 1",
+        "data": [
+          "在此处添加您的文本内容在此处添加文本内容在此处添加文本内容添加文本内容在此处添加您的文本内容添加文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle 1",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "paragraph content 2",
+        "data": [
+          "在此处添加您的文本内容在此处添加文本内容在此处添加文本内容添加文本内容在此处添加您的文本内容添加文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle 2",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "paragraph content 3",
+        "data": [
+          "在此处添加您的文本内容在此处添加文本内容在此处添加文本内容添加文本内容在此处添加您的文本内容添加文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle 3",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Central diagram of four overlapping circles with four surrounding text blocks connected by curved arrows:text": {
+    "template_id": 14,
+    "slides": [
+      14
+    ],
+    "elements": [
+      {
+        "name": "point 1 index label",
+        "data": [
+          "P1"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 2 index label",
+        "data": [
+          "P2"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 3 index label",
+        "data": [
+          "P4"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 4 index label",
+        "data": [
+          "P3"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 1 subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 1 description",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 2 subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 2 description",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 3 subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 3 description",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 4 subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "point 4 description",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Central circular graphic flanked by four smaller icons with brief adjacent text and a wide bottom text block:text": {
+    "template_id": 18,
+    "slides": [
+      18
+    ],
+    "elements": [
+      {
+        "name": "first block heading",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "second block heading",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "third block heading",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "second section index number",
+        "data": [
+          "02"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "first section index number",
+        "data": [
+          "01"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "third section index number",
+        "data": [
+          "03"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main descriptive paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Header and landscape image on the left with three vertical icon-text blocks on the right:image": {
+    "template_id": 10,
+    "slides": [
+      10
+    ],
+    "elements": [
+      {
+        "name": "introduction paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section title 1",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main image",
+        "data": [
+          "Picture:Professionals in business attire sitting at a table, discussing a document featuring a graph while gesturing and pointing with a pen."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "section title 2",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "content paragraph 1",
+        "data": [
+          "在此处添加您的文本内容添加您的文本内容添加您的文本内容添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section title 3",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "content paragraph 2",
+        "data": [
+          "在此处添加您的文本内容添加您的文本内容添加您的文本内容添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section title 4",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "content paragraph 3",
+        "data": [
+          "在此处添加您的文本内容添加您的文本内容添加您的文本内容添加您的文本内容在此处添加您的文本内容"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Central image with two text overlays on the left and three vertical data-driven sections on the right:image": {
+    "template_id": 19,
+    "slides": [
+      19
+    ],
+    "elements": [
+      {
+        "name": "main background image",
+        "data": [
+          "Picture: A group of people collaborating around a table, using laptops and reviewing printed documents with charts and graphs."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "introductory text paragraph 1",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "introductory text paragraph 2",
+        "data": [
+          "添加您的文本内容此处添加您的文本内容添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "detailed introductory text",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "decorative quote mark",
+        "data": [
+          "“"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "percentage statistic 1",
+        "data": [
+          "42%"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "description for statistic 1",
+        "data": [
+          "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle for statistic 1",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "percentage statistic 2",
+        "data": [
+          "58%"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "description for statistic 2",
+        "data": [
+          "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle for statistic 2",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "percentage statistic 3",
+        "data": [
+          "72%"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "description for statistic 3",
+        "data": [
+          "添加您的文本内容此处添加您的文本内容添加您的文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "subtitle for statistic 3",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Two-column split layout with hierarchical text and two sub-points on the left, paired with a large image on the right:image": {
+    "template_id": 9,
+    "slides": [
+      9
+    ],
+    "elements": [
+      {
+        "name": "presentation brand title",
+        "data": [
+          "Alcra Presentation"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "main section title",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "introductory description paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加文本内容添加文本内容在此处添加您的文本内容在此处添加您的文本内容此处添加文本内容添加文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "landscape illustrative image",
+        "data": [
+          "Picture: Top-down view of five business professionals in suits and formal wear gathered around a white table, reviewing charts and documents during a collaborative meeting with coffee."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "middle body paragraph",
+        "data": [
+          "在此处添加您的文本内容此处添加文本内容添加文本内容添加文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "first section subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "section supporting text",
+        "data": [
+          "在此处添加您的文本内容此处添加文本内容添加文本内容添加文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "second section subtitle",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Three-column layout featuring two outer sections with an image over text and a central colored block with an icon over text.:image": {
+    "template_id": 15,
+    "slides": [
+      15
+    ],
+    "elements": [
+      {
+        "name": "landscape image 1",
+        "data": [
+          "Picture: Business professionals in suits sitting around a glass table, reviewing documents and taking notes during a meeting."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "landscape image 2",
+        "data": [
+          "Picture:Two individuals in business attire shake hands over a desk containing documents and a tablet, representing a professional agreement or successful negotiation."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "sub title 1",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "body paragraph 1",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加您的文本内容在此处添加文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "body paragraph 2",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "sub title 2",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "body paragraph 3",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "sub title 3",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Four central numbered ribbon icons in a 2x2 grid flanked by symmetrical text blocks on either side:text": {
+    "template_id": 5,
+    "slides": [
+      5
+    ],
+    "elements": [
+      {
+        "name": "first item index",
+        "data": [
+          "01"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "second item index",
+        "data": [
+          "02"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "third item index",
+        "data": [
+          "03"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "fourth item index",
+        "data": [
+          "04"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "first item description",
+        "data": [
+          "在此处添加您的文本内容在此处添加文本内容此处添加文本内容添加文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "first item subtitle",
+        "data": [
+          "  预设标题文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "second item description",
+        "data": [
+          "在此处添加您的文本内容在此处添加文本内容此处添加文本内容添加文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "second item subtitle",
+        "data": [
+          "  预设标题文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "third item description",
+        "data": [
+          "在此处添加您的文本内容在此处添加文本内容此处添加文本内容添加文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "third item subtitle",
+        "data": [
+          "  预设标题文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "fourth item description",
+        "data": [
+          "在此处添加您的文本内容在此处添加文本内容此处添加文本内容添加文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "fourth item subtitle",
+        "data": [
+          "  预设标题文本内容"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Large rectangular graphic with three icon-led text points to its right:image": {
+    "template_id": 11,
+    "slides": [
+      11
+    ],
+    "elements": [
+      {
+        "name": "background image",
+        "data": [
+          "Background: A solid, uniform medium-green color square with no patterns, gradients, or other features."
+        ],
+        "type": "image"
+      },
+      {
+        "name": "timeline year 1",
+        "data": [
+          "2015"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "timeline year 2",
+        "data": [
+          "2014"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "timeline year 3",
+        "data": [
+          "2013"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "timeline year 4",
+        "data": [
+          "2012"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "placeholder description 1",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "placeholder description 2",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "placeholder description 3",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容此处添加您的文本内容"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Four horizontal columns, each featuring a numbered icon above a heading and a text block:text": {
+    "template_id": 6,
+    "slides": [
+      6
+    ],
+    "elements": [
+      {
+        "name": "item 1 index",
+        "data": [
+          "01"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 2 index",
+        "data": [
+          "02"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 3 index",
+        "data": [
+          "03"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 4 index",
+        "data": [
+          "04"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 1 paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 2 paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 3 paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 4 paragraph",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 1 title",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 2 title",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 3 title",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "item 4 title",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "Symmetrical two-column layout with headers and three stacked text blocks flanking a central circular element:text": {
+    "template_id": 17,
+    "slides": [
+      17
+    ],
+    "elements": [
+      {
+        "name": "left main title",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "right main title",
+        "data": [
+          "预设标题文本"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "comparison separator",
+        "data": [
+          "VS"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "left body paragraph 1",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "left body paragraph 2",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "left body paragraph 3",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "right body paragraph 1",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "right body paragraph 2",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      },
+      {
+        "name": "right body paragraph 3",
+        "data": [
+          "在此处添加您的文本内容在此处添加您的文本内容此处添加您的文本内容添加您的文本内容"
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "functional_keys": [
+    "opening",
+    "table of contents",
+    "section outline",
+    "ending"
+  ],
+  "language": {
+    "lid": "zh"
+  }
+}

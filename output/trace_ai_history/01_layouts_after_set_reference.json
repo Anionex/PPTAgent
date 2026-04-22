@@ -1,0 +1,27 @@
+{
+  "all_layouts": [
+    "opening",
+    "table of contents",
+    "ending",
+    "Three side-by-side vertical panels, each containing a circular image at the top followed by tiered text headings and a bulleted list below.:image",
+    "Left profile column with circular image and bulleted list beside a two-by-three grid of captioned images:text",
+    "Three columns, each featuring a top bulleted list and a bottom landscape image with dual text labels below.:text",
+    "Two bordered sections containing a single-column list and a double-column grid of icon-labeled text boxes.:text"
+  ],
+  "text_layouts": [
+    "Left profile column with circular image and bulleted list beside a two-by-three grid of captioned images:text",
+    "Three columns, each featuring a top bulleted list and a bottom landscape image with dual text labels below.:text",
+    "Two bordered sections containing a single-column list and a double-column grid of icon-labeled text boxes.:text"
+  ],
+  "multimodal_layouts": [
+    "Three side-by-side vertical panels, each containing a circular image at the top followed by tiered text headings and a bulleted list below.:image"
+  ],
+  "functional_layouts": [
+    "opening",
+    "table of contents",
+    "ending"
+  ],
+  "reference_language": {
+    "lid": "zh"
+  }
+}

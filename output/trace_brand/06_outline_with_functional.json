@@ -1,0 +1,151 @@
+[
+  {
+    "slide_idx": 0,
+    "purpose": "opening",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "slide_idx": 1,
+    "purpose": "table of contents",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "slide_idx": 2,
+    "purpose": "Section Outline of Origins of Artificial Intelligence",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "slide_idx": 3,
+    "purpose": "Introduce the 70-year journey of AI development, covering the origins at the Dartmouth Conference and early foundational milestones that set the stage for modern AI.",
+    "topic": "Origins of Artificial Intelligence",
+    "indexes": [
+      {
+        "section": "人工智能发展史",
+        "subsections": [
+          "人工智能七十年征程",
+          "起源：达特茅斯会议",
+          "早期奠基性里程碑"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/eniac.jpg",
+      "data/test_pptagent/ai_history_ppt/images/ai_timeline.png"
+    ]
+  },
+  {
+    "slide_idx": 4,
+    "purpose": "Section Outline of AI Winters and Expert Systems",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "slide_idx": 5,
+    "purpose": "Examine the era of expert systems, the causes of two AI winters, and the significance of Deep Blue's victory, illustrating the cycles of hype and disillusionment in early AI research.",
+    "topic": "AI Winters and Expert Systems",
+    "indexes": [
+      {
+        "section": "寒冬与复苏：专家系统时代 (1970-1997)",
+        "subsections": [
+          "AI研究的理想与现实",
+          "两次AI寒冬的成因分析",
+          "深蓝获胜的历史意义"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/ai_funding_curve.png"
+    ]
+  },
+  {
+    "slide_idx": 6,
+    "purpose": "Section Outline of Rise of Machine Learning",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "slide_idx": 7,
+    "purpose": "Describe the paradigm shift to data-driven machine learning, key technical breakthroughs, and landmark applications that redefined AI research between 1997 and 2012.",
+    "topic": "Rise of Machine Learning",
+    "indexes": [
+      {
+        "section": "机器学习崛起：数据驱动的范式转移 (1997-2012)",
+        "subsections": [
+          "AI研究范式革命",
+          "关键技术突破",
+          "机器学习标志性应用"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/technology_evolution.png"
+    ]
+  },
+  {
+    "slide_idx": 8,
+    "purpose": "Section Outline of Deep Learning Revolution",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "slide_idx": 9,
+    "purpose": "Present the deep learning revolution starting from the 2012 breakthrough, the formal opening of the deep learning era, and the golden age milestones that led to neural networks dominating AI.",
+    "topic": "Deep Learning Revolution",
+    "indexes": [
+      {
+        "section": "深度学习革命：神经网络的全面胜利 (2012-2019)",
+        "subsections": [
+          "深度学习时代的正式开启",
+          "2012年革命性突破",
+          "深度学习黄金时代里程碑"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/deep_learning_layers.jpg"
+    ]
+  },
+  {
+    "slide_idx": 10,
+    "purpose": "Section Outline of Large Language Models and Future Outlook",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  },
+  {
+    "slide_idx": 11,
+    "purpose": "Explore the dawn of the Large Language Model era, focusing on the Transformer architecture, exponential model growth, emergent capabilities, and future outlook for general AI.",
+    "topic": "Large Language Models and Future Outlook",
+    "indexes": [
+      {
+        "section": "大语言模型时代：通用智能的黎明 (2017-2026)",
+        "subsections": [
+          "2017：Transformer革命",
+          "模型规模的指数级增长",
+          "大模型的涌现能力",
+          "发展启示与未来展望"
+        ]
+      }
+    ],
+    "images": [
+      "data/test_pptagent/ai_history_ppt/images/transformer_architecture.png",
+      "data/test_pptagent/ai_history_ppt/images/llm_growth_performance.png"
+    ]
+  },
+  {
+    "slide_idx": 12,
+    "purpose": "ending",
+    "topic": "Functional",
+    "indexes": [],
+    "images": []
+  }
+]
