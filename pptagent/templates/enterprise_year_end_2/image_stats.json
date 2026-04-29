@@ -1,0 +1,55 @@
+{
+    "36fbf0e935ec0e6dc30221e7c47aedd300c053c0.jpg": {
+        "size": [
+            542,
+            324
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            7
+        ],
+        "relative_area": 3.619212962962963,
+        "top_ranges_str": "7",
+        "caption": "Picture: Several people gathered around a white table reviewing documents in blue folders, holding pens, with one person pointing at a chart during what appears to be a business meeting."
+    },
+    "b3bcff6ea98aa975e08a66fb6b9894d5d7c42265.jpg": {
+        "size": [
+            542,
+            331
+        ],
+        "appear_times": 1,
+        "slide_numbers": [
+            7
+        ],
+        "relative_area": 3.6875,
+        "top_ranges_str": "7",
+        "caption": "Picture: Three people collaborating around a table with laptops and documents, one person pointing at a screen during a work meeting."
+    },
+    "5f4d8bad37f8ca206b97e421692c45773cd849c4.jpg": {
+        "size": [
+            613,
+            375
+        ],
+        "appear_times": 3,
+        "slide_numbers": [
+            16,
+            23
+        ],
+        "relative_area": 2.871141975308642,
+        "top_ranges_str": "16, 23",
+        "caption": "Picture: Three people collaborating around a round table with laptops and printed documents, appearing to work on a project together."
+    },
+    "a23c385bce50e28329c924016589a5f91064c6d1.jpg": {
+        "size": [
+            627,
+            375
+        ],
+        "appear_times": 2,
+        "slide_numbers": [
+            16
+        ],
+        "relative_area": 2.871141975308642,
+        "top_ranges_str": "16",
+        "caption": "Picture: Several people gathered around a white table, reviewing and signing documents in blue folders during a business meeting."
+    }
+}

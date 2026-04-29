@@ -2,6 +2,7 @@ __pycache__
 tmp
 build
 workspace
+output
 *ipynb
 .vscode
 oaib.txt
@@ -38,5 +39,7 @@ dist-ssr
 .vscode/*
 .gradio
 .superset
+.env
+.env.*
 !.vscode/extensions.json
 !.dockerignore

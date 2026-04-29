@@ -5,6 +5,7 @@ from os.path import exists
 from pathlib import Path
 from random import shuffle
 
+from dotenv import load_dotenv
 from fastmcp import FastMCP
 from mistune import html as markdown_to_html
 
@@ -26,6 +27,8 @@ from pptagent.utils import (
 )
 
 logger = get_logger(__name__)
+
+load_dotenv()
 
 
 def mcp_slide_validate(editor_output: EditorOutput, layout: Layout, prs_lang: Language):

@@ -1,0 +1,2447 @@
+{
+    "opening": {
+        "slides": [
+            1
+        ],
+        "template_id": 1,
+        "elements": [
+            {
+                "name": "top left label text",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub label text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title - Chinese",
+                "data": [
+                    "雅韵中国风"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title - Chinese",
+                "data": [
+                    "中国风通用演示模板"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title - English",
+                "data": [
+                    "General demonstration template of fresh watercolor"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative pinyin character 1",
+                "data": [
+                    "Ya"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative pinyin character 2",
+                "data": [
+                    "Yun"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative pinyin character 3",
+                "data": [
+                    "Zhong"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative pinyin character 4",
+                "data": [
+                    "Guo"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative pinyin character 5",
+                "data": [
+                    "Feng"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "body description text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼",
+                    "为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "landscape image - traditional Chinese imperial palace",
+                "data": [
+                    "Picture: Illustrated depiction of a traditional Chinese imperial palace, likely the Forbidden City, featuring golden rooftops, red walls, green trim, and symmetrical staircases on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "square image - Chinese pagoda icon",
+                "data": [
+                    "Icon: Illustrated orange and gold multi-tiered Chinese pagoda tower with decorative rooflines, teal accents, and a spire on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "portrait image - traditional Chinese pagoda illustration",
+                "data": [
+                    "Picture: Digital illustration of a traditional Chinese pagoda tower in orange and gold tones, featuring multiple tiered roofs, decorative details, and a winding path at the base, set against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "landscape image - colorful mountain peaks illustration",
+                "data": [
+                    "Picture: Colorful abstract illustration of mountain peaks with layered contour lines in shades of blue, green, and yellow, suggesting a topographic or stylized landscape design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - swirling cloud",
+                "data": [
+                    "Icon: Stylized illustration of a swirling cloud or smoke in warm orange and peach tones, with a curling tail at the bottom, rendered in a simple, flat design style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background image - soft warm abstract",
+                "data": [
+                    "Background: Soft, warm-toned abstract background with subtle curved shapes in peach and orange hues, primarily white with decorative elements in the lower center and right corner."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative image - swirling clouds East Asian motif",
+                "data": [
+                    "Picture: A stylized illustration of swirling clouds in soft orange and peach tones, with a decorative, flowing design reminiscent of traditional East Asian artistic motifs."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - Temple of Heaven",
+                "data": [
+                    "Icon: Stylized illustration of the Temple of Heaven in Beijing, China, featuring its iconic multi-tiered circular structure with blue roofs and orange accents on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background image - golden Asian cloud motifs",
+                "data": [
+                    "Background: Decorative golden/peach-toned traditional Asian cloud motifs on a white background, featuring swirling, layered cloud designs in a classic Chinese or Japanese artistic style."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "table of contents": {
+        "slides": [
+            2
+        ],
+        "template_id": 2,
+        "elements": [
+            {
+                "name": "header label with slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title text - YOUR",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section label - table of contents title in Chinese",
+                "data": [
+                    "目录"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "table of contents label - Mu",
+                "data": [
+                    "Mu"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "table of contents label - Lu",
+                "data": [
+                    "Lu"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background landscape image",
+                "data": [
+                    "Picture: Colorful abstract illustration of mountain peaks with layered contour lines in shades of blue, green, and yellow, suggesting a topographic or stylized landscape design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative swirling clouds image",
+                "data": [
+                    "Picture: A stylized illustration of swirling clouds in soft orange and peach tones, with a decorative, flowing design reminiscent of traditional East Asian artistic motifs."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "slide subtitle - template description",
+                "data": [
+                    "General demonstration template of fresh watercolor"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative pagoda icon",
+                "data": [
+                    "Icon: Illustrated Chinese pagoda tower in orange and gold tones, featuring multiple tiered roofs with decorative details, set against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative clouds illustration",
+                "data": [
+                    "Picture: Two stylized cartoon clouds in warm orange/peach tones with swirling details, connected by a curving line, rendered in a traditional Asian decorative art style against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative pagoda illustration",
+                "data": [
+                    "Picture: Illustrated depiction of a traditional Chinese multi-tiered pagoda tower in orange and gold tones with green-trimmed roofs, rendered in a stylized graphic style against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "section number 1 - Chinese numeral",
+                "data": [
+                    "壹"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 1 title placeholder",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 1 description bullets",
+                "data": [
+                    "文字是您思想的提炼",
+                    "为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 2 - Chinese numeral",
+                "data": [
+                    "贰"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 2 title placeholder",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 2 description bullets",
+                "data": [
+                    "文字是您思想的提炼",
+                    "为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 3 - Chinese numeral",
+                "data": [
+                    "叁"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 3 title placeholder",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 3 description bullets",
+                "data": [
+                    "文字是您思想的提炼",
+                    "为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 4 - Chinese numeral",
+                "data": [
+                    "肆"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 4 title placeholder",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 4 description bullets",
+                "data": [
+                    "文字是您思想的提炼",
+                    "为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "section outline": {
+        "slides": [
+            3,
+            8,
+            12,
+            16
+        ],
+        "template_id": 3,
+        "elements": [
+            {
+                "name": "header label with slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title or section label text part 1",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name or subtitle text",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud image",
+                "data": [
+                    "Picture: A stylized illustration of a cloud with a swirling, decorative outline in soft orange and peach tones, resembling a traditional or cartoon-style cloud design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "pinyin annotation part 1",
+                "data": [
+                    "Ci"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "pinyin annotation part 2",
+                "data": [
+                    "Chu"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "pinyin annotation part 3",
+                "data": [
+                    "Tian"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "pinyin annotation part 4",
+                "data": [
+                    "Jia"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "pinyin annotation part 5",
+                "data": [
+                    "Biao"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "body text paragraph",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；",
+                    "根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "pinyin annotation part 6",
+                "data": [
+                    "Ti"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number label",
+                "data": [
+                    "第壹章节"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative icon of traditional Chinese palace",
+                "data": [
+                    "Icon: Stylized illustration of a traditional Chinese palace, resembling the Forbidden City, featuring orange-red walls, golden tiered roofs, decorative green and blue details, and a symmetrical facade with arched entrances."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon of the Great Wall",
+                "data": [
+                    "Icon: Stylized illustration of the Great Wall of China with a watchtower, depicted in vibrant gradient colors of orange, red, green, and blue, set against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background decorative clouds image",
+                "data": [
+                    "Background: Stylized illustration of traditional East Asian-style clouds in soft golden/peach tones with pink and orange outlines, set against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative landscape with mountains and fortress image",
+                "data": [
+                    "Picture: Stylized illustration of blue-green mountains with a red castle/fortress tower nestled between the peaks, rendered in a flat, graphic art style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative clouds illustration image",
+                "data": [
+                    "Picture: Stylized illustration of fluffy clouds in soft orange/peach tones with light purple outlines, depicted in a simple, cartoon-like style."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "ending": {
+        "slides": [
+            20
+        ],
+        "template_id": 20,
+        "elements": [
+            {
+                "name": "header label with presentation and slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle text - YOUR",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title - large Chinese characters (感谢观看)",
+                "data": [
+                    "感谢观看"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle - Chinese template description",
+                "data": [
+                    "中国风通用演示模板"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle - English template description",
+                "data": [
+                    "General demonstration template of fresh watercolor"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative split character - Gan",
+                "data": [
+                    "Gan"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative split character - Xie",
+                "data": [
+                    "Xie"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative split character - Guan",
+                "data": [
+                    "Guan"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative split character - Kan",
+                "data": [
+                    "Kan "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "body description paragraph in gray",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼",
+                    "为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background image - traditional Chinese imperial palace illustration",
+                "data": [
+                    "Picture: Illustrated depiction of a traditional Chinese imperial palace, likely the Forbidden City, featuring golden rooftops, red walls, green trim, and symmetrical staircases on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - Chinese pagoda tower",
+                "data": [
+                    "Icon: A stylized multi-tiered Chinese pagoda tower in orange and gold tones with decorative green accents, rendered as a vector illustration."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative image - traditional Chinese pagoda with path",
+                "data": [
+                    "Picture: Illustrated depiction of a traditional Chinese multi-tiered pagoda tower in orange and gold tones, with ornate rooflines and a winding path at the base."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative image - colorful abstract mountain landscape",
+                "data": [
+                    "Picture: Colorful abstract illustration of mountain peaks with layered contour lines in shades of blue, green, and yellow, suggesting a topographic or stylized landscape design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - swirling cloud in warm tones",
+                "data": [
+                    "Icon: Stylized illustration of a swirling cloud or smoke in warm orange and peach tones, with a curling tail at the bottom, rendered in a simple, flat design style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative image - flowing clouds in East Asian style",
+                "data": [
+                    "Picture: A stylized illustration of swirling clouds in soft orange and peach tones, with a decorative, flowing design reminiscent of traditional East Asian artistic motifs."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - Temple of Heaven illustration",
+                "data": [
+                    "Icon: Stylized illustration of the Temple of Heaven in Beijing, featuring its iconic circular, tiered blue roof structure with orange and gold accents, set on an elevated platform with stairs and decorative railings."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background decorative - traditional Asian cloud motifs",
+                "data": [
+                    "Background: Decorative golden/peach-toned traditional Asian cloud motifs on a white background, featuring swirling, layered cloud designs in a classic Chinese or Japanese artistic style."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Central illustrated image surrounded by six radially arranged icon-labeled text points with a top-centered title header:image": {
+        "template_id": 15,
+        "slides": [
+            15
+        ],
+        "elements": [
+            {
+                "name": "header label - presentation identifier",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title - 'YOUR' text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background decorative image - clouds bottom-left",
+                "data": [
+                    "Background: Decorative illustration featuring stylized golden/yellow clouds in the bottom-left corner against a white background, in a traditional East Asian art style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - golden clouds",
+                "data": [
+                    "Icon: Stylized golden clouds in a traditional Chinese art style, featuring soft yellow tones with orange outlines and decorative swirling patterns."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - Chinese pagoda",
+                "data": [
+                    "Icon: Stylized illustration of a tall, multi-tiered Chinese pagoda in golden-orange tones with decorative details and a spire on top."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - soft clouds",
+                "data": [
+                    "Picture: Stylized illustration of soft, golden-orange clouds with light pink outlines on a white background, rendered in a gentle, decorative style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "content block 1 - sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 1 - body text",
+                "data": [
+                    "请单击此处输入你的正文内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 2 - sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 2 - body text",
+                "data": [
+                    "请单击此处输入你的正文内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 3 - sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 3 - body text",
+                "data": [
+                    "请单击此处输入你的正文内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 4 - sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 4 - body text",
+                "data": [
+                    "请单击此处输入你的正文内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 5 - sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 5 - body text",
+                "data": [
+                    "请单击此处输入你的正文内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 6 - sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content block 6 - body text",
+                "data": [
+                    "请单击此处输入你的正文内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background decorative image - abstract curved shapes",
+                "data": [
+                    "Background: Simple abstract background with soft orange/beige curved shapes and lines on a white surface, suggesting a minimalist decorative design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - cloud swirl motif",
+                "data": [
+                    "Icon: A stylized cloud or smoke swirl illustration in soft peach/orange tones, resembling a decorative Asian-style cloud motif."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Centered title above a symmetrical two-by-two grid of four labeled text panels, each with a numbered icon and descriptive paragraph, with decorative illustrated images overlapping two bottom panels.:image": {
+        "template_id": 13,
+        "slides": [
+            13
+        ],
+        "elements": [
+            {
+                "name": "header label with slide reference",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title top line",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name subtitle",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title or section label",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud illustration top",
+                "data": [
+                    "Picture: A stylized illustration of a cloud with a swirling, decorative outline in soft orange and peach tones, resembling a traditional or cartoon-style cloud design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background building illustration",
+                "data": [
+                    "Picture: Stylized illustration of the Temple of Heaven in Beijing, China, featuring its iconic circular blue-roofed structure with golden accents and traditional Chinese architectural details."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "section number - item one (壹)",
+                "data": [
+                    "壹"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title - item one",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section body text - item one",
+                "data": [
+                    "单击此处输入你的正文，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number - item three (叁)",
+                "data": [
+                    "叁"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title - item three",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section body text - item three",
+                "data": [
+                    "文字是您思想的提炼，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "building illustration second",
+                "data": [
+                    "Picture: Stylized illustration of the Temple of Heaven in Beijing, China, featuring its iconic circular, multi-tiered blue and gold architecture."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "section number - item two (贰)",
+                "data": [
+                    "贰"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title - item two",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section body text - item two",
+                "data": [
+                    "单击此处输入你的正文，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number - item four (肆)",
+                "data": [
+                    "肆"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title - item four",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section body text - item four",
+                "data": [
+                    "文字是您思想的提炼，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative pagoda icon",
+                "data": [
+                    "Icon: A stylized orange multi-tiered Chinese pagoda tower with traditional curved roofs, depicted as a flat graphic illustration."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative background clouds illustration",
+                "data": [
+                    "Background: Decorative illustration of stylized golden/orange clouds in a traditional East Asian art style, suitable for use as a background or design element."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative cloud icon bottom",
+                "data": [
+                    "Icon: A simple, stylized cloud illustration in soft orange/peach tones with light pink outlines, depicted in a rounded, cartoon-like style."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Centered title above a symmetrical two-column vertical text layout flanking a central labeled badge, all overlaid on a full-width decorative illustration spanning the bottom half.:image": {
+        "template_id": 10,
+        "slides": [
+            10
+        ],
+        "elements": [
+            {
+                "name": "header label - presentation and slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title - top left",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title placeholder",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud illustration - left",
+                "data": [
+                    "Icon: A stylized cloud or smoke illustration in soft orange/peach tones with swirling lines, depicted in a simple, cartoon-like style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "main landscape image - palace illustration",
+                "data": [
+                    "Icon: Stylized illustration of a traditional Chinese imperial palace, likely the Forbidden City, featuring golden tiered roofs, red walls, green decorative bands, and arched entrances on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative cloud illustration - right",
+                "data": [
+                    "Icon: A stylized illustration of a swirling cloud or smoke in soft orange and pink tones, with a curling tail at the bottom."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background decorative clouds",
+                "data": [
+                    "Background: Soft orange and peach-toned illustrated clouds with gentle outlines, creating a warm, pastel aesthetic suitable for a decorative or background element."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "section label title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content block title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content block body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right section number - large Chinese numeral",
+                "data": [
+                    "贰"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content block sub-text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，",
+                    "为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left content block title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left section number - large Chinese numeral",
+                "data": [
+                    "壹"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left content block body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left content block sub-text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，",
+                    "为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Centered title at top with a large decorative illustration on the left, vertical text columns in the middle-right, and three small square images aligned horizontally at the bottom right:image": {
+        "template_id": 7,
+        "slides": [
+            7
+        ],
+        "elements": [
+            {
+                "name": "decorative pagoda icon, top left area",
+                "data": [
+                    "Icon: Stylized illustration of a traditional Chinese multi-tiered pagoda tower in golden-orange tones with green-tipped curved roofs, resembling the Yellow Crane Tower of Wuhan."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "slide label / presentation identifier, top area",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title word partial text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name subtitle in Chinese",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title in Chinese",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud/smoke icon",
+                "data": [
+                    "Icon: A stylized cloud or smoke illustration in soft orange/peach tones with swirling lines suggesting movement or wind."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative mountain illustration",
+                "data": [
+                    "Picture: Stylized illustration of mountain peaks rendered in layered blue and yellow-green tones, creating a topographic or contour map-like effect against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative background clouds, peach tones",
+                "data": [
+                    "Background: Soft, stylized clouds in warm peach and orange tones with a light pink outline, depicted in a simple cartoon style against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative cloud icon, lower right",
+                "data": [
+                    "Icon: A simple, soft-colored illustration of a cloud in warm peach and cream tones, partially visible in the lower right corner."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative background clouds, golden-orange",
+                "data": [
+                    "Background: Soft golden-orange stylized clouds with smooth, rounded shapes in a traditional East Asian artistic style against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "sub title / body text prompt in Chinese",
+                "data": [
+                    "单击添加小标题",
+                    "请尽量言简",
+                    "意赅的阐述观点"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative Chinese seal stamp logo",
+                "data": [
+                    "Logo: A red square seal with traditional Chinese characters arranged in a grid pattern, resembling an official stamp or chop."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "body text placeholder in Chinese",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；",
+                    "根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。",
+                    "请单击此处输入你的正文内容，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "input text label in Chinese",
+                "data": [
+                    "输入文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative peony flower vase image",
+                "data": [
+                    "Picture: A wooden bowl-shaped vase holding a pink peony bloom with green leaves and a bare branch against a light gray background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative incense burner image",
+                "data": [
+                    "Picture: A decorative incense burner shaped like a lotus or artichoke flower, with smoke rising from the top, placed on a wooden surface in warm, golden-brown tones."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative bonsai arrangement image",
+                "data": [
+                    "Picture: A small bonsai-style arrangement with pine branches and small yellow flowers in a dark shallow bowl, placed on a wooden surface beside a glass."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Centered title above three portrait images flanked by vertical text labels on each side, with a decorative illustration and two text blocks below:image": {
+        "template_id": 19,
+        "slides": [
+            19
+        ],
+        "elements": [
+            {
+                "name": "header label with presentation and slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title top text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name subtitle",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud illustration",
+                "data": [
+                    "Picture: A stylized illustration of a cloud with a swirling, decorative outline in soft orange and peach tones, resembling a traditional or cartoon-style cloud design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background decorative golden clouds",
+                "data": [
+                    "Background: Decorative illustration featuring stylized golden clouds in a traditional East Asian art style, positioned in the lower-left corner against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative cloud icon",
+                "data": [
+                    "Icon: Stylized illustration of a cloud or auspicious mist in a traditional Chinese art style, rendered in soft peach and orange tones with swirling forms and outlined contours."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative fluffy orange clouds illustration",
+                "data": [
+                    "Picture: Soft, cartoon-style illustration of fluffy orange-tinted clouds on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "section subtitle heading 1",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section body text 1",
+                "data": [
+                    "单击此处输入你的正文",
+                    "文字是您思想的提炼"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle heading 2",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section body text 2",
+                "data": [
+                    "单击此处输入你的正文，",
+                    "文字是您思想的提炼，",
+                    "为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section body text 3",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle heading 3",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section body text 4",
+                "data": [
+                    "单击此处输入你的正文",
+                    "文字是您思想的提炼"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle heading 4",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "aerial view of Forbidden City image 1",
+                "data": [
+                    "Picture: Aerial view of the Forbidden City in Beijing, China, showcasing traditional Chinese imperial architecture with distinctive yellow-tiled roofs and red walls."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "close-up Palace Museum image",
+                "data": [
+                    "Picture: A close-up view of a traditional Chinese imperial building, likely the Palace Museum (故宫博物院) in Beijing, featuring red walls, ornate golden rooftops, and decorative architectural details."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "aerial view of Forbidden City image 2",
+                "data": [
+                    "Picture: Aerial view of the Forbidden City in Beijing, China, featuring traditional Chinese imperial architecture with distinctive red walls and golden-yellow tiled rooftops bathed in warm sunlight."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "Temple of Heaven illustration",
+                "data": [
+                    "Picture: Illustrated depiction of the Temple of Heaven in Beijing, China, featuring its iconic multi-tiered circular blue-roofed structure with ornate golden details, red pillars, and surrounding platform walls."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "footer watermark text",
+                "data": [
+                    "行业PPT模板http://www.1ppt.com/hangye/"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Centered title above two symmetrical decorated card columns with descriptive text, flanked by illustrative side imagery and supplementary vertical text on the left:image": {
+        "template_id": 6,
+        "slides": [
+            6
+        ],
+        "elements": [
+            {
+                "name": "header label with slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title large text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "logo image",
+                "data": [
+                    "Logo: A red square seal/stamp with Chinese characters, featuring traditional Chinese chop/seal design with intricate calligraphic text arranged in a grid pattern."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative pagoda illustration",
+                "data": [
+                    "Picture: Illustrated Chinese pagoda with multiple tiers, decorated in orange and gold tones with traditional architectural details and ornamental roofing."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative cloud icon",
+                "data": [
+                    "Icon: Stylized illustration of a swirling cloud or smoke in warm orange and peach tones, with a curling tail at the bottom, rendered in a simple, flat design style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "body text placeholder",
+                "data": [
+                    "单击此处输入你的正文"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 1 sub-section title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 1 body bullets",
+                "data": [
+                    "单击此处输入你的正文，为了最终演示发布的良好效果",
+                    "请尽量言简意赅的阐述观点"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 2 sub-section title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 2 body bullets",
+                "data": [
+                    "单击此处输入你的正文，为了最终演示发布的良好效果",
+                    "请尽量言简意赅的阐述观点"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number one (壹)",
+                "data": [
+                    "壹"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number two (贰)",
+                "data": [
+                    "贰"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 3 body bullets",
+                "data": [
+                    "此处输入正文",
+                    "文字是思想的提炼"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 3 sub-section title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative mountain illustration",
+                "data": [
+                    "Picture: Stylized illustration of mountain peaks rendered in blue and yellow-green tones with layered contour lines suggesting elevation, positioned in the lower-left area of the frame against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative pagoda icon",
+                "data": [
+                    "Icon: Stylized illustration of a traditional Chinese multi-tiered pagoda tower in orange and gold tones, with decorative curved roofs and blue accents."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative clouds icon",
+                "data": [
+                    "Icon: Stylized cartoon clouds in warm orange and peach tones with white outlines, depicted in a traditional Asian art style against a white background."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Centered title above four horizontal labeled text bars on the left, overlapped by a large central illustration, with a vertical text block on the right:image": {
+        "template_id": 11,
+        "slides": [
+            11
+        ],
+        "elements": [
+            {
+                "name": "header label with slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name placeholder - YOUR",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name in Chinese",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title placeholder",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background decorative landscape image",
+                "data": [
+                    "Background: Decorative illustration featuring stylized golden/peach-colored clouds in a traditional East Asian art style, with swirling patterns on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative cloud icon",
+                "data": [
+                    "Icon: A stylized cloud or smoke illustration in soft orange/peach tones with swirling decorative lines, resembling a traditional East Asian cloud motif."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "landscape illustration of Temple of Heaven",
+                "data": [
+                    "Picture: Colorful illustration of the Temple of Heaven in Beijing, China, featuring its iconic circular, tiered blue and orange architecture with decorative details on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "group 1 - section number label (壹)",
+                "data": [
+                    "壹"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 1 - bullet point description",
+                "data": [
+                    "单击此处输入你的正文，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 2 - section number label (贰)",
+                "data": [
+                    "贰"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 2 - bullet point description",
+                "data": [
+                    "单击此处输入正文，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 3 - section number label (叁)",
+                "data": [
+                    "叁"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 3 - bullet point description",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 4 - section number label (肆)",
+                "data": [
+                    "肆"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 4 - bullet point description",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title placeholder with multi-line description",
+                "data": [
+                    "单击添加小标题内容",
+                    "请尽量言简",
+                    "意赅的阐述观点"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "Chinese seal logo stamp",
+                "data": [
+                    "Logo: A red square seal with traditional Chinese characters arranged in a grid pattern, resembling an official stamp or chop."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Centered title at top with a two-column layout below: left column featuring a decorative icon, subtitle, and descriptive paragraph; right column displaying a large landscape photo alongside three stacked labeled text fields.:image": {
+        "template_id": 14,
+        "slides": [
+            14
+        ],
+        "elements": [
+            {
+                "name": "header label - presentation tag",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title - large text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle - company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title - top area",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative image - stylized cloud",
+                "data": [
+                    "Picture: A stylized illustration of a cloud with a swirling, decorative outline in soft orange and peach tones, resembling a traditional or cartoon-style cloud design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background decorative image - golden clouds",
+                "data": [
+                    "Background: Decorative illustration of stylized golden clouds in a traditional Chinese art style, featuring swirling patterns with soft orange and white tones on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative image - mountain peaks",
+                "data": [
+                    "Picture: Stylized illustration of mountain peaks rendered in blue and yellow-green gradient tones with outlined contour layers, depicting an abstract or artistic landscape design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative image - cartoon clouds",
+                "data": [
+                    "Picture: Stylized cartoon clouds in warm orange and peach tones, rendered in a traditional Asian art style against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "content section title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "body text - description paragraph",
+                "data": [
+                    "单击此处输入你的正文，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；",
+                    "根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content image - Temple of Heaven",
+                "data": [
+                    "Picture: Illustrated depiction of the Temple of Heaven in Beijing, China, featuring its iconic multi-tiered circular blue-roofed structure with traditional Chinese architecture and red walls."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "left bullet point label",
+                "data": [
+                    "输入文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "center bullet point label",
+                "data": [
+                    "输入文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right bullet point label",
+                "data": [
+                    "输入文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content image - Forbidden City in winter",
+                "data": [
+                    "Picture: Snow-covered traditional Chinese imperial architecture, likely the Forbidden City in Beijing, featuring ornate red walls, golden rooftops, colorful decorative eaves, and bronze lion statues in winter."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Centered title heading over a left-aligned subtitle and descriptive paragraph, followed by three equally-spaced square images in a horizontal row, with a large decorative illustration occupying the right side background.:image": {
+        "template_id": 17,
+        "slides": [
+            17
+        ],
+        "elements": [
+            {
+                "name": "decorative background image - Chinese pagoda illustration",
+                "data": [
+                    "Icon: A detailed vector illustration of a multi-tiered traditional Chinese pagoda in orange and gold tones with decorative green accents."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "slide number / presentation label at top",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title - English subtitle",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title - company name in Chinese",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title - Chinese heading",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud illustration - small",
+                "data": [
+                    "Picture: A stylized illustration of a cloud with a swirling, decorative outline in soft orange and peach tones, resembling a traditional or cartoon-style cloud design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative mountain landscape illustration",
+                "data": [
+                    "Picture: Colorful abstract illustration of mountain peaks with layered contour lines in shades of blue, green, and yellow, suggesting a topographic or stylized landscape design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative clouds illustration - Asian art style",
+                "data": [
+                    "Picture: Stylized cartoon clouds in warm orange and peach tones, rendered in a traditional Asian art style against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "content section title - grouped Chinese heading",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "content section body text - grouped Chinese paragraph",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative logo - Chinese seal stamp",
+                "data": [
+                    "Logo: A red square seal/stamp featuring traditional Chinese characters arranged in a grid pattern, typical of an official or artistic chop seal design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "content image - mooncakes on plate",
+                "data": [
+                    "Picture: Two mooncakes with intricate geometric patterns on a dark plate, surrounded by crumbled filling, with a decorative green ornament in the background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "content image - Chinese medicinal ingredients",
+                "data": [
+                    "Picture: A divided ceramic dish containing three types of traditional Chinese medicinal ingredients: red dates, goji berries, and seeds/nuts, placed on a decorated surface with Chinese calligraphy."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "content image - ancient bamboo scroll",
+                "data": [
+                    "Picture: Ancient bamboo scroll with Chinese characters, partially unrolled on a wooden surface, suggesting historical manuscript or classic text."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative clouds illustration - golden traditional style",
+                "data": [
+                    "Icon: Stylized golden clouds in a traditional Chinese art style, featuring soft swirling shapes with orange outlines and light pink highlights on a white background."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Centered title at top, large decorative illustration overlapping a side-by-side text block, with two donut charts paired with vertical text labels and two button-style text elements arranged in the lower section.:image": {
+        "template_id": 9,
+        "slides": [
+            9
+        ],
+        "elements": [
+            {
+                "name": "header label - presentation and slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title - large text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle - company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "background decorative image - warm clouds",
+                "data": [
+                    "Picture: Stylized illustration of fluffy clouds in warm orange/peach tones with light pink outlines, depicted in a soft, cartoon-like style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - Temple of Heaven warm tones",
+                "data": [
+                    "Icon: Stylized illustration of the Temple of Heaven in Beijing, featuring its iconic circular blue-roofed structure, ornate orange and gold detailing, and symmetrical staircase approach."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative icon - Temple of Heaven blue tones",
+                "data": [
+                    "Icon: Stylized illustration of the Temple of Heaven in Beijing, China, depicted in blue and gold tones with geometric patterns."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background decorative image - golden swirling clouds",
+                "data": [
+                    "Picture: A stylized illustration of swirling clouds in warm golden and peach tones, rendered in a traditional East Asian artistic style."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "left chart image - group 1",
+                "data": [
+                    "This is a picture of CHART"
+                ],
+                "type": "image"
+            },
+            {
+                "name": "left chart percentage label - group 1",
+                "data": [
+                    "40%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right chart image - group 2",
+                "data": [
+                    "This is a picture of CHART"
+                ],
+                "type": "image"
+            },
+            {
+                "name": "right chart percentage label - group 2",
+                "data": [
+                    "40%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left content block title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left content block body text",
+                "data": [
+                    "单击此处输入你的正文内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content block title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content block body text",
+                "data": [
+                    "单击此处输入你的正文内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top sub-section label - left",
+                "data": [
+                    "此处添加标题内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top sub-section label - right",
+                "data": [
+                    "此处添加标题内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom section title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom section body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Centered title above three equally-spaced illustrated figures, each with a labeled badge, a subtitle banner, and a descriptive paragraph below:image": {
+        "template_id": 5,
+        "slides": [
+            5
+        ],
+        "elements": [
+            {
+                "name": "header label with slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title partial text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle or company name",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud illustration",
+                "data": [
+                    "Picture: A stylized illustration of a cloud with a swirling, decorative outline in soft orange and peach tones, resembling a traditional or cartoon-style cloud design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative pagoda illustration small",
+                "data": [
+                    "Picture: A tall, multi-tiered traditional Chinese pagoda rendered in warm orange and gold tones, featuring layered roofs and ornate architectural details, depicted as a stylized illustration against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative pagoda illustration large",
+                "data": [
+                    "Picture: Illustrated depiction of a tall, multi-tiered traditional Chinese pagoda tower in golden-orange tones with decorative green roof edges and blue accents, set against a transparent background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative temple of heaven icon",
+                "data": [
+                    "Icon: Stylized illustration of the Temple of Heaven in Beijing, featuring its iconic circular, tiered blue and gold pagoda structure on an orange platform with staircases."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background decorative golden clouds",
+                "data": [
+                    "Background: Stylized golden clouds in a traditional East Asian decorative style, featuring soft swirling shapes with light outlines on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "decorative soft clouds illustration",
+                "data": [
+                    "Picture: Soft, cartoon-style illustration of fluffy clouds in warm peach/orange tones with light pink outlines, viewed from below or at ground level."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "first content block title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first content block body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果。"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second content block title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second content block body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third content block title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third content block body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth content block title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fifth content block title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sixth content block title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Centered title above a symmetrical three-column layout with a central illustrated focal image flanked by paired vertical text blocks and labeled input fields on each side.:image": {
+        "template_id": 4,
+        "slides": [
+            4
+        ],
+        "elements": [
+            {
+                "name": "header label with slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title top left",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name subtitle",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title top",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud icon",
+                "data": [
+                    "Icon: Stylized golden clouds in a traditional Chinese art style, with swirling patterns and warm yellow-orange tones outlined in brown, set against a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "landmark icon",
+                "data": [
+                    "Icon: Stylized illustration of the Temple of Heaven in Beijing, featuring its iconic circular, tiered blue and gold roof with orange accents on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "background decorative illustration",
+                "data": [
+                    "Background: Soft, cartoon-style illustration of fluffy clouds in warm peach and orange tones with light pink outlines."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "small decorative cloud icon",
+                "data": [
+                    "Icon: A simple, stylized cloud or smoke illustration in soft orange and beige tones."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "left content section title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left content body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；",
+                    "根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。",
+                    "请单击此处输入你的正文内容，为了最终演示发布的良好效果"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content section title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，为了最终演示发布的良好效果，请尽量言简意赅的阐述观点；",
+                    "根据需要可酌情增减文字，以便观者可以准确理解您所传达的信息。"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom section title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 1 text label",
+                "data": [
+                    "输入文本"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 2 text label",
+                "data": [
+                    "输入文本"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Centered title above four equally-spaced illustrated icons each paired with a vertical label tag on top and a heading with descriptive text block below:image": {
+        "template_id": 18,
+        "slides": [
+            18
+        ],
+        "elements": [
+            {
+                "name": "header label with slide indicator",
+                "data": [
+                    "PRESENTATION",
+                    "//SLIDE"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title top text",
+                "data": [
+                    "YOUR "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "company name subtitle",
+                "data": [
+                    "办公软件有限公司 "
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title",
+                "data": [
+                    "此处添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "decorative cloud illustration",
+                "data": [
+                    "Picture: A stylized illustration of a cloud with a swirling, decorative outline in soft orange and peach tones, resembling a traditional or cartoon-style cloud design."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "imperial palace illustration",
+                "data": [
+                    "Picture: Illustrated depiction of a traditional Chinese imperial palace, likely the Forbidden City, featuring a grand golden-roofed structure with red doors, ornate decorations, and symmetrical staircases on an elevated platform."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "pagoda tower illustration 1",
+                "data": [
+                    "Picture: A tall, multi-tiered traditional Chinese pagoda tower in orange and gold tones, featuring curved roofs at each level, isolated on a white background."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "pagoda tower illustration 2",
+                "data": [
+                    "Picture: Illustrated depiction of a traditional Chinese multi-tiered pagoda tower in golden-orange tones, featuring curved roofs and ornate architectural details, likely representing the Yellow Crane Tower in Wuhan, China."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "Temple of Heaven illustration",
+                "data": [
+                    "Picture: Stylized illustration of the Temple of Heaven in Beijing, China, featuring its iconic circular, multi-tiered blue and gold roof structure on a red platform base."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "first content body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first content subtitle",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second content body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second content subtitle",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third content body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third content subtitle",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth content body text",
+                "data": [
+                    "单击此处输入你的正文，文字是您思想的提炼，"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth content subtitle",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom label 1",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom label 2",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom label 3",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom label 4",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "functional_keys": [
+        "opening",
+        "table of contents",
+        "section outline",
+        "ending"
+    ],
+    "language": {
+        "lid": "zh"
+    }
+}

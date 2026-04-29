@@ -1,0 +1,2408 @@
+{
+    "opening": {
+        "slides": [
+            1
+        ],
+        "template_id": 1,
+        "elements": [
+            {
+                "name": "year/date text",
+                "data": [
+                    "202X"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "企业年终总结"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle description",
+                "data": [
+                    "Enter a text description related to the title Enter a text description related to the title Enter a text description related to the title"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "presenter name",
+                "data": [
+                    "汇报人：第一PPT"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "footer caption",
+                "data": [
+                    "适用于公司宣传、企业介绍、工作总结、商务汇报等"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "table of contents": {
+        "slides": [
+            2
+        ],
+        "template_id": 2,
+        "elements": [
+            {
+                "name": "main title",
+                "data": [
+                    "输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "header - contents label",
+                "data": [
+                    "CONTENTS"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 1",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 2",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 3",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 4",
+                "data": [
+                    "04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 5",
+                "data": [
+                    "05"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle 1",
+                "data": [
+                    "输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle 2",
+                "data": [
+                    "输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle 3",
+                "data": [
+                    "输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section subtitle 4",
+                "data": [
+                    "输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "footer",
+                "data": [
+                    "PPT模板 http://www.1ppt.com/moban/ "
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "section outline": {
+        "slides": [
+            3,
+            9,
+            15,
+            20,
+            26
+        ],
+        "template_id": 3,
+        "elements": [
+            {
+                "name": "section number",
+                "data": [
+                    "PART   01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle description",
+                "data": [
+                    "Enter a text description related to the title Enter a text description related to the title Enter a text description related to the title"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "ending": {
+        "slides": [
+            33
+        ],
+        "template_id": 33,
+        "elements": [
+            {
+                "name": "year/date text",
+                "data": [
+                    "202X"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title - closing/thank you message in Chinese",
+                "data": [
+                    "感谢您的观看"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "subtitle or description text",
+                "data": [
+                    "Enter a text description related to the title Enter a text description related to the title Enter a text description related to the title"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "presenter name - bolded white text",
+                "data": [
+                    "汇报人：第一PPT"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "footer caption - applicable scenarios description",
+                "data": [
+                    "适用于公司宣传、企业介绍、工作总结、商务汇报等"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Diagonal cascade of varying-sized circles forming a timeline with alternating left-right labeled text annotations connected by dashed vertical lines:text": {
+        "template_id": 31,
+        "slides": [
+            31
+        ],
+        "elements": [
+            {
+                "name": "timeline event description 1",
+                "data": [
+                    "标题内容文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline date 1, bolded",
+                "data": [
+                    "2016年5月"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline event description 2",
+                "data": [
+                    "标题内容文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline date 2, bolded",
+                "data": [
+                    "2017年8月"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline event description 3",
+                "data": [
+                    "标题内容文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline date 3, bolded",
+                "data": [
+                    "2018年4月"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline event description 4",
+                "data": [
+                    "标题内容文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline date 4, bolded",
+                "data": [
+                    "2019年5月"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline event description 5",
+                "data": [
+                    "标题内容文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline date 5, bolded",
+                "data": [
+                    "2020年12月"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline event description 6",
+                "data": [
+                    "标题内容文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "timeline date 6, bolded",
+                "data": [
+                    "2021年2月"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "slide main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "large bolded white title text",
+                "data": [
+                    "标题",
+                    "内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "medium bolded white subtitle text",
+                "data": [
+                    "标题",
+                    "内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "small bolded white caption text",
+                "data": [
+                    "标题",
+                    "内容"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Top-aligned title with a large bar chart on the left and a descriptive text block accompanied by a bold numerical statistic and legend on the right.:text": {
+        "template_id": 24,
+        "slides": [
+            24
+        ],
+        "elements": [
+            {
+                "name": "chart data values - bar/metric indicators",
+                "data": [
+                    "39",
+                    "97",
+                    "80",
+                    "63",
+                    "82",
+                    "90"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "body text description paragraph",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section/main title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "large numeric statistic / total value highlight",
+                "data": [
+                    "53,648,258"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "label for total amount",
+                "data": [
+                    "全年总额："
+                ],
+                "type": "text"
+            },
+            {
+                "name": "legend label - gross profit",
+                "data": [
+                    "毛利润"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "legend label - net profit",
+                "data": [
+                    "纯利润"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title / section prompt",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Four Horizontally Arranged Cards Each Containing a Circular Progress Indicator, Bold Title, Descriptive Text, and Numbered Label:text": {
+        "template_id": 18,
+        "slides": [
+            18
+        ],
+        "elements": [
+            {
+                "name": "first item number label",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first item percentage value",
+                "data": [
+                    "100%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item number label",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item percentage value",
+                "data": [
+                    "80%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item number label",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item percentage value",
+                "data": [
+                    "60%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth item number label",
+                "data": [
+                    "04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth item percentage value",
+                "data": [
+                    "40%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first item description body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first item sub title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item description body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item sub title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item description body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item sub title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth item description body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth item sub title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Four equally-sized cards arranged in a 2x2 grid, each containing a left-aligned icon paired with a title and descriptive text block, under a top-left heading.:text": {
+        "template_id": 29,
+        "slides": [
+            29
+        ],
+        "elements": [
+            {
+                "name": "first card title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first card body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second card title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second card body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third card title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third card body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth card title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth card body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Two Stacked Circular Icons on the Left with Six Numbered List Items Connected by Dotted Lines on the Right:text": {
+        "template_id": 17,
+        "slides": [
+            17
+        ],
+        "elements": [
+            {
+                "name": "item number 1 - numbered circle label",
+                "data": [
+                    "1"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item 1 - sub title placeholder",
+                "data": [
+                    "单击添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item 1 - description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item number 2 - numbered circle label",
+                "data": [
+                    "2"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item 2 - description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item number 3 - numbered circle label",
+                "data": [
+                    "3"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item 3 - description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item number 4 - numbered circle label",
+                "data": [
+                    "4"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item 4 - description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item number 5 - numbered circle label",
+                "data": [
+                    "5"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item 5 - description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item number 6 - numbered circle label",
+                "data": [
+                    "6"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "item 6 - description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title placeholder",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Two Horizontal Dual-Percentage Bar Indicators with Icon Centerpoints, Each Followed by a Titled Descriptive Paragraph Below:text": {
+        "template_id": 19,
+        "slides": [
+            19
+        ],
+        "elements": [
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left card body text",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left card subtitle",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right card body text",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right card subtitle",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top left chart primary percentage",
+                "data": [
+                    "52%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top left chart secondary percentage",
+                "data": [
+                    "76%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom left chart primary percentage",
+                "data": [
+                    "45%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom left chart secondary percentage",
+                "data": [
+                    "68%"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Three labeled text blocks on the left and a central circular image radiating lines to three labeled circular nodes with descriptive text on the right, forming a split hub-and-spoke layout under a top header.:image": {
+        "template_id": 23,
+        "slides": [
+            23
+        ],
+        "elements": [
+            {
+                "name": "top left bullet text 1",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top left bullet text 2",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top left bullet text 3",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top left bullet text 4",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 1 label/title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 2 label/title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 3 label/title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 5 label/title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom bullet text 1",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom bullet text 2",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 6 label/title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 7 label/title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "landscape main image showing people collaborating",
+                "data": [
+                    "Picture: Three people collaborating around a round table with laptops and printed documents, appearing to work on a project together."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Top-left header with an adjacent text block, above four toggle-style vertical bar indicators with percentage labels arranged in a row.:text": {
+        "template_id": 12,
+        "slides": [
+            12
+        ],
+        "elements": [
+            {
+                "name": "percentage label top-left",
+                "data": [
+                    "25%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "percentage label top-right",
+                "data": [
+                    "25%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "percentage label center",
+                "data": [
+                    "15%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "percentage label bottom",
+                "data": [
+                    "25%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section header",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "body content bullets",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容",
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Four Horizontally Arranged Icons with Descriptive Text Below, Connected by a Bottom Spanning Arrow with a Summary Paragraph:text": {
+        "template_id": 5,
+        "slides": [
+            5
+        ],
+        "elements": [
+            {
+                "name": "footer text",
+                "data": [
+                    "在此处输入内容在此处输入内容在此处输入内容在此处输入内容在此处输入内容在此处输入内容在此处输入内容在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first group description bullets",
+                "data": [
+                    "在此处输入内容",
+                    "在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first group label",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second group description bullets",
+                "data": [
+                    "在此处输入内容",
+                    "在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second group label",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third group description bullets",
+                "data": [
+                    "在此处输入内容",
+                    "在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third group label",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth group description bullets",
+                "data": [
+                    "在此处输入内容",
+                    "在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth group label",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Top Header Title with Four Equally Spaced Numbered Circular Icons Above Corresponding Descriptive Text Paragraphs Arranged Horizontally:text": {
+        "template_id": 25,
+        "slides": [
+            25
+        ],
+        "elements": [
+            {
+                "name": "option 1 title",
+                "data": [
+                    "方案01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "option 1 description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "option 2 title",
+                "data": [
+                    "方案02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "option 2 description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "option 3 title",
+                "data": [
+                    "方案03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "option 3 description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "option 4 title",
+                "data": [
+                    "方案04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "option 4 description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Central circular hub diagram with four satellite nodes connected by lines, flanked symmetrically by four numbered text blocks on each side, with a header image above the central element.:text": {
+        "template_id": 27,
+        "slides": [
+            27
+        ],
+        "elements": [
+            {
+                "name": "section number 1",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 2",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 3",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 4",
+                "data": [
+                    "04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 5",
+                "data": [
+                    "05"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 6",
+                "data": [
+                    "06"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 7",
+                "data": [
+                    "07"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 8",
+                "data": [
+                    "08"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 1 description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 2 description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 3 description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 4 description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 5 description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 6 description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 7 description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section 8 description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title label",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "keyword and question group 1",
+                "data": [
+                    "关键词",
+                    "设问"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "keyword and question group 2",
+                "data": [
+                    "关键词",
+                    "设问"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "keyword and question group 3",
+                "data": [
+                    "关键词",
+                    "设问"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "keyword and question group 4",
+                "data": [
+                    "关键词",
+                    "设问"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Two-column grid of four icon-labeled text cards paired with two stacked portrait images on the right, under a top-aligned header.:image": {
+        "template_id": 7,
+        "slides": [
+            7
+        ],
+        "elements": [
+            {
+                "name": "top center main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first card title (top-left area)",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first card body text (top-left area)",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second card title (top-right area)",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second card body text (top-right area)",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third card title (bottom-left area)",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third card body text (bottom-left area)",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth card title (bottom-right area)",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth card body text (bottom-right area)",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "landscape image of business meeting with documents",
+                "data": [
+                    "Picture: Several people gathered around a white table reviewing documents in blue folders, holding pens, with one person pointing at a chart during what appears to be a business meeting."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "landscape image of team collaboration with laptops",
+                "data": [
+                    "Picture: Three people collaborating around a table with laptops and documents, one person pointing at a screen during a work meeting."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Central circular radial diagram with four labeled icon-and-text callouts positioned symmetrically at each corner, connected by lines to the central hub.:text": {
+        "template_id": 32,
+        "slides": [
+            32
+        ],
+        "elements": [
+            {
+                "name": "step number 1 - top label",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step number 2 - top label",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step number 3 - top label",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step number 4 - top label",
+                "data": [
+                    "04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "footer source label",
+                "data": [
+                    "Source"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 1 body text - content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 1 sub title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 2 body text - content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 2 sub title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 3 body text - content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 3 sub title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 4 body text - content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "group 4 sub title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Four numbered circular icons arranged in a 2x2 grid at the center, with four labeled text blocks positioned at each corner connected by lines to the corresponding icons.:text": {
+        "template_id": 8,
+        "slides": [
+            8
+        ],
+        "elements": [
+            {
+                "name": "step number 1 - top left section indicator",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step number 2 - top section indicator",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step number 3 - top section indicator",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step number 4 - top section indicator",
+                "data": [
+                    "04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left sub title",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "center content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "center sub title",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right sub title",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "slide main header title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Central four-quadrant icon diagram with a circular arrow cycle border, flanked by four labeled text blocks in each corner:text": {
+        "template_id": 6,
+        "slides": [
+            6
+        ],
+        "elements": [
+            {
+                "name": "step 1 label",
+                "data": [
+                    "STEP 01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 3 label",
+                "data": [
+                    "STEP 03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 2 label",
+                "data": [
+                    "STEP 02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 4 label",
+                "data": [
+                    "STEP 04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 1 bullet points",
+                "data": [
+                    "在此处输入内容",
+                    "在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 1 sub label",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 2 bullet points",
+                "data": [
+                    "在此处输入内容",
+                    "在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 2 sub label",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 3 bullet points",
+                "data": [
+                    "在此处输入内容",
+                    "在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 3 sub label",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 4 bullet points",
+                "data": [
+                    "在此处输入内容",
+                    "在此处输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "step 4 sub label",
+                "data": [
+                    "输入内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Three Vertically Stacked Text Points with Icons on the Left, alongside a Large Decorative Illustration on the Right, under a Top Header Title:text": {
+        "template_id": 13,
+        "slides": [
+            13
+        ],
+        "elements": [
+            {
+                "name": "first item header",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first item description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item header",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item header",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Four Numbered Circular Images in a Horizontal Row, Each with a Title and Descriptive Paragraph Below:image": {
+        "template_id": 16,
+        "slides": [
+            16
+        ],
+        "elements": [
+            {
+                "name": "section number 1",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 2",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 3",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 4",
+                "data": [
+                    "04"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first item description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first item title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth item description text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth item title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left landscape image (first instance)",
+                "data": [
+                    "Picture: Three people collaborating around a round table with laptops and printed documents, appearing to work on a project together."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "left landscape image (second instance)",
+                "data": [
+                    "Picture: Three people collaborating around a round table with laptops and printed documents, appearing to work on a project together."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "right landscape image (first instance)",
+                "data": [
+                    "Picture: Several people gathered around a white table, reviewing and signing documents in blue folders during a business meeting."
+                ],
+                "type": "image"
+            },
+            {
+                "name": "right landscape image (second instance)",
+                "data": [
+                    "Picture: Several people gathered around a white table, reviewing and signing documents in blue folders during a business meeting."
+                ],
+                "type": "image"
+            }
+        ]
+    },
+    "Four equally-spaced columns each featuring a rounded square icon above a bold subheading and descriptive paragraph, arranged horizontally below a top-aligned title.:text": {
+        "template_id": 30,
+        "slides": [
+            30
+        ],
+        "elements": [
+            {
+                "name": "first item body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first item title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second item title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third item title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth item body text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth item title",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Three Horizontally Arranged Icon-Label Pairs Connected by Plus Signs Above a Full-Width Text Paragraph Box:text": {
+        "template_id": 14,
+        "slides": [
+            14
+        ],
+        "elements": [
+            {
+                "name": "main body text bullets",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容",
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容",
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容",
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容",
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title or section label 1",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title or section label 2",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title or section label 3",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Small labeled circle linked by arrow to a large central circle, with three numbered callout points and accompanying text blocks arranged vertically along the right side.:text": {
+        "template_id": 4,
+        "slides": [
+            4
+        ],
+        "elements": [
+            {
+                "name": "section number 1",
+                "data": [
+                    "第一PPT"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 2",
+                "data": [
+                    "第一PPT"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 3",
+                "data": [
+                    "第一PPT"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "第一PPT"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left bullets",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "center bullets",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right bullets",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处输入具体内容在此处"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "sub title",
+                "data": [
+                    "在此处输入您的具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Circular Icon Cluster Diagram on the Left with a Titled Text Panel Containing Three Descriptive Paragraphs on the Right:text": {
+        "template_id": 22,
+        "slides": [
+            22
+        ],
+        "elements": [
+            {
+                "name": "section main title",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top content paragraph",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "middle content paragraph",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bottom content paragraph",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "slide subtitle or section header",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "column header label 1",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "column header label 2",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "column header label 3",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "column header label 4",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "column header label 5",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "column header label 6",
+                "data": [
+                    "标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Two Icon-topped Panels flanking a Central Text Block with Bidirectional Arrows Indicating Interaction:text": {
+        "template_id": 11,
+        "slides": [
+            11
+        ],
+        "elements": [
+            {
+                "name": "left content text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "center content text",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content description",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right content sub title",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Three Numbered Columns Each with a Circular Icon, Heading, and Descriptive Text Box Arranged Horizontally:text": {
+        "template_id": 10,
+        "slides": [
+            10
+        ],
+        "elements": [
+            {
+                "name": "section number 1 in group 1",
+                "data": [
+                    "01"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title 1 in group 1",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 2 in group 2",
+                "data": [
+                    "02"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title 2 in group 2",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section number 3 in group 3",
+                "data": [
+                    "03"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "section title 3 in group 3",
+                "data": [
+                    "输入标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "left body text paragraph 1",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "center body text paragraph 2",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "right body text paragraph 3",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Four Equally Spaced Columns Each with a Label, Circular Progress Chart, and Descriptive Paragraph Below:text": {
+        "template_id": 21,
+        "slides": [
+            21
+        ],
+        "elements": [
+            {
+                "name": "first statistic percentage indicator",
+                "data": [
+                    "45%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second statistic percentage indicator",
+                "data": [
+                    "68%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third statistic percentage indicator",
+                "data": [
+                    "79%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth statistic percentage indicator",
+                "data": [
+                    "92%"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first category sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second category sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third category sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth category sub title",
+                "data": [
+                    "添加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "first category description paragraph",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "second category description paragraph",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "third category description paragraph",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "fourth category description paragraph",
+                "data": [
+                    "在此处输入具体内容在此处输入具体内容在此处输入具体内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "Three vertically stacked icon-label pairs on the left connected by dotted arrows pointing to a single large central circle on the right, with a top header title.:text": {
+        "template_id": 28,
+        "slides": [
+            28
+        ],
+        "elements": [
+            {
+                "name": "top-left section title placeholder",
+                "data": [
+                    "填加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top-left section description placeholder",
+                "data": [
+                    "点击输入说明文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top-center section title placeholder",
+                "data": [
+                    "填加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top-center section description placeholder",
+                "data": [
+                    "点击输入说明文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top-right section title placeholder",
+                "data": [
+                    "填加标题"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "top-right section description placeholder",
+                "data": [
+                    "点击输入说明文字"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "bolded section label with title and content text",
+                "data": [
+                    "标题",
+                    "内容"
+                ],
+                "type": "text"
+            },
+            {
+                "name": "main title placeholder",
+                "data": [
+                    "请在此处输入您的标题"
+                ],
+                "type": "text"
+            }
+        ]
+    },
+    "functional_keys": [
+        "opening",
+        "table of contents",
+        "section outline",
+        "ending"
+    ],
+    "language": {
+        "lid": "zh"
+    }
+}
